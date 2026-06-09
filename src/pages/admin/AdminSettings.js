@@ -4,7 +4,7 @@ import { useData } from '../../context/DataContext';
 const AdminSettings = () => {
   const {
     data, updateField, exportData, importData, resetData,
-    publishCfg, updatePublishCfg, publishToCloud, publishStatus,
+    publishCfg, updatePublishCfg, publishToCloud,
   } = useData();
 
   const [pw, setPw] = useState(data.settings.adminPassword);
