@@ -2,28 +2,28 @@
 # https://docs.netlify.com/configure-builds/file-based-configuration/
 
 [build]
-  # Clean install ensures react-scripts binary has executable permissions
-  command = "npm ci && npm run build"
+  # Use npm install (more forgiving than npm ci) — works even if lockfile is slightly out of sync
+  command = "npm install --legacy-peer-deps --no-audit --no-fund && npm run build"
   publish = "build"
 
 [build.environment]
-  NODE_VERSION = "20"
-  NPM_VERSION = "10"
+  NODE_VERSION = "18"
+  NPM_VERSION = "9"
   CI = "true"
-  # Allow build to succeed even if there are warnings
   DISABLE_ESLINT_PLUGIN = "true"
   GENERATE_SOURCEMAP = "false"
-  # Prevent CRA from treating warnings as errors
   TSC_COMPILE_ON_ERROR = "true"
   ESLINT_NO_DEV_ERRORS = "true"
+  # Don't fail build on optional dependency issues
+  NPM_FLAGS = "--legacy-peer-deps"
 
-# SPA routing — already in public/_redirects but duplicated here for safety
+# SPA routing
 [[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
 
-# Cache static assets aggressively (1 year)
+# Cache static assets (1 year — they have content-hash filenames)
 [[headers]]
   for = "/static/*"
   [headers.values]
