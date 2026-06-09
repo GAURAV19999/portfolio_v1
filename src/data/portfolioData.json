@@ -881,7 +881,7 @@
     "googleSheetUrl": "https://script.google.com/macros/s/AKfycbwVKs9wNwwOlqSaZU-yu-gT_JkgFl3hyO5CK0wciHDeyMS9s_Nmrixtq_npnUQUCIk4/exec"
   },
   "footer": {
-    "text": "© 2026 Gaurav Kumar Vishvakarma. Built with precision for global clients.",
+    "text": "© 2026 Gaurav Kumar Vishvakarma",
     "socials": [
       {
         "id": "fs1",
@@ -917,6 +917,6 @@
   },
   "settings": {
     "adminPassword": "admin2024",
-    "siteName": "GK.Vishvakarma"
+    "siteName": "Gaurav KR Vishvakarma"
   }
 }
