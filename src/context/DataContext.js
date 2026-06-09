@@ -5,7 +5,7 @@ import { publishToGitHub, fetchPublishedData } from '../utils/githubPublish';
 const DataCtx = createContext();
 const ThemeCtx = createContext();
 
-const STORAGE = 'gkv_data_v5';      // bumped — GitHub publishing support
+const STORAGE = 'gkv_data_v6';      // bumped — correct repo name (portfolio_v1)
 const AUTH = 'gkv_auth';
 const THEME = 'gkv_theme_v2';
 const MSGS = 'gkv_msgs';
@@ -13,9 +13,21 @@ const PUBLISH_CFG = 'gkv_publish_cfg';
 
 // Clean up old localStorage keys from previous schema versions
 if (typeof window !== 'undefined') {
-  ['gkv_data', 'gkv_data_v2', 'gkv_data_v3', 'gkv_data_v4', 'gkv_theme'].forEach(k => {
+  ['gkv_data', 'gkv_data_v2', 'gkv_data_v3', 'gkv_data_v4', 'gkv_data_v5', 'gkv_theme'].forEach(k => {
     try { localStorage.removeItem(k); } catch {}
   });
+  // Migrate publish config — if owner/repo matches old defaults, reset them
+  try {
+    const raw = localStorage.getItem('gkv_publish_cfg');
+    if (raw) {
+      const cfg = JSON.parse(raw);
+      if (cfg.repo === 'portfolio' || !cfg.repo) {
+        cfg.owner = 'GAURAV19999';
+        cfg.repo = 'portfolio_v1';
+        localStorage.setItem('gkv_publish_cfg', JSON.stringify(cfg));
+      }
+    }
+  } catch {}
 }
 
 // Default GitHub publish config (the token field stays empty until user adds it in Settings)
