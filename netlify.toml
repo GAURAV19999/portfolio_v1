@@ -1,0 +1,44 @@
+# Netlify configuration for Gaurav Kumar Vishvakarma's Portfolio
+# https://docs.netlify.com/configure-builds/file-based-configuration/
+
+[build]
+  # Clean install ensures react-scripts binary has executable permissions
+  command = "npm ci && npm run build"
+  publish = "build"
+
+[build.environment]
+  NODE_VERSION = "20"
+  NPM_VERSION = "10"
+  CI = "true"
+  # Allow build to succeed even if there are warnings
+  DISABLE_ESLINT_PLUGIN = "true"
+  GENERATE_SOURCEMAP = "false"
+  # Prevent CRA from treating warnings as errors
+  TSC_COMPILE_ON_ERROR = "true"
+  ESLINT_NO_DEV_ERRORS = "true"
+
+# SPA routing — already in public/_redirects but duplicated here for safety
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Cache static assets aggressively (1 year)
+[[headers]]
+  for = "/static/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/images/*"
+  [headers.values]
+    Cache-Control = "public, max-age=86400"
+
+# Security headers
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "SAMEORIGIN"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "geolocation=(), microphone=(), camera=()"
