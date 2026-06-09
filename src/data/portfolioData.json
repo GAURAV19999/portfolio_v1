@@ -42,7 +42,7 @@
     "photoBadge": "4+ Years Experience",
     "greeting": "Hi, I'm Gaurav 👋",
     "paragraphs": [
-      "I am a <strong>Data Analyst with 4+ years of experience</strong> generating, validating, and automating data pipelines that drive high-quality enterprise reporting for <strong>200+ clients</strong> across media intelligence and financial services.",
+      "I am a <strong>Data Analyst with 4+ years of experience</strong> generating, validating, and automating data pipelines that drive high-quality enterprise reporting for <strong>2K+ clients</strong> across media intelligence and financial services.",
       "I specialize in <strong>end-to-end reporting automation</strong>: from SQL query optimization and ETL pipeline design to interactive Power BI dashboards and executive-ready insight narratives. I have a proven track record of <strong>reducing manual reporting effort by 45%</strong>, enforcing <strong>99.5% data accuracy standards</strong>, and mentoring junior analysts to scale team output.",
       "Currently operating as a <strong>Freelance Data Analyst</strong>, I build scalable analytics solutions for businesses that need reliable, self-serve reporting without the overhead of full-time BI teams. I work with clients across <strong>Europe, North America, and Asia-Pacific</strong> via Freelancer.com and direct contracts.",
       "<strong>Open to project-based and retainer engagements</strong> — from one-time dashboard builds to ongoing reporting automation and data pipeline maintenance."
@@ -382,7 +382,7 @@
     },
     {
       "id": "e3",
-      "title": "Data Analyst (Executive)",
+      "title": "Data Analyst",
       "company": "ShowTime Consulting",
       "companyLink": "https://showtimeconsulting.in/",
       "companyLinkText": "showtimeconsulting.in",
@@ -407,14 +407,14 @@
     },
     {
       "id": "e4",
-      "title": "Data Scientist Intern",
-      "company": "INNODATATICS Ai",
+      "title": "Data Scientist",
+      "company": "Innodatatics.ai",
       "companyLink": "https://innodatatics.ai/",
       "companyLinkText": "innodatatics.ai",
       "companyIcon": "fas fa-brain",
       "logo": "/images/companies/ino.jpg",
       "date": "Mar 2021 – Sep 2021",
-      "location": "Remote / Hyderabad, India",
+      "location": "NY, USA",
       "bullets": [
         "Designed a <strong>personalized food recommender system</strong> using the ALS algorithm and PySpark for multi-cuisine restaurant data.",
         "Developed a custom <strong>OCR pipeline</strong> with PyTorch and LaTeX for precise mathematical expression recognition from scanned images.",
@@ -652,7 +652,7 @@
       "issuer": "Universiti Teknologi Malaysia (UTMSPACE) × 360DigiTMG",
       "date": "June 30, 2021",
       "image": "/images/certificates/utm-data-science-ai.png",
-      "link": "https://www.credly.com/"
+      "link": "#"
     },
     {
       "id": "ct2",
@@ -660,7 +660,7 @@
       "issuer": "Udemy · 365 Careers (29.5 hrs)",
       "date": "June 6, 2026",
       "image": "/images/certificates/udemy-ai-engineer.jpg",
-      "link": "https://www.udemy.com/"
+      "link": "#"
     },
     {
       "id": "ct3",
@@ -668,7 +668,7 @@
       "issuer": "LinkedIn Learning · Microsoft Press",
       "date": "March 20, 2026",
       "image": "/images/certificates/linkedin-powerbi-msft.png",
-      "link": "https://www.linkedin.com/learning/"
+      "link": "#"
     },
     {
       "id": "ct4",
@@ -676,7 +676,7 @@
       "issuer": "LinkedIn Learning",
       "date": "March 21, 2026",
       "image": "/images/certificates/linkedin-alteryx-fin.png",
-      "link": "https://www.linkedin.com/learning/"
+      "link": "#"
     },
     {
       "id": "ct5",
@@ -684,7 +684,7 @@
       "issuer": "360DigiTMG",
       "date": "June 30, 2021",
       "image": "/images/certificates/360-ai-deep-learning.png",
-      "link": "https://www.credly.com/"
+      "link": "#"
     },
     {
       "id": "ct6",
@@ -692,7 +692,7 @@
       "issuer": "360DigiTMG",
       "date": "March 2, 2021",
       "image": "/images/certificates/360-ds-python-r.png",
-      "link": "https://www.credly.com/"
+      "link": "#"
     },
     {
       "id": "ct7",
@@ -700,7 +700,7 @@
       "issuer": "360DigiTMG",
       "date": "April 23, 2021",
       "image": "/images/certificates/360-tableau.png",
-      "link": "https://www.credly.com/"
+      "link": "#"
     },
     {
       "id": "ct8",
