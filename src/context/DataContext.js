@@ -22,7 +22,7 @@ if (typeof window !== 'undefined') {
 const DEFAULT_PUBLISH_CFG = {
   enabled: false,
   owner: 'GAURAV19999',
-  repo: 'portfolio',
+  repo: 'portfolio_v1',
   branch: 'main',
   path: 'src/data/portfolioData.json',
   token: '', // never shipped — user enters it in admin → Settings (stored only in their browser)
