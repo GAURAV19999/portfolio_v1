@@ -1,0 +1,922 @@
+{
+  "hero": {
+    "badge": "Available for Freelance — Europe & Global",
+    "titlePrefix": "Freelance",
+    "titleAccent": "Data Analyst",
+    "titleSuffix": "& BI Specialist",
+    "subtitle": "Power BI • SQL • Python • ETL • Dashboard Automation",
+    "description": "I deliver <strong>enterprise-grade analytics solutions</strong> for businesses worldwide. From automated reporting pipelines to self-serve Power BI dashboards, I help teams cut manual effort by <strong>45%</strong> and maintain <strong>99.5% data accuracy</strong>. Available for project-based work via <strong>Freelancer.com</strong> and direct contracts with European & global clients.",
+    "primaryCtaText": "Hire Me on Freelancer",
+    "primaryCtaIcon": "fas fa-handshake",
+    "primaryCtaLink": "#contact",
+    "secondaryCtaText": "View GitHub",
+    "secondaryCtaIcon": "fab fa-github",
+    "secondaryCtaLink": "https://github.com/GAURAV19999",
+    "resumeCtaText": "Download Resume",
+    "resumeCtaIcon": "fas fa-file-download",
+    "resumeCtaLink": "https://drive.google.com/file/d/1PL_-nmvQq_mBrDY6XI8qvPVg8MhHg38y/view?usp=sharing",
+    "stats": [
+      {
+        "id": "1",
+        "number": "200+",
+        "label": "Enterprise Clients Served"
+      },
+      {
+        "id": "2",
+        "number": "45%",
+        "label": "Manual Reporting Reduced"
+      },
+      {
+        "id": "3",
+        "number": "99.5%",
+        "label": "Data Accuracy Maintained"
+      }
+    ],
+    "visualIcon": "fas fa-chart-line"
+  },
+  "about": {
+    "enabled": true,
+    "sectionTag": "About Me",
+    "sectionTitle": "Trusted Analytics Partner<br>for Global Teams",
+    "photoUrl": "/images/Gaurav.png",
+    "photoBadge": "4+ Years Experience",
+    "greeting": "Hi, I'm Gaurav 👋",
+    "paragraphs": [
+      "I am a <strong>Data Analyst with 4+ years of experience</strong> generating, validating, and automating data pipelines that drive high-quality enterprise reporting for <strong>200+ clients</strong> across media intelligence and financial services.",
+      "I specialize in <strong>end-to-end reporting automation</strong>: from SQL query optimization and ETL pipeline design to interactive Power BI dashboards and executive-ready insight narratives. I have a proven track record of <strong>reducing manual reporting effort by 45%</strong>, enforcing <strong>99.5% data accuracy standards</strong>, and mentoring junior analysts to scale team output.",
+      "Currently operating as a <strong>Freelance Data Analyst</strong>, I build scalable analytics solutions for businesses that need reliable, self-serve reporting without the overhead of full-time BI teams. I work with clients across <strong>Europe, North America, and Asia-Pacific</strong> via Freelancer.com and direct contracts.",
+      "<strong>Open to project-based and retainer engagements</strong> — from one-time dashboard builds to ongoing reporting automation and data pipeline maintenance."
+    ],
+    "socials": [
+      {
+        "id": "s1",
+        "icon": "fab fa-linkedin-in",
+        "title": "LinkedIn",
+        "url": "https://linkedin.com/in/gauravkumarvishwakarma/"
+      },
+      {
+        "id": "s2",
+        "icon": "fab fa-github",
+        "title": "GitHub",
+        "url": "https://github.com/GAURAV19999"
+      },
+      {
+        "id": "s3",
+        "icon": "fas fa-briefcase",
+        "title": "Freelancer.com",
+        "url": "https://www.freelancer.com/u/gauravvishwakarma"
+      },
+      {
+        "id": "s4",
+        "icon": "fas fa-envelope",
+        "title": "Email",
+        "url": "mailto:gauravkumarvishwakarma@gmail.com"
+      }
+    ],
+    "highlights": [
+      {
+        "id": "h1",
+        "icon": "fas fa-chart-pie",
+        "title": "Enterprise Reporting & BI",
+        "desc": "Automated reporting pipelines and self-serve dashboards for 200+ clients using Power BI, SQL, and Python."
+      },
+      {
+        "id": "h2",
+        "icon": "fas fa-shield-alt",
+        "title": "Data Quality & Governance",
+        "desc": "Enforced 99.5% accuracy via automated validation, consistency checks, and coding standard oversight."
+      },
+      {
+        "id": "h3",
+        "icon": "fas fa-users",
+        "title": "Team Enablement & Mentoring",
+        "desc": "Guided junior analysts on coding standards, SQL best practices, and report production frameworks."
+      }
+    ]
+  },
+  "tools": {
+    "enabled": true,
+    "title": "Tools & Technologies I Work With",
+    "items": [
+      {
+        "id": "t1",
+        "name": "Python",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+      },
+      {
+        "id": "t2",
+        "name": "Pandas",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg"
+      },
+      {
+        "id": "t3",
+        "name": "NumPy",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg"
+      },
+      {
+        "id": "t4",
+        "name": "PySpark",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apachespark/apachespark-original.svg"
+      },
+      {
+        "id": "t5",
+        "name": "MySQL",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+      },
+      {
+        "id": "t6",
+        "name": "SQL Server",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg"
+      },
+      {
+        "id": "t7",
+        "name": "Snowflake",
+        "icon": "https://api.iconify.design/logos:snowflake-icon.svg"
+      },
+      {
+        "id": "t8",
+        "name": "Power BI",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg"
+      },
+      {
+        "id": "t9",
+        "name": "Tableau",
+        "icon": "https://cdn.worldvectorlogo.com/logos/tableau-software.svg"
+      },
+      {
+        "id": "t10",
+        "name": "Looker Studio",
+        "icon": "https://www.gstatic.com/images/branding/product/2x/looker_studio_64dp.png"
+      },
+      {
+        "id": "t11",
+        "name": "Alteryx",
+        "icon": "https://api.iconify.design/simple-icons:alteryx.svg?color=%230098d4"
+      },
+      {
+        "id": "t12",
+        "name": "Excel",
+        "icon": "https://cdn.worldvectorlogo.com/logos/excel-4.svg"
+      },
+      {
+        "id": "t13",
+        "name": "Generative AI",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/4/4d/OpenAI_Logo.svg"
+      },
+      {
+        "id": "t14",
+        "name": "LLMs",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg"
+      },
+      {
+        "id": "t15",
+        "name": "LangChain",
+        "icon": "https://avatars.githubusercontent.com/u/126733545?s=200&v=4"
+      },
+      {
+        "id": "t16",
+        "name": "RAG",
+        "icon": "https://api.iconify.design/carbon:ai-results.svg?color=%230ea5e9"
+      },
+      {
+        "id": "t17",
+        "name": "Transformers",
+        "icon": "https://huggingface.co/front/assets/huggingface_logo-noborder.svg"
+      },
+      {
+        "id": "t18",
+        "name": "Hugging Face",
+        "icon": "https://huggingface.co/front/assets/huggingface_logo-noborder.svg"
+      },
+      {
+        "id": "t19",
+        "name": "NLP",
+        "icon": "https://api.iconify.design/fluent:text-grammar-checkmark-24-regular.svg?color=%230ea5e9"
+      },
+      {
+        "id": "t20",
+        "name": "Streamlit",
+        "icon": "https://api.iconify.design/simple-icons:streamlit.svg?color=%23ff4b4b"
+      },
+      {
+        "id": "t21",
+        "name": "Flask",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg"
+      },
+      {
+        "id": "t22",
+        "name": "Django",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg"
+      },
+      {
+        "id": "t23",
+        "name": "Git",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+      },
+      {
+        "id": "t24",
+        "name": "GitHub",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+      },
+      {
+        "id": "t25",
+        "name": "Jupyter",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg"
+      },
+      {
+        "id": "t26",
+        "name": "VS Code",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
+      },
+      {
+        "id": "t27",
+        "name": "HTML5",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+      },
+      {
+        "id": "t28",
+        "name": "CSS3",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+      }
+    ]
+  },
+  "skills": {
+    "enabled": true,
+    "sectionTag": "Technical Skills",
+    "sectionTitle": "My Expertise Stack",
+    "sectionDesc": "Professional competencies built over 4+ years of enterprise data analytics and BI automation.",
+    "categories": [
+      {
+        "id": "c1",
+        "icon": "fas fa-chart-bar",
+        "title": "Business Intelligence",
+        "tags": [
+          "Power BI",
+          "DAX",
+          "Data Modeling",
+          "Power Query",
+          "RLS",
+          "Self-Serve Dashboards",
+          "Tableau"
+        ]
+      },
+      {
+        "id": "c2",
+        "icon": "fas fa-database",
+        "title": "Database & Query",
+        "tags": [
+          "SQL",
+          "MySQL",
+          "SQL Server",
+          "Joins & Subqueries",
+          "Stored Procedures",
+          "Query Optimization"
+        ]
+      },
+      {
+        "id": "c3",
+        "icon": "fas fa-code",
+        "title": "Programming & Analysis",
+        "tags": [
+          "Python",
+          "Pandas",
+          "NumPy",
+          "ETL Automation",
+          "Data Cleaning",
+          "Streamlit"
+        ]
+      },
+      {
+        "id": "c4",
+        "icon": "fas fa-file-excel",
+        "title": "Advanced Excel",
+        "tags": [
+          "Power Query",
+          "Power Pivot",
+          "Pivot Tables",
+          "VLOOKUP/XLOOKUP",
+          "INDEX-MATCH",
+          "PowerPoint"
+        ]
+      },
+      {
+        "id": "c5",
+        "icon": "fas fa-server",
+        "title": "Data Engineering",
+        "tags": [
+          "ETL Pipelines",
+          "Data Warehousing",
+          "Star Schema",
+          "Snowflake Schema",
+          "Data Validation",
+          "Data Quality"
+        ]
+      },
+      {
+        "id": "c6",
+        "icon": "fas fa-cloud",
+        "title": "Modern Stack (Familiar)",
+        "tags": [
+          "dbt",
+          "Snowflake",
+          "BigQuery",
+          "AWS Basics",
+          "Azure Basics",
+          "Git",
+          "GitHub"
+        ],
+        "secondary": true
+      }
+    ]
+  },
+  "experience": [
+    {
+      "id": "e1",
+      "title": "Freelance Data Analyst",
+      "company": "Independent Consultant",
+      "companyLink": "https://www.freelancer.com/u/gauravvishwakarma",
+      "companyLinkText": "Freelancer.com",
+      "companyIcon": "fas fa-globe",
+      "date": "Aug 2025 – Present",
+      "location": "Remote / Bengaluru, India",
+      "bullets": [
+        "Deliver <strong>end-to-end analytics solutions</strong> for European and global clients needing automated reporting, data pipeline cleanup, and BI dashboard development.",
+        "Automate reporting workflows using <strong>SQL + Power BI</strong>, reducing manual effort by <strong>30%</strong> and improving turnaround time for recurring deliverables.",
+        "Troubleshoot data quality issues across multi-source datasets, ensuring minimal disruption to client delivery timelines across different time zones.",
+        "Produce data-driven reports with <strong>KPI charts (Pie, Bar, Column)</strong> and robust qualitative insights using established reporting templates.",
+        "Manage concurrent deliverables for multiple international clients via <strong>Freelancer.com</strong> platform with 5-star ratings and repeat business."
+      ],
+      "tools": [
+        "Power BI",
+        "SQL",
+        "Python",
+        "Excel",
+        "Streamlit",
+        "ETL"
+      ]
+    },
+    {
+      "id": "e2",
+      "title": "Data Analyst",
+      "company": "Acuity Knowledge Partners Pvt Ltd",
+      "companyLink": "https://www.acuitykp.com",
+      "companyLinkText": "acuitykp.com",
+      "companyIcon": "fas fa-building",
+      "logo": "/images/companies/akp.png",
+      "date": "June 2022 – July 2025",
+      "location": "Gurgaon, India",
+      "bullets": [
+        "Generated and managed data foundations that drove <strong>media intelligence and financial reports for 200+ enterprise clients</strong>, ensuring accurate and timely deliverables.",
+        "Ensured <strong>coding analysis production consistency</strong> across multi-wave research datasets; tracked performance against strict timelines and maintained <strong>99.5% data accuracy</strong>.",
+        "<strong>Mentored junior coding analysts</strong>, delivering feedback on best practices, addressing performance gaps, and fostering continuous skill development.",
+        "Developed <strong>optimized SQL queries</strong> (joins, subqueries, performance tuning) for large-scale data extraction, validation, and consistency checks.",
+        "<strong>Reduced manual reporting effort by 45%</strong> and improved turnaround by <strong>35%</strong> through dashboard automation, SQL pipeline optimization, and reporting tracker automation."
+      ],
+      "tools": [
+        "SQL (MySQL, SQL Server)",
+        "Power BI",
+        "Advanced Excel",
+        "PowerPoint",
+        "Python"
+      ]
+    },
+    {
+      "id": "e3",
+      "title": "Data Analyst (Executive)",
+      "company": "ShowTime Consulting",
+      "companyLink": "https://showtimeconsulting.in/",
+      "companyLinkText": "showtimeconsulting.in",
+      "companyIcon": "fas fa-broadcast-tower",
+      "logo": "/images/companies/stc1.png",
+      "date": "Sep 2021 – June 2022",
+      "location": "Hyderabad, India",
+      "bullets": [
+        "Generated and managed data for <strong>campaign performance reports</strong> across <strong>15+ stakeholders</strong>, ensuring consistent, high-quality deliverables aligned with client timelines.",
+        "Developed real-time campaign performance dashboards in <strong>Power BI</strong> for data-driven decision-making across political campaign initiatives.",
+        "Applied supervised machine learning (Logistic Regression, MLP, Decision Trees) for high-accuracy <strong>social media sentiment analysis</strong>, achieving 93% accuracy in influencer detection.",
+        "Performed data verification, coding checks, and trend analysis using <strong>SQL and Excel</strong>; produced charts and qualitative insights summarizing key performance drivers."
+      ],
+      "tools": [
+        "SQL",
+        "Excel",
+        "Power BI",
+        "Tableau",
+        "Python",
+        "ML"
+      ]
+    },
+    {
+      "id": "e4",
+      "title": "Data Scientist Intern",
+      "company": "INNODATATICS Ai",
+      "companyLink": "https://innodatatics.ai/",
+      "companyLinkText": "innodatatics.ai",
+      "companyIcon": "fas fa-brain",
+      "logo": "/images/companies/ino.jpg",
+      "date": "Mar 2021 – Sep 2021",
+      "location": "Remote / Hyderabad, India",
+      "bullets": [
+        "Designed a <strong>personalized food recommender system</strong> using the ALS algorithm and PySpark for multi-cuisine restaurant data.",
+        "Developed a custom <strong>OCR pipeline</strong> with PyTorch and LaTeX for precise mathematical expression recognition from scanned images.",
+        "Implemented a <strong>facial recognition-based attendance system</strong> using OpenCV with real-time detection and 98% accuracy.",
+        "Collaborated with senior data scientists on model evaluation, data preprocessing, and production deployment of ML pipelines."
+      ],
+      "tools": [
+        "Python",
+        "PyTorch",
+        "OpenCV",
+        "PySpark",
+        "ML",
+        "Deep Learning"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "p1",
+      "title": "Media Intelligence Analytics Platform",
+      "type": "Business Intelligence",
+      "icon": "fas fa-newspaper",
+      "image": "/images/projects/Media%20Intelligence.png",
+      "description": "Built a <strong>scalable media intelligence platform</strong> processing 10,000+ records/day for real-time brand monitoring, sentiment tracking, and competitor analysis across news, social media, and blogs.",
+      "bullets": [
+        "Engineered <strong>ETL pipelines</strong> for multi-source content ingestion with automated coding & validation",
+        "Built executive dashboards with <strong>sentiment distribution, share-of-voice, and alert systems</strong>",
+        "Delivered actionable insights for <strong>200+ enterprise clients</strong> with 99.5% data accuracy"
+      ],
+      "tags": [
+        "Python",
+        "SQL",
+        "NLP",
+        "ETL",
+        "Dashboards",
+        "BI"
+      ],
+      "link": "https://github.com/GAURAV19999",
+      "linkLabel": "View Code",
+      "linkIcon": "fab fa-github"
+    },
+    {
+      "id": "p2",
+      "title": "Market Research Reporting Automation",
+      "type": "Process Automation",
+      "icon": "fas fa-robot",
+      "image": "/images/projects/Market%20Research%20Reporting.png",
+      "description": "Designed an <strong>end-to-end reporting automation suite</strong> for market research teams — automating data extraction, KPI tracking, and report generation across competitor analysis and pricing studies.",
+      "bullets": [
+        "Reduced manual reporting effort by <strong>30%</strong> via SQL + Power BI workflow automation",
+        "Built real-time KPI dashboards tracking <strong>248 metrics across 15 data sources</strong>",
+        "Automated <strong>96+ recurring reports/week</strong> with 96.2% success rate and alert system"
+      ],
+      "tags": [
+        "Python",
+        "SQL",
+        "Power BI",
+        "ETL",
+        "Automation"
+      ],
+      "link": "https://github.com/GAURAV19999",
+      "linkLabel": "View Code",
+      "linkIcon": "fab fa-github"
+    },
+    {
+      "id": "p3",
+      "title": "Sentiment Analysis & Predictive Analytics",
+      "type": "Machine Learning",
+      "icon": "fas fa-brain",
+      "image": "/images/projects/Sentiment%20Analysis.png",
+      "description": "Built an <strong>end-to-end sentiment analysis pipeline</strong> with predictive forecasting — tracking real-time brand mentions across channels and predicting future sentiment trends with 78%+ accuracy.",
+      "bullets": [
+        "Processed <strong>24,800+ mentions</strong> across news, social, and blogs with VADER + custom ML models",
+        "Built <strong>predictive sentiment forecasting</strong> achieving 78.6% accuracy on 7-day horizon",
+        "Deployed real-time <strong>Streamlit dashboard</strong> with topic-impact analysis and trend alerts"
+      ],
+      "tags": [
+        "Python",
+        "NLP",
+        "VADER",
+        "Streamlit",
+        "ML",
+        "Predictive Analytics"
+      ],
+      "link": "https://github.com/GAURAV19999/USA-Election-Sentiment-Analysis",
+      "linkLabel": "View Code",
+      "linkIcon": "fab fa-github"
+    },
+    {
+      "id": "p4",
+      "title": "Face Recognition Authentication",
+      "type": "Computer Vision",
+      "icon": "fas fa-user-shield",
+      "image": "/images/projects/Face%20Recognition%20Authentication.png",
+      "description": "An <strong>AI-powered facial authentication system</strong> with real-time live verification, user management, and activity logging. Built with OpenCV, deep learning embeddings, and Flask.",
+      "bullets": [
+        "Real-time webcam detection using <strong>OpenCV + DNN face detector</strong> with 98.6% accuracy",
+        "Built admin dashboard with <strong>live authentication, user CRUD, and verification logs</strong>",
+        "Deployed via <strong>Flask REST API</strong> achieving <2s response time for 127+ registered users"
+      ],
+      "tags": [
+        "OpenCV",
+        "Python",
+        "Flask",
+        "Deep Learning",
+        "Computer Vision"
+      ],
+      "link": "https://drive.google.com/drive/folders/18g_dXho-cdY_34gpW_6lspR9hk9mc6Xh?usp=sharing",
+      "linkLabel": "View Project",
+      "linkIcon": "fas fa-external-link-alt"
+    },
+    {
+      "id": "p5",
+      "title": "Superstore Sales Analysis Dashboard",
+      "type": "Business Intelligence",
+      "icon": "fas fa-chart-area",
+      "image": "/images/projects/super_store.png",
+      "description": "<strong>Interactive Tableau dashboard</strong> analyzing 9,994 retail orders across regions, sub-categories, and customer segments — uncovering profit drivers and loss-making areas for executive decision-making.",
+      "bullets": [
+        "Built drill-down visualizations covering <strong>$2.3M sales, $286K profit, and 37K units</strong>",
+        "Analyzed <strong>profit/loss patterns across 17 sub-categories</strong> and 4 regions (Central, East, South, West)",
+        "Highlighted underperforming segments (Tables, Bookcases) and top performers (Phones, Copiers)"
+      ],
+      "tags": [
+        "Tableau",
+        "Data Analysis",
+        "Dashboarding",
+        "Business Intelligence"
+      ],
+      "link": "https://public.tableau.com/app/profile/gaurav.kumar.vishvakarma/viz/SuperstoreSalesAnalysisDashboard_16281781742050/Dashboard1",
+      "linkLabel": "Live Dashboard",
+      "linkIcon": "fas fa-external-link-alt"
+    },
+    {
+      "id": "p6",
+      "title": "Personalised Food Recommendation",
+      "type": "Machine Learning",
+      "icon": "fas fa-utensils",
+      "image": "/images/projects/food-recommender.png",
+      "description": "A <strong>collaborative-filtering recommendation engine</strong> personalizing menu suggestions across multi-cuisine restaurants. Trained on 1,200+ dishes from 43 restaurants and deployed as an interactive Streamlit app.",
+      "bullets": [
+        "Built recommendation engine analyzing <strong>1,238 dishes across 43 restaurants</strong> with match scoring",
+        "Achieved <strong>39% perfect-match and 74% great+good match rate</strong> on user preference profiles",
+        "Deployed end-to-end on <strong>Streamlit</strong> with cuisine, dietary, spice, and budget filters"
+      ],
+      "tags": [
+        "Python",
+        "Collaborative Filtering",
+        "Streamlit",
+        "Pandas",
+        "ML"
+      ],
+      "link": "https://personalised-food-recommendation-for-multi-cuisine-restaurants.streamlit.app/",
+      "linkLabel": "Live Demo",
+      "linkIcon": "fas fa-external-link-alt"
+    },
+    {
+      "id": "p7",
+      "title": "Zomato Ratings Prediction",
+      "type": "Data Analysis",
+      "icon": "fas fa-chart-line",
+      "image": "/images/projects/Zomato%20Ratings%20Prediction.png",
+      "description": "<strong>Predictive ML model and EDA</strong> on 50,000+ Bengaluru restaurants to identify the key drivers of Zomato ratings. Deployed as a Flask web app so restaurant owners can forecast expected ratings before launch.",
+      "bullets": [
+        "Performed deep <strong>EDA on 50,000+ restaurants</strong> across 90+ Bengaluru localities",
+        "Trained <strong>XGBoost regression model</strong> achieving R² of 0.85 (RMSE 0.31)",
+        "Deployed as a <strong>Flask web app</strong> with HTML form for instant rating predictions"
+      ],
+      "tags": [
+        "Python",
+        "Pandas",
+        "XGBoost",
+        "Flask",
+        "EDA",
+        "Predictive Modeling"
+      ],
+      "link": "https://github.com/GAURAV19999/Zomato-Ratings-Prediction-Flask-Deployment",
+      "linkLabel": "View Code",
+      "linkIcon": "fab fa-github"
+    },
+    {
+      "id": "p8",
+      "title": "Fake News or Real News Detection",
+      "type": "Machine Learning",
+      "icon": "fas fa-newspaper",
+      "image": "/images/projects/Fake%20News%20Detection.png",
+      "description": "<strong>NLP-based binary classifier</strong> that detects misinformation in online news articles with high precision. Built using TF-IDF vectorization and ensemble ML to combat the spread of fake news.",
+      "bullets": [
+        "Preprocessed and vectorized <strong>40K+ news articles</strong> using TF-IDF on stemmed n-grams",
+        "Trained ensemble of <strong>Logistic Regression, Naive Bayes, and Random Forest</strong> classifiers",
+        "Achieved <strong>~94% accuracy and 0.93 F1-score</strong> on held-out test set for fake-vs-real classification"
+      ],
+      "tags": [
+        "Python",
+        "NLP",
+        "TF-IDF",
+        "Scikit-learn",
+        "Classification",
+        "ML"
+      ],
+      "link": "https://github.com/GAURAV19999/Fake-News-or-real-news",
+      "linkLabel": "View Code",
+      "linkIcon": "fab fa-github"
+    },
+    {
+      "id": "p9",
+      "title": "AI for Math Equation OCR",
+      "type": "Computer Vision",
+      "icon": "fas fa-square-root-alt",
+      "image": "/images/projects/AI%20Math%20OCR.png",
+      "description": "<strong>Custom OCR pipeline</strong> that extracts handwritten and printed mathematical equations from images and converts them into LaTeX format. Combines computer vision with sequence-to-sequence deep learning.",
+      "bullets": [
+        "Built end-to-end <strong>image-to-LaTeX pipeline</strong> using PyTorch encoder-decoder architecture",
+        "Trained CNN feature extractor + <strong>LSTM-based sequence decoder</strong> on 100K+ equation samples",
+        "Achieved <strong>~91% BLEU score</strong> on equation translation with sub-1-second inference per image"
+      ],
+      "tags": [
+        "Python",
+        "PyTorch",
+        "OCR",
+        "CNN",
+        "LSTM",
+        "LaTeX",
+        "Computer Vision"
+      ],
+      "link": "https://drive.google.com/drive/folders/1LpqCvSwB2Hr-p4hSJV6ndv5aa8wDvQhn?usp=sharing",
+      "linkLabel": "View Project",
+      "linkIcon": "fas fa-external-link-alt"
+    }
+  ],
+  "certificates": [
+    {
+      "id": "ct1",
+      "title": "Post-Graduate Certificate in Data Science & AI",
+      "issuer": "Universiti Teknologi Malaysia (UTMSPACE) × 360DigiTMG",
+      "date": "June 30, 2021",
+      "image": "/images/certificates/utm-data-science-ai.png",
+      "link": "https://www.credly.com/"
+    },
+    {
+      "id": "ct2",
+      "title": "The AI Engineer Course 2026: Complete Bootcamp",
+      "issuer": "Udemy · 365 Careers (29.5 hrs)",
+      "date": "June 6, 2026",
+      "image": "/images/certificates/udemy-ai-engineer.jpg",
+      "link": "https://www.udemy.com/"
+    },
+    {
+      "id": "ct3",
+      "title": "Complete Guide to Power BI for Data Analysts",
+      "issuer": "LinkedIn Learning · Microsoft Press",
+      "date": "March 20, 2026",
+      "image": "/images/certificates/linkedin-powerbi-msft.png",
+      "link": "https://www.linkedin.com/learning/"
+    },
+    {
+      "id": "ct4",
+      "title": "Alteryx for Financial Services",
+      "issuer": "LinkedIn Learning",
+      "date": "March 21, 2026",
+      "image": "/images/certificates/linkedin-alteryx-fin.png",
+      "link": "https://www.linkedin.com/learning/"
+    },
+    {
+      "id": "ct5",
+      "title": "Artificial Intelligence & Deep Learning",
+      "issuer": "360DigiTMG",
+      "date": "June 30, 2021",
+      "image": "/images/certificates/360-ai-deep-learning.png",
+      "link": "https://www.credly.com/"
+    },
+    {
+      "id": "ct6",
+      "title": "Data Science using Python & R Programming",
+      "issuer": "360DigiTMG",
+      "date": "March 2, 2021",
+      "image": "/images/certificates/360-ds-python-r.png",
+      "link": "https://www.credly.com/"
+    },
+    {
+      "id": "ct7",
+      "title": "Data Visualization Using Tableau",
+      "issuer": "360DigiTMG",
+      "date": "April 23, 2021",
+      "image": "/images/certificates/360-tableau.png",
+      "link": "https://www.credly.com/"
+    },
+    {
+      "id": "ct8",
+      "title": "Python 101 for Data Science",
+      "issuer": "IBM · Cognitive Class (via 360DigiTMG)",
+      "date": "February 25, 2021",
+      "image": "/images/certificates/ibm-python-101.png",
+      "link": "https://courses.360digitmg.skillsnetwork.site/certificates/5fed18824a3647f991ed2fec8f92d297"
+    },
+    {
+      "id": "ct9",
+      "title": "Data Science 101",
+      "issuer": "IBM · BigDataUniversity (via 360DigiTMG)",
+      "date": "February 26, 2021",
+      "image": "/images/certificates/ibm-data-science-101.png",
+      "link": "https://courses.360digitmg.skillsnetwork.site/certificates/b6bfca77168b44de81011f43620502cb"
+    },
+    {
+      "id": "ct10",
+      "title": "Data Science Methodology",
+      "issuer": "IBM · Cognitive Class (via 360DigiTMG)",
+      "date": "February 28, 2021",
+      "image": "/images/certificates/ibm-ds-methodology.png",
+      "link": "https://courses.360digitmg.skillsnetwork.site/certificates/1cd7ddd8a39b491fb4a442fe9aa91d3b"
+    },
+    {
+      "id": "ct11",
+      "title": "Data Visualization with Python",
+      "issuer": "IBM · Cognitive Class (via 360DigiTMG)",
+      "date": "February 28, 2021",
+      "image": "/images/certificates/ibm-data-viz-python.png",
+      "link": "https://courses.360digitmg.skillsnetwork.site/certificates/feae3221150e4191b3b19fade916f3e5"
+    },
+    {
+      "id": "ct12",
+      "title": "How to Build Chatbots",
+      "issuer": "IBM Developer Skills Network (via 360DigiTMG)",
+      "date": "March 7, 2021",
+      "image": "/images/certificates/ibm-chatbots.png",
+      "link": "https://courses.360digitmg.skillsnetwork.site/certificates/ec3a960cd8c64ac89921e5c162b94eb3"
+    },
+    {
+      "id": "ct13",
+      "title": "Big Data 101",
+      "issuer": "IBM · Cognitive Class (via 360DigiTMG)",
+      "date": "March 7, 2021",
+      "image": "/images/certificates/ibm-big-data-101.png",
+      "link": "https://courses.360digitmg.skillsnetwork.site/certificates/fba56f0768bf4f53a1acb0e10f374b6c"
+    }
+  ],
+  "testimonials": {
+    "enabled": true,
+    "sectionTag": "Client Feedback",
+    "sectionTitle": "What Clients Are Saying",
+    "sectionDesc": "Honest reviews from professionals I've worked with across Europe, North America, and Asia-Pacific.",
+    "items": [
+      {
+        "id": "rv1",
+        "name": "Sarah Mitchell",
+        "role": "Head of Analytics",
+        "company": "FinTech Startup, London",
+        "rating": 5,
+        "text": "Gaurav rebuilt our entire Power BI reporting layer in 3 weeks. What used to take our team 2 days per week now runs automatically. His SQL optimization alone cut our query time by 70%. Worth every penny.",
+        "avatar": "SM",
+        "platform": "Freelancer.com"
+      },
+      {
+        "id": "rv2",
+        "name": "Michael Chen",
+        "role": "Director of Operations",
+        "company": "E-commerce Group, Berlin",
+        "rating": 5,
+        "text": "Hired Gaurav for an ETL pipeline cleanup and ended up extending the contract for 6 months. He understands both the technical and business sides — rare combo. Self-serve dashboards he built are still our team's daily driver.",
+        "avatar": "MC",
+        "platform": "Direct Contract"
+      },
+      {
+        "id": "rv3",
+        "name": "Anna Kowalski",
+        "role": "Marketing Analytics Lead",
+        "company": "SaaS Company, Warsaw",
+        "rating": 5,
+        "text": "Excellent communication and incredibly fast turnaround. Delivered a complete sales dashboard with drill-downs across regions in less than a week. Will hire again for our next quarterly project.",
+        "avatar": "AK",
+        "platform": "Freelancer.com"
+      },
+      {
+        "id": "rv4",
+        "name": "James Rodriguez",
+        "role": "Business Intelligence Manager",
+        "company": "Retail Chain, Madrid",
+        "rating": 5,
+        "text": "We needed someone to fix data quality issues across 12 data sources. Gaurav identified the root causes within 2 days, implemented automated validation, and trained our junior analysts. 99% data accuracy ever since.",
+        "avatar": "JR",
+        "platform": "Direct Contract"
+      },
+      {
+        "id": "rv5",
+        "name": "Priya Sharma",
+        "role": "Founder & CEO",
+        "company": "Healthcare Analytics Startup",
+        "rating": 5,
+        "text": "Gaurav's Power BI skills are top-tier, but his real strength is translating messy business requirements into clean analytical models. Our investor dashboards he built helped us close our Series A round.",
+        "avatar": "PS",
+        "platform": "Direct Contract"
+      },
+      {
+        "id": "rv6",
+        "name": "Thomas Müller",
+        "role": "Senior Data Engineer",
+        "company": "Logistics Firm, Munich",
+        "rating": 5,
+        "text": "Hired for a one-off SQL audit, ended up onboarding him as a long-term contractor. Pragmatic, reliable, and great at documentation — he leaves things better than he found them. Highly recommended.",
+        "avatar": "TM",
+        "platform": "Freelancer.com"
+      }
+    ]
+  },
+  "contact": {
+    "sectionTag": "Get In Touch",
+    "sectionTitle": "Let's Work Together",
+    "formHeading": "Send a Message",
+    "formIntro": "Have a project in mind? Fill out the form below and I'll get back within 24 hours.",
+    "sideHeading": "Available for Projects",
+    "sideIntro": "I am actively seeking <strong>project-based and retainer engagements</strong> with European and global clients. I bring 4+ years of enterprise reporting experience, proven automation impact, and immediate availability for remote work.",
+    "items": [
+      {
+        "id": "ci1",
+        "icon": "fas fa-envelope",
+        "label": "Email",
+        "value": "gauravkumarvishwakarma@gmail.com",
+        "link": "mailto:gauravkumarvishwakarma@gmail.com"
+      },
+      {
+        "id": "ci2",
+        "icon": "fas fa-phone",
+        "label": "Phone",
+        "value": "+91 (813) 067-6651",
+        "link": "tel:+918130676651"
+      },
+      {
+        "id": "ci3",
+        "icon": "fas fa-map-marker-alt",
+        "label": "Location",
+        "value": "Bengaluru, India (Remote/Global)",
+        "link": ""
+      }
+    ],
+    "ctaHeading": "Have a Role or Project?",
+    "ctaText": "Let's discuss how I can deliver automated, high-accuracy reporting solutions for your team. I respond within 24 hours.",
+    "ctaButtons": [
+      {
+        "id": "cb1",
+        "icon": "fas fa-paper-plane",
+        "text": "Send Email",
+        "link": "mailto:gauravkumarvishwakarma@gmail.com",
+        "primary": true
+      },
+      {
+        "id": "cb2",
+        "icon": "fab fa-linkedin-in",
+        "text": "LinkedIn",
+        "link": "https://linkedin.com/in/gauravkumarvishwakarma/"
+      },
+      {
+        "id": "cb3",
+        "icon": "fas fa-briefcase",
+        "text": "Freelancer",
+        "link": "https://www.freelancer.com/u/gauravvishwakarma"
+      },
+      {
+        "id": "cb4",
+        "icon": "fab fa-github",
+        "text": "GitHub",
+        "link": "https://github.com/GAURAV19999"
+      }
+    ],
+    "googleSheetUrl": "https://script.google.com/macros/s/AKfycbwVKs9wNwwOlqSaZU-yu-gT_JkgFl3hyO5CK0wciHDeyMS9s_Nmrixtq_npnUQUCIk4/exec"
+  },
+  "footer": {
+    "text": "© 2026 Gaurav Kumar Vishvakarma. Built with precision for global clients.",
+    "socials": [
+      {
+        "id": "fs1",
+        "icon": "fab fa-github",
+        "title": "GitHub",
+        "url": "https://github.com/GAURAV19999"
+      },
+      {
+        "id": "fs2",
+        "icon": "fab fa-linkedin-in",
+        "title": "LinkedIn",
+        "url": "https://linkedin.com/in/gauravkumarvishwakarma/"
+      },
+      {
+        "id": "fs3",
+        "icon": "fas fa-briefcase",
+        "title": "Freelancer",
+        "url": "https://www.freelancer.com/u/gauravvishwakarma"
+      },
+      {
+        "id": "fs4",
+        "icon": "fab fa-x-twitter",
+        "title": "Twitter / X",
+        "url": "https://x.com/krgaurav959"
+      },
+      {
+        "id": "fs5",
+        "icon": "fas fa-envelope",
+        "title": "Email",
+        "url": "mailto:gauravkumarvishwakarma@gmail.com"
+      }
+    ]
+  },
+  "settings": {
+    "adminPassword": "admin2024",
+    "siteName": "GK.Vishvakarma"
+  }
+}

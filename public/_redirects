@@ -1,0 +1,7 @@
+# Exclude SEO files from SPA redirect (serve them as actual files)
+/robots.txt     /robots.txt     200
+/sitemap.xml    /sitemap.xml    200
+/manifest.json  /manifest.json  200
+
+# SPA fallback — everything else goes to React Router
+/*  /index.html  200
