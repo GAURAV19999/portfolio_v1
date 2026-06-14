@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { DataProvider, ThemeProvider } from './context/DataContext';
 
 import Home from './pages/Home';
+import CountryLanding from './pages/CountryLanding';
 import AdminLogin from './pages/AdminLogin';
 import AdminLayout from './pages/admin/AdminLayout';
 import Dashboard from './pages/admin/Dashboard';
@@ -26,6 +27,14 @@ const App = () => (
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
+          {/* Country-specific SEO landing pages */}
+          <Route path="/in" element={<CountryLanding country="india" />} />
+          <Route path="/india" element={<CountryLanding country="india" />} />
+          <Route path="/uk" element={<CountryLanding country="uk" />} />
+          <Route path="/de" element={<CountryLanding country="germany" />} />
+          <Route path="/germany" element={<CountryLanding country="germany" />} />
+          <Route path="/nl" element={<CountryLanding country="netherlands" />} />
+          <Route path="/netherlands" element={<CountryLanding country="netherlands" />} />
           <Route path="/admin" element={<AdminLogin />} />
           <Route path="/admin/dashboard" element={wrap(Dashboard)} />
           <Route path="/admin/hero" element={wrap(AdminHero)} />
