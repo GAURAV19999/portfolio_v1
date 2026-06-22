@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { DataProvider, ThemeProvider } from './context/DataContext';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 
 import Home from './pages/Home';
 import CountryLanding from './pages/CountryLanding';
@@ -49,6 +50,7 @@ const App = () => (
           <Route path="/admin/messages" element={wrap(AdminMessages)} />
           <Route path="/admin/settings" element={wrap(AdminSettings)} />
         </Routes>
+        <SpeedInsights />
       </BrowserRouter>
     </DataProvider>
   </ThemeProvider>
