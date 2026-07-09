@@ -34,21 +34,5 @@ Allow: /
 User-agent: WhatsApp
 Allow: /
 
-# Block aggressive AI training crawlers (optional — remove these lines if you want them to index you)
-User-agent: GPTBot
-Disallow: /
-
-User-agent: ChatGPT-User
-Disallow: /
-
-User-agent: CCBot
-Disallow: /
-
-User-agent: anthropic-ai
-Disallow: /
-
-User-agent: Claude-Web
-Disallow: /
-
 # Sitemap location
 Sitemap: https://iamgaurav.netlify.app/sitemap.xml
