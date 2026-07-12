@@ -7,8 +7,8 @@
   publish = "build"
 
 [build.environment]
-  NODE_VERSION = "18"
-  NPM_VERSION = "9"
+  NODE_VERSION = "20"
+  NPM_VERSION = "10"
   CI = "true"
   DISABLE_ESLINT_PLUGIN = "true"
   GENERATE_SOURCEMAP = "false"
@@ -33,6 +33,29 @@
   for = "/images/*"
   [headers.values]
     Cache-Control = "public, max-age=86400"
+
+# NEVER cache index.html — this fixes the "old site showing" issue
+# HTML is small; always fetch fresh so users see the latest JS/CSS references
+[[headers]]
+  for = "/"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+[[headers]]
+  for = "/index.html"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+# Also don't cache SEO files (they update often)
+[[headers]]
+  for = "/sitemap.xml"
+  [headers.values]
+    Cache-Control = "public, max-age=3600"
+
+[[headers]]
+  for = "/robots.txt"
+  [headers.values]
+    Cache-Control = "public, max-age=3600"
 
 # Security headers
 [[headers]]
