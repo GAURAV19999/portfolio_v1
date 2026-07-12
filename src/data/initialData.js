@@ -11,7 +11,7 @@ export const initialData = {
     "description": "I help startups and enterprises replace <strong>spreadsheet chaos</strong> with <strong>automated Power BI dashboards</strong> and reliable data pipelines. Over <strong>4+ years</strong>, delivered <strong>200+ enterprise reporting solutions</strong> across media intelligence and financial services — cutting manual reporting time by <strong>45%</strong> with <strong>99.5% data accuracy</strong>. Direct engagement, transparent pricing, European &amp; global clients.",
     "primaryCtaText": "Book a Free Discovery Call",
     "primaryCtaIcon": "fas fa-calendar-check",
-    "primaryCtaLink": "#contact",
+    "primaryCtaLink": "https://calendly.com/gauravkumarvishwakarma",
     "secondaryCtaText": "View Case Studies",
     "secondaryCtaIcon": "fas fa-briefcase",
     "secondaryCtaLink": "/case-studies",
@@ -878,7 +878,7 @@ export const initialData = {
         "id": "cb1",
         "text": "Book Discovery Call",
         "icon": "fas fa-calendar-check",
-        "link": "mailto:gauravkumarvishwakarma@gmail.com?subject=Discovery%20Call%20Request&body=Hi%20Gaurav%2C%20I%27d%20like%20to%20book%20a%2020-min%20discovery%20call.",
+        "link": "https://calendly.com/gauravkumarvishwakarma",
         "primary": true
       },
       {
