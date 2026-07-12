@@ -9,7 +9,7 @@ const Tools = ({ data }) => {
       <div className="marquee-track" id="toolsTrack">
         {items.map((t, i) => (
           <div key={`${t.id}-${i}`} className="marquee-item">
-            <img src={t.icon} alt={t.name} onError={(e) => { e.target.style.opacity = 0.3; }} />
+            <img src={t.icon} alt={`${t.name} — data analytics tool`} loading="lazy" onError={(e) => { e.target.style.opacity = 0.3; }} />
             <span>{t.name}</span>
           </div>
         ))}
