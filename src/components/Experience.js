@@ -20,7 +20,8 @@ const Experience = ({ data }) => {
                       {exp.logo ? (
                         <img
                           src={exp.logo}
-                          alt={exp.company}
+                          alt={`${exp.company} logo`}
+                          loading="lazy"
                           onError={(e) => {
                             e.target.style.display = 'none';
                             if (e.target.nextElementSibling) e.target.nextElementSibling.style.display = 'inline-block';
