@@ -17,7 +17,7 @@ const Certificates = ({ data }) => {
           {items.map((c, i) => (
             <a key={`${c.id}-${i}`} href={c.link} target="_blank" rel="noopener noreferrer" className="cert-card">
               <div className="cert-image">
-                <img src={c.image} alt={c.title}
+                <img src={c.image} alt={`${c.title} — issued by ${c.issuer || 'certification body'}`} loading="lazy"
                   onError={(e) => { e.target.style.display = 'none'; e.target.parentElement.querySelector('.cert-image-placeholder').style.display = 'flex'; }} />
                 <div className="cert-image-placeholder" style={{ display: 'none' }}><i className="fas fa-certificate"></i></div>
                 <div className="cert-verify-badge"><i className="fas fa-check-circle"></i> Verified</div>

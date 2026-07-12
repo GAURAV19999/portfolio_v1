@@ -15,7 +15,8 @@ const About = ({ data }) => {
               <div className="about-photo-inner">
                 <img
                   src={data.photoUrl}
-                  alt="Profile"
+                  alt="Gaurav Kumar Vishvakarma — Freelance Power BI Consultant & Data Analyst"
+                  loading="lazy"
                   onError={(e) => { e.target.style.display = 'none'; e.target.nextElementSibling.style.display = 'flex'; }}
                 />
                 <div className="about-photo-placeholder" style={{ display: 'none' }}>

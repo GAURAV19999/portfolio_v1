@@ -14,7 +14,7 @@ const Projects = ({ data }) => {
           {data.map((p, i) => (
             <div key={p.id} className={`project-card reveal stagger-${(i % 4) + 1}`}>
               <div className="project-snapshot">
-                <img src={p.image} alt={p.title}
+                <img src={p.image} alt={p.title} loading="lazy"
                   onError={(e) => { e.target.style.display = 'none'; e.target.parentElement.querySelector('.project-snapshot-placeholder').style.display = 'flex'; }} />
                 <div className="project-snapshot-placeholder" style={{ display: 'none' }}>
                   <i className={p.icon}></i>

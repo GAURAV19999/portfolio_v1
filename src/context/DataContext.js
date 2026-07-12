@@ -5,15 +5,19 @@ import { publishToGitHub, fetchPublishedData } from '../utils/githubPublish';
 const DataCtx = createContext();
 const ThemeCtx = createContext();
 
-const STORAGE = 'gkv_data_v6';      // bumped — correct repo name (portfolio_v1)
+const STORAGE = 'gkv_data_v7';      // bumped — direct-client rebrand + FAQ + services
 const AUTH = 'gkv_auth';
 const THEME = 'gkv_theme_v2';
 const MSGS = 'gkv_msgs';
 const PUBLISH_CFG = 'gkv_publish_cfg';
 
+// Set to false during local development so bundled initialData is always the source of truth.
+// Flip to true after you push the JSON to the GitHub repo `portfolio_v1`.
+const FETCH_REMOTE_DATA = false;
+
 // Clean up old localStorage keys from previous schema versions
 if (typeof window !== 'undefined') {
-  ['gkv_data', 'gkv_data_v2', 'gkv_data_v3', 'gkv_data_v4', 'gkv_data_v5', 'gkv_theme'].forEach(k => {
+  ['gkv_data', 'gkv_data_v2', 'gkv_data_v3', 'gkv_data_v4', 'gkv_data_v5', 'gkv_data_v6', 'gkv_theme'].forEach(k => {
     try { localStorage.removeItem(k); } catch {}
   });
   // Migrate publish config — if owner/repo matches old defaults, reset them
@@ -61,6 +65,13 @@ export const DataProvider = ({ children }) => {
 
   // ─── Load latest published data from GitHub on mount (so all devices see the same thing) ───
   useEffect(() => {
+    if (!FETCH_REMOTE_DATA) {
+      // Local dev / not yet published to GitHub — always use bundled initialData
+      setData(initialData);
+      try { localStorage.setItem(STORAGE, JSON.stringify(initialData)); } catch {}
+      setRemoteLoaded(true);
+      return;
+    }
     let cancelled = false;
     (async () => {
       const remote = await fetchPublishedData({

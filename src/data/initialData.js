@@ -1,457 +1,1334 @@
+// AUTO-GENERATED from portfolioData.json — do not edit manually
+// Regenerate with: python scripts/sync_initial_data.py
+
 export const initialData = {
-  hero: {
-    badge: "Available for Freelance — Europe & Global",
-    titlePrefix: "Freelance",
-    titleAccent: "Data Analyst",
-    titleSuffix: "& BI Specialist",
-    subtitle: "Power BI • SQL • Python • ETL • Dashboard Automation",
-    description: "I deliver <strong>enterprise-grade analytics solutions</strong> for businesses worldwide. From automated reporting pipelines to self-serve Power BI dashboards, I help teams cut manual effort by <strong>45%</strong> and maintain <strong>99.5% data accuracy</strong>. Available for project-based work via <strong>Freelancer.com</strong> and direct contracts with European & global clients.",
-    primaryCtaText: "Hire Me on Freelancer",
-    primaryCtaIcon: "fas fa-handshake",
-    primaryCtaLink: "#contact",
-    secondaryCtaText: "View GitHub",
-    secondaryCtaIcon: "fab fa-github",
-    secondaryCtaLink: "https://github.com/GAURAV19999",
-    resumeCtaText: "Download Resume",
-    resumeCtaIcon: "fas fa-file-download",
-    resumeCtaLink: "https://drive.google.com/file/d/1PL_-nmvQq_mBrDY6XI8qvPVg8MhHg38y/view?usp=sharing",
-    stats: [
-      { id: "1", number: "200+", label: "Enterprise Clients Served" },
-      { id: "2", number: "45%", label: "Manual Reporting Reduced" },
-      { id: "3", number: "99.5%", label: "Data Accuracy Maintained" }
+  "hero": {
+    "badge": "Available for Direct Projects & Retainers",
+    "titlePrefix": "Independent",
+    "titleAccent": "Data Analyst",
+    "titleSuffix": "& Power BI Consultant",
+    "subtitle": "Power BI • SQL • Python • ETL Automation • Reporting Systems",
+    "description": "I help startups and enterprises replace <strong>spreadsheet chaos</strong> with <strong>automated Power BI dashboards</strong> and reliable data pipelines. Over <strong>4+ years</strong>, delivered <strong>200+ enterprise reporting solutions</strong> across media intelligence and financial services — cutting manual reporting time by <strong>45%</strong> with <strong>99.5% data accuracy</strong>. Direct engagement, transparent pricing, European &amp; global clients.",
+    "primaryCtaText": "Book a Free Discovery Call",
+    "primaryCtaIcon": "fas fa-calendar-check",
+    "primaryCtaLink": "#contact",
+    "secondaryCtaText": "View Case Studies",
+    "secondaryCtaIcon": "fas fa-briefcase",
+    "secondaryCtaLink": "/case-studies",
+    "resumeCtaText": "Download Service Deck",
+    "resumeCtaIcon": "fas fa-file-download",
+    "resumeCtaLink": "/downloads/Gaurav-Vishvakarma-Service-Deck.pdf",
+    "stats": [
+      {
+        "id": "1",
+        "number": "4+",
+        "label": "Years Experience"
+      },
+      {
+        "id": "2",
+        "number": "200+",
+        "label": "Reporting Solutions"
+      },
+      {
+        "id": "3",
+        "number": "45%",
+        "label": "Avg Time Saved"
+      },
+      {
+        "id": "4",
+        "number": "99.5%",
+        "label": "Data Accuracy"
+      }
     ],
-    visualIcon: "fas fa-chart-line"
+    "visualIcon": "fas fa-chart-line"
   },
-  about: {
-    enabled: true,
-    sectionTag: "About Me",
-    sectionTitle: "Trusted Analytics Partner<br>for Global Teams",
-    photoUrl: "/images/Gaurav.png",
-    photoBadge: "4+ Years Experience",
-    greeting: "Hi, I'm Gaurav 👋",
-    paragraphs: [
-      "I am a <strong>Data Analyst with 4+ years of experience</strong> generating, validating, and automating data pipelines that drive high-quality enterprise reporting for <strong>200+ clients</strong> across media intelligence and financial services.",
-      "I specialize in <strong>end-to-end reporting automation</strong>: from SQL query optimization and ETL pipeline design to interactive Power BI dashboards and executive-ready insight narratives. I have a proven track record of <strong>reducing manual reporting effort by 45%</strong>, enforcing <strong>99.5% data accuracy standards</strong>, and mentoring junior analysts to scale team output.",
-      "Currently operating as a <strong>Freelance Data Analyst</strong>, I build scalable analytics solutions for businesses that need reliable, self-serve reporting without the overhead of full-time BI teams. I work with clients across <strong>Europe, North America, and Asia-Pacific</strong> via Freelancer.com and direct contracts.",
-      "<strong>Open to project-based and retainer engagements</strong> — from one-time dashboard builds to ongoing reporting automation and data pipeline maintenance."
+  "about": {
+    "enabled": true,
+    "sectionTag": "About Me",
+    "sectionTitle": "Independent Analytics Consultant<br>for Global Teams",
+    "photoUrl": "/images/Gaurav.png",
+    "photoBadge": "4+ Years · Available for Projects",
+    "greeting": "Hi, I'm Gaurav 👋",
+    "paragraphs": [
+      "I am an <strong>independent Data Analyst and BI Consultant with 4+ years of experience</strong> building automated reporting solutions for enterprise clients across <strong>media intelligence and financial services</strong> — 200+ engagements delivered.",
+      "I specialize in <strong>end-to-end reporting automation</strong> — from SQL query optimisation and ETL pipeline design to interactive Power BI dashboards and executive-ready narratives. Track record: <strong>reducing manual reporting effort by 45%</strong>, enforcing <strong>99.5% data accuracy</strong>, and mentoring analysts to scale team output.",
+      "I work directly with businesses that need reliable, self-serve reporting — without the overhead of a full-time BI team. Currently serving clients across <strong>Europe, North America, and Asia-Pacific</strong>.",
+      "<strong>Open to project-based, retainer, and consulting engagements</strong> — from one-time dashboard builds to ongoing analytics partnerships and Power BI training programmes."
     ],
-    socials: [
-      { id: "s1", icon: "fab fa-linkedin-in", title: "LinkedIn", url: "https://linkedin.com/in/gauravkumarvishwakarma/" },
-      { id: "s2", icon: "fab fa-github", title: "GitHub", url: "https://github.com/GAURAV19999" },
-      { id: "s3", icon: "fas fa-briefcase", title: "Freelancer.com", url: "https://www.freelancer.com/u/gauravvishwakarma" },
-      { id: "s4", icon: "fas fa-envelope", title: "Email", url: "mailto:gauravkumarvishwakarma@gmail.com" }
+    "socials": [
+      {
+        "id": "s1",
+        "icon": "fab fa-linkedin-in",
+        "title": "LinkedIn",
+        "url": "https://linkedin.com/in/gauravkumarvishwakarma/"
+      },
+      {
+        "id": "s2",
+        "icon": "fab fa-github",
+        "title": "GitHub",
+        "url": "https://github.com/GAURAV19999"
+      },
+      {
+        "id": "s3",
+        "icon": "fas fa-briefcase",
+        "title": "Freelancer.com",
+        "url": "https://www.freelancer.com/u/gauravvishwakarma"
+      },
+      {
+        "id": "s4",
+        "icon": "fas fa-envelope",
+        "title": "Email",
+        "url": "mailto:gauravkumarvishwakarma@gmail.com"
+      }
     ],
-    highlights: [
-      { id: "h1", icon: "fas fa-chart-pie", title: "Enterprise Reporting & BI", desc: "Automated reporting pipelines and self-serve dashboards for 200+ clients using Power BI, SQL, and Python." },
-      { id: "h2", icon: "fas fa-shield-alt", title: "Data Quality & Governance", desc: "Enforced 99.5% accuracy via automated validation, consistency checks, and coding standard oversight." },
-      { id: "h3", icon: "fas fa-users", title: "Team Enablement & Mentoring", desc: "Guided junior analysts on coding standards, SQL best practices, and report production frameworks." }
+    "highlights": [
+      {
+        "id": "h1",
+        "icon": "fas fa-chart-pie",
+        "title": "Enterprise Reporting & BI",
+        "desc": "Automated reporting pipelines and self-serve dashboards for 200+ clients using Power BI, SQL, and Python."
+      },
+      {
+        "id": "h2",
+        "icon": "fas fa-shield-alt",
+        "title": "Data Quality & Governance",
+        "desc": "Enforced 99.5% accuracy via automated validation, consistency checks, and coding standard oversight."
+      },
+      {
+        "id": "h3",
+        "icon": "fas fa-users",
+        "title": "Team Enablement & Mentoring",
+        "desc": "Guided junior analysts on coding standards, SQL best practices, and report production frameworks."
+      }
     ]
   },
-  tools: {
-    enabled: true,
-    title: "Tools & Technologies I Work With",
-    items: [
-      // Programming & Data
-      { id: "t1",  name: "Python",        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
-      { id: "t2",  name: "Pandas",        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" },
-      { id: "t3",  name: "NumPy",         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" },
-      { id: "t4",  name: "PySpark",       icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apachespark/apachespark-original.svg" },
-
-      // Databases
-      { id: "t5",  name: "MySQL",         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" },
-      { id: "t6",  name: "SQL Server",    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg" },
-      { id: "t7",  name: "Snowflake",     icon: "https://api.iconify.design/logos:snowflake-icon.svg" },
-
-      // BI / Analytics
-      { id: "t8",  name: "Power BI",      icon: "https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg" },
-      { id: "t9",  name: "Tableau",       icon: "https://cdn.worldvectorlogo.com/logos/tableau-software.svg" },
-      { id: "t10", name: "Looker Studio", icon: "https://www.gstatic.com/images/branding/product/2x/looker_studio_64dp.png" },
-      { id: "t11", name: "Alteryx",       icon: "https://api.iconify.design/simple-icons:alteryx.svg?color=%230098d4" },
-      { id: "t12", name: "Excel",         icon: "https://cdn.worldvectorlogo.com/logos/excel-4.svg" },
-
-      // AI / Generative AI / NLP
-      { id: "t13", name: "Generative AI", icon: "https://upload.wikimedia.org/wikipedia/commons/4/4d/OpenAI_Logo.svg" },
-      { id: "t14", name: "LLMs",          icon: "https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg" },
-      { id: "t15", name: "LangChain",     icon: "https://avatars.githubusercontent.com/u/126733545?s=200&v=4" },
-      { id: "t16", name: "RAG",           icon: "https://api.iconify.design/carbon:ai-results.svg?color=%230ea5e9" },
-      { id: "t17", name: "Transformers",  icon: "https://huggingface.co/front/assets/huggingface_logo-noborder.svg" },
-      { id: "t18", name: "Hugging Face",  icon: "https://huggingface.co/front/assets/huggingface_logo-noborder.svg" },
-      { id: "t19", name: "NLP",           icon: "https://api.iconify.design/fluent:text-grammar-checkmark-24-regular.svg?color=%230ea5e9" },
-
-      // Web Frameworks
-      { id: "t20", name: "Streamlit",     icon: "https://api.iconify.design/simple-icons:streamlit.svg?color=%23ff4b4b" },
-      { id: "t21", name: "Flask",         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" },
-      { id: "t22", name: "Django",        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" },
-
-      // Dev Tools
-      { id: "t23", name: "Git",           icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" },
-      { id: "t24", name: "GitHub",        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" },
-      { id: "t25", name: "Jupyter",       icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" },
-      { id: "t26", name: "VS Code",       icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" },
-
-      // Web
-      { id: "t27", name: "HTML5",         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" },
-      { id: "t28", name: "CSS3",          icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" }
+  "tools": {
+    "enabled": true,
+    "title": "Tools & Technologies I Work With",
+    "items": [
+      {
+        "id": "t1",
+        "name": "Python",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+      },
+      {
+        "id": "t2",
+        "name": "Pandas",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg"
+      },
+      {
+        "id": "t3",
+        "name": "NumPy",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg"
+      },
+      {
+        "id": "t4",
+        "name": "PySpark",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apachespark/apachespark-original.svg"
+      },
+      {
+        "id": "t5",
+        "name": "MySQL",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+      },
+      {
+        "id": "t6",
+        "name": "SQL Server",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg"
+      },
+      {
+        "id": "t7",
+        "name": "Snowflake",
+        "icon": "https://api.iconify.design/logos:snowflake-icon.svg"
+      },
+      {
+        "id": "t8",
+        "name": "Power BI",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg"
+      },
+      {
+        "id": "t9",
+        "name": "Tableau",
+        "icon": "https://cdn.worldvectorlogo.com/logos/tableau-software.svg"
+      },
+      {
+        "id": "t10",
+        "name": "Looker Studio",
+        "icon": "https://www.gstatic.com/images/branding/product/2x/looker_studio_64dp.png"
+      },
+      {
+        "id": "t11",
+        "name": "Alteryx",
+        "icon": "https://api.iconify.design/simple-icons:alteryx.svg?color=%230098d4"
+      },
+      {
+        "id": "t12",
+        "name": "Excel",
+        "icon": "https://cdn.worldvectorlogo.com/logos/excel-4.svg"
+      },
+      {
+        "id": "t13",
+        "name": "Generative AI",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/4/4d/OpenAI_Logo.svg"
+      },
+      {
+        "id": "t14",
+        "name": "LLMs",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg"
+      },
+      {
+        "id": "t15",
+        "name": "LangChain",
+        "icon": "https://avatars.githubusercontent.com/u/126733545?s=200&v=4"
+      },
+      {
+        "id": "t16",
+        "name": "RAG",
+        "icon": "https://api.iconify.design/carbon:ai-results.svg?color=%230ea5e9"
+      },
+      {
+        "id": "t17",
+        "name": "Transformers",
+        "icon": "https://huggingface.co/front/assets/huggingface_logo-noborder.svg"
+      },
+      {
+        "id": "t18",
+        "name": "Hugging Face",
+        "icon": "https://huggingface.co/front/assets/huggingface_logo-noborder.svg"
+      },
+      {
+        "id": "t19",
+        "name": "NLP",
+        "icon": "https://api.iconify.design/fluent:text-grammar-checkmark-24-regular.svg?color=%230ea5e9"
+      },
+      {
+        "id": "t20",
+        "name": "Streamlit",
+        "icon": "https://api.iconify.design/simple-icons:streamlit.svg?color=%23ff4b4b"
+      },
+      {
+        "id": "t21",
+        "name": "Flask",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg"
+      },
+      {
+        "id": "t22",
+        "name": "Django",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg"
+      },
+      {
+        "id": "t23",
+        "name": "Git",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+      },
+      {
+        "id": "t24",
+        "name": "GitHub",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+      },
+      {
+        "id": "t25",
+        "name": "Jupyter",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg"
+      },
+      {
+        "id": "t26",
+        "name": "VS Code",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
+      },
+      {
+        "id": "t27",
+        "name": "HTML5",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+      },
+      {
+        "id": "t28",
+        "name": "CSS3",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+      }
     ]
   },
-  skills: {
-    enabled: true,
-    sectionTag: "Technical Skills",
-    sectionTitle: "My Expertise Stack",
-    sectionDesc: "Professional competencies built over 4+ years of enterprise data analytics and BI automation.",
-    categories: [
-      { id: "c1", icon: "fas fa-chart-bar", title: "Business Intelligence", tags: ["Power BI", "DAX", "Data Modeling", "Power Query", "RLS", "Self-Serve Dashboards", "Tableau"] },
-      { id: "c2", icon: "fas fa-database", title: "Database & Query", tags: ["SQL", "MySQL", "SQL Server", "Joins & Subqueries", "Stored Procedures", "Query Optimization"] },
-      { id: "c3", icon: "fas fa-code", title: "Programming & Analysis", tags: ["Python", "Pandas", "NumPy", "ETL Automation", "Data Cleaning", "Streamlit"] },
-      { id: "c4", icon: "fas fa-file-excel", title: "Advanced Excel", tags: ["Power Query", "Power Pivot", "Pivot Tables", "VLOOKUP/XLOOKUP", "INDEX-MATCH", "PowerPoint"] },
-      { id: "c5", icon: "fas fa-server", title: "Data Engineering", tags: ["ETL Pipelines", "Data Warehousing", "Star Schema", "Snowflake Schema", "Data Validation", "Data Quality"] },
-      { id: "c6", icon: "fas fa-cloud", title: "Modern Stack (Familiar)", tags: ["dbt", "Snowflake", "BigQuery", "AWS Basics", "Azure Basics", "Git", "GitHub"], secondary: true }
+  "skills": {
+    "enabled": true,
+    "sectionTag": "Technical Skills",
+    "sectionTitle": "My Expertise Stack",
+    "sectionDesc": "Professional competencies built over 4+ years of enterprise data analytics and BI automation.",
+    "categories": [
+      {
+        "id": "c1",
+        "icon": "fas fa-chart-bar",
+        "title": "Business Intelligence",
+        "tags": [
+          "Power BI",
+          "DAX",
+          "Data Modeling",
+          "Power Query",
+          "RLS",
+          "Self-Serve Dashboards",
+          "Tableau"
+        ]
+      },
+      {
+        "id": "c2",
+        "icon": "fas fa-database",
+        "title": "Database & Query",
+        "tags": [
+          "SQL",
+          "MySQL",
+          "SQL Server",
+          "Joins & Subqueries",
+          "Stored Procedures",
+          "Query Optimization"
+        ]
+      },
+      {
+        "id": "c3",
+        "icon": "fas fa-code",
+        "title": "Programming & Analysis",
+        "tags": [
+          "Python",
+          "Pandas",
+          "NumPy",
+          "ETL Automation",
+          "Data Cleaning",
+          "Streamlit"
+        ]
+      },
+      {
+        "id": "c4",
+        "icon": "fas fa-file-excel",
+        "title": "Advanced Excel",
+        "tags": [
+          "Power Query",
+          "Power Pivot",
+          "Pivot Tables",
+          "VLOOKUP/XLOOKUP",
+          "INDEX-MATCH",
+          "PowerPoint"
+        ]
+      },
+      {
+        "id": "c5",
+        "icon": "fas fa-server",
+        "title": "Data Engineering",
+        "tags": [
+          "ETL Pipelines",
+          "Data Warehousing",
+          "Star Schema",
+          "Snowflake Schema",
+          "Data Validation",
+          "Data Quality"
+        ]
+      },
+      {
+        "id": "c6",
+        "icon": "fas fa-cloud",
+        "title": "Modern Stack (Familiar)",
+        "tags": [
+          "dbt",
+          "Snowflake",
+          "BigQuery",
+          "AWS Basics",
+          "Azure Basics",
+          "Git",
+          "GitHub"
+        ],
+        "secondary": true
+      }
     ]
   },
-  experience: [
+  "experience": [
     {
-      id: "e1",
-      title: "Freelance Data Analyst",
-      company: "Independent Consultant",
-      companyLink: "https://www.freelancer.com/u/gauravvishwakarma",
-      companyLinkText: "Freelancer.com",
-      companyIcon: "fas fa-globe",
-      date: "Aug 2025 – Present",
-      location: "Remote / Bengaluru, India",
-      bullets: [
+      "id": "e1",
+      "title": "Freelance Data Analyst",
+      "company": "Independent Consultant",
+      "companyLink": "https://www.freelancer.com/u/gauravvishwakarma",
+      "companyLinkText": "Freelancer.com",
+      "companyIcon": "fas fa-globe",
+      "date": "Aug 2025 – Present",
+      "location": "Remote / Bengaluru, India",
+      "bullets": [
         "Deliver <strong>end-to-end analytics solutions</strong> for European and global clients needing automated reporting, data pipeline cleanup, and BI dashboard development.",
         "Automate reporting workflows using <strong>SQL + Power BI</strong>, reducing manual effort by <strong>30%</strong> and improving turnaround time for recurring deliverables.",
         "Troubleshoot data quality issues across multi-source datasets, ensuring minimal disruption to client delivery timelines across different time zones.",
         "Produce data-driven reports with <strong>KPI charts (Pie, Bar, Column)</strong> and robust qualitative insights using established reporting templates.",
         "Manage concurrent deliverables for multiple international clients via <strong>Freelancer.com</strong> platform with 5-star ratings and repeat business."
       ],
-      tools: ["Power BI", "SQL", "Python", "Excel", "Streamlit", "ETL"]
+      "tools": [
+        "Power BI",
+        "SQL",
+        "Python",
+        "Excel",
+        "Streamlit",
+        "ETL"
+      ]
     },
     {
-      id: "e2",
-      title: "Data Analyst",
-      company: "Acuity Knowledge Partners Pvt Ltd",
-      companyLink: "https://www.acuitykp.com",
-      companyLinkText: "acuitykp.com",
-      companyIcon: "fas fa-building",
-      logo: "/images/companies/akp.png",
-      date: "June 2022 – July 2025",
-      location: "Gurgaon, India",
-      bullets: [
+      "id": "e2",
+      "title": "Data Analyst",
+      "company": "Acuity Knowledge Partners Pvt Ltd",
+      "companyLink": "https://www.acuitykp.com",
+      "companyLinkText": "acuitykp.com",
+      "companyIcon": "fas fa-building",
+      "logo": "/images/companies/akp.png",
+      "date": "June 2022 – July 2025",
+      "location": "Gurgaon, India",
+      "bullets": [
         "Generated and managed data foundations that drove <strong>media intelligence and financial reports for 200+ enterprise clients</strong>, ensuring accurate and timely deliverables.",
         "Ensured <strong>coding analysis production consistency</strong> across multi-wave research datasets; tracked performance against strict timelines and maintained <strong>99.5% data accuracy</strong>.",
         "<strong>Mentored junior coding analysts</strong>, delivering feedback on best practices, addressing performance gaps, and fostering continuous skill development.",
         "Developed <strong>optimized SQL queries</strong> (joins, subqueries, performance tuning) for large-scale data extraction, validation, and consistency checks.",
         "<strong>Reduced manual reporting effort by 45%</strong> and improved turnaround by <strong>35%</strong> through dashboard automation, SQL pipeline optimization, and reporting tracker automation."
       ],
-      tools: ["SQL (MySQL, SQL Server)", "Power BI", "Advanced Excel", "PowerPoint", "Python"]
+      "tools": [
+        "SQL (MySQL, SQL Server)",
+        "Power BI",
+        "Advanced Excel",
+        "PowerPoint",
+        "Python"
+      ]
     },
     {
-      id: "e3",
-      title: "Data Analyst (Executive)",
-      company: "ShowTime Consulting",
-      companyLink: "https://showtimeconsulting.in/",
-      companyLinkText: "showtimeconsulting.in",
-      companyIcon: "fas fa-broadcast-tower",
-      logo: "/images/companies/stc1.png",
-      date: "Sep 2021 – June 2022",
-      location: "Hyderabad, India",
-      bullets: [
+      "id": "e3",
+      "title": "Data Analyst (Executive)",
+      "company": "ShowTime Consulting",
+      "companyLink": "https://showtimeconsulting.in/",
+      "companyLinkText": "showtimeconsulting.in",
+      "companyIcon": "fas fa-broadcast-tower",
+      "logo": "/images/companies/stc1.png",
+      "date": "Sep 2021 – June 2022",
+      "location": "Hyderabad, India",
+      "bullets": [
         "Generated and managed data for <strong>campaign performance reports</strong> across <strong>15+ stakeholders</strong>, ensuring consistent, high-quality deliverables aligned with client timelines.",
         "Developed real-time campaign performance dashboards in <strong>Power BI</strong> for data-driven decision-making across political campaign initiatives.",
         "Applied supervised machine learning (Logistic Regression, MLP, Decision Trees) for high-accuracy <strong>social media sentiment analysis</strong>, achieving 93% accuracy in influencer detection.",
         "Performed data verification, coding checks, and trend analysis using <strong>SQL and Excel</strong>; produced charts and qualitative insights summarizing key performance drivers."
       ],
-      tools: ["SQL", "Excel", "Power BI", "Tableau", "Python", "ML"]
+      "tools": [
+        "SQL",
+        "Excel",
+        "Power BI",
+        "Tableau",
+        "Python",
+        "ML"
+      ]
     },
     {
-      id: "e4",
-      title: "Data Scientist Intern",
-      company: "INNODATATICS Ai",
-      companyLink: "https://innodatatics.ai/",
-      companyLinkText: "innodatatics.ai",
-      companyIcon: "fas fa-brain",
-      logo: "/images/companies/ino.jpg",
-      date: "Mar 2021 – Sep 2021",
-      location: "Remote / Hyderabad, India",
-      bullets: [
+      "id": "e4",
+      "title": "Data Scientist Intern",
+      "company": "INNODATATICS Ai",
+      "companyLink": "https://innodatatics.ai/",
+      "companyLinkText": "innodatatics.ai",
+      "companyIcon": "fas fa-brain",
+      "logo": "/images/companies/ino.jpg",
+      "date": "Mar 2021 – Sep 2021",
+      "location": "Remote / Hyderabad, India",
+      "bullets": [
         "Designed a <strong>personalized food recommender system</strong> using the ALS algorithm and PySpark for multi-cuisine restaurant data.",
         "Developed a custom <strong>OCR pipeline</strong> with PyTorch and LaTeX for precise mathematical expression recognition from scanned images.",
         "Implemented a <strong>facial recognition-based attendance system</strong> using OpenCV with real-time detection and 98% accuracy.",
         "Collaborated with senior data scientists on model evaluation, data preprocessing, and production deployment of ML pipelines."
       ],
-      tools: ["Python", "PyTorch", "OpenCV", "PySpark", "ML", "Deep Learning"]
+      "tools": [
+        "Python",
+        "PyTorch",
+        "OpenCV",
+        "PySpark",
+        "ML",
+        "Deep Learning"
+      ]
     }
   ],
-  projects: [
+  "projects": [
     {
-      id: "p1",
-      title: "Media Intelligence Analytics Platform",
-      type: "Business Intelligence",
-      icon: "fas fa-newspaper",
-      image: "/images/projects/Media%20Intelligence.png",
-      description: "Built a <strong>scalable media intelligence platform</strong> processing 10,000+ records/day for real-time brand monitoring, sentiment tracking, and competitor analysis across news, social media, and blogs.",
-      bullets: [
+      "id": "p1",
+      "title": "Media Intelligence Analytics Platform",
+      "type": "Business Intelligence",
+      "icon": "fas fa-newspaper",
+      "image": "/images/projects/Media%20Intelligence.png",
+      "description": "Built a <strong>scalable media intelligence platform</strong> processing 10,000+ records/day for real-time brand monitoring, sentiment tracking, and competitor analysis across news, social media, and blogs.",
+      "bullets": [
         "Engineered <strong>ETL pipelines</strong> for multi-source content ingestion with automated coding & validation",
         "Built executive dashboards with <strong>sentiment distribution, share-of-voice, and alert systems</strong>",
         "Delivered actionable insights for <strong>200+ enterprise clients</strong> with 99.5% data accuracy"
       ],
-      tags: ["Python", "SQL", "NLP", "ETL", "Dashboards", "BI"],
-      link: "https://github.com/GAURAV19999",
-      linkLabel: "View Code",
-      linkIcon: "fab fa-github"
+      "tags": [
+        "Python",
+        "SQL",
+        "NLP",
+        "ETL",
+        "Dashboards",
+        "BI"
+      ],
+      "link": "https://github.com/GAURAV19999",
+      "linkLabel": "View Code",
+      "linkIcon": "fab fa-github"
     },
     {
-      id: "p2",
-      title: "Market Research Reporting Automation",
-      type: "Process Automation",
-      icon: "fas fa-robot",
-      image: "/images/projects/Market%20Research%20Reporting.png",
-      description: "Designed an <strong>end-to-end reporting automation suite</strong> for market research teams — automating data extraction, KPI tracking, and report generation across competitor analysis and pricing studies.",
-      bullets: [
+      "id": "p2",
+      "title": "Market Research Reporting Automation",
+      "type": "Process Automation",
+      "icon": "fas fa-robot",
+      "image": "/images/projects/Market%20Research%20Reporting.png",
+      "description": "Designed an <strong>end-to-end reporting automation suite</strong> for market research teams — automating data extraction, KPI tracking, and report generation across competitor analysis and pricing studies.",
+      "bullets": [
         "Reduced manual reporting effort by <strong>30%</strong> via SQL + Power BI workflow automation",
         "Built real-time KPI dashboards tracking <strong>248 metrics across 15 data sources</strong>",
         "Automated <strong>96+ recurring reports/week</strong> with 96.2% success rate and alert system"
       ],
-      tags: ["Python", "SQL", "Power BI", "ETL", "Automation"],
-      link: "https://github.com/GAURAV19999",
-      linkLabel: "View Code",
-      linkIcon: "fab fa-github"
+      "tags": [
+        "Python",
+        "SQL",
+        "Power BI",
+        "ETL",
+        "Automation"
+      ],
+      "link": "https://github.com/GAURAV19999",
+      "linkLabel": "View Code",
+      "linkIcon": "fab fa-github"
     },
     {
-      id: "p3",
-      title: "Sentiment Analysis & Predictive Analytics",
-      type: "Machine Learning",
-      icon: "fas fa-brain",
-      image: "/images/projects/Sentiment%20Analysis.png",
-      description: "Built an <strong>end-to-end sentiment analysis pipeline</strong> with predictive forecasting — tracking real-time brand mentions across channels and predicting future sentiment trends with 78%+ accuracy.",
-      bullets: [
+      "id": "p3",
+      "title": "Sentiment Analysis & Predictive Analytics",
+      "type": "Machine Learning",
+      "icon": "fas fa-brain",
+      "image": "/images/projects/Sentiment%20Analysis.png",
+      "description": "Built an <strong>end-to-end sentiment analysis pipeline</strong> with predictive forecasting — tracking real-time brand mentions across channels and predicting future sentiment trends with 78%+ accuracy.",
+      "bullets": [
         "Processed <strong>24,800+ mentions</strong> across news, social, and blogs with VADER + custom ML models",
         "Built <strong>predictive sentiment forecasting</strong> achieving 78.6% accuracy on 7-day horizon",
         "Deployed real-time <strong>Streamlit dashboard</strong> with topic-impact analysis and trend alerts"
       ],
-      tags: ["Python", "NLP", "VADER", "Streamlit", "ML", "Predictive Analytics"],
-      link: "https://github.com/GAURAV19999/USA-Election-Sentiment-Analysis",
-      linkLabel: "View Code",
-      linkIcon: "fab fa-github"
+      "tags": [
+        "Python",
+        "NLP",
+        "VADER",
+        "Streamlit",
+        "ML",
+        "Predictive Analytics"
+      ],
+      "link": "https://github.com/GAURAV19999/USA-Election-Sentiment-Analysis",
+      "linkLabel": "View Code",
+      "linkIcon": "fab fa-github"
     },
     {
-      id: "p4",
-      title: "Face Recognition Authentication",
-      type: "Computer Vision",
-      icon: "fas fa-user-shield",
-      image: "/images/projects/Face%20Recognition%20Authentication.png",
-      description: "An <strong>AI-powered facial authentication system</strong> with real-time live verification, user management, and activity logging. Built with OpenCV, deep learning embeddings, and Flask.",
-      bullets: [
+      "id": "p4",
+      "title": "Face Recognition Authentication",
+      "type": "Computer Vision",
+      "icon": "fas fa-user-shield",
+      "image": "/images/projects/Face%20Recognition%20Authentication.png",
+      "description": "An <strong>AI-powered facial authentication system</strong> with real-time live verification, user management, and activity logging. Built with OpenCV, deep learning embeddings, and Flask.",
+      "bullets": [
         "Real-time webcam detection using <strong>OpenCV + DNN face detector</strong> with 98.6% accuracy",
         "Built admin dashboard with <strong>live authentication, user CRUD, and verification logs</strong>",
         "Deployed via <strong>Flask REST API</strong> achieving <2s response time for 127+ registered users"
       ],
-      tags: ["OpenCV", "Python", "Flask", "Deep Learning", "Computer Vision"],
-      link: "https://drive.google.com/drive/folders/18g_dXho-cdY_34gpW_6lspR9hk9mc6Xh?usp=sharing",
-      linkLabel: "View Project",
-      linkIcon: "fas fa-external-link-alt"
+      "tags": [
+        "OpenCV",
+        "Python",
+        "Flask",
+        "Deep Learning",
+        "Computer Vision"
+      ],
+      "link": "https://drive.google.com/drive/folders/18g_dXho-cdY_34gpW_6lspR9hk9mc6Xh?usp=sharing",
+      "linkLabel": "View Project",
+      "linkIcon": "fas fa-external-link-alt"
     },
     {
-      id: "p5",
-      title: "Superstore Sales Analysis Dashboard",
-      type: "Business Intelligence",
-      icon: "fas fa-chart-area",
-      image: "/images/projects/super_store.png",
-      description: "<strong>Interactive Tableau dashboard</strong> analyzing 9,994 retail orders across regions, sub-categories, and customer segments — uncovering profit drivers and loss-making areas for executive decision-making.",
-      bullets: [
+      "id": "p5",
+      "title": "Superstore Sales Analysis Dashboard",
+      "type": "Business Intelligence",
+      "icon": "fas fa-chart-area",
+      "image": "/images/projects/super_store.png",
+      "description": "<strong>Interactive Tableau dashboard</strong> analyzing 9,994 retail orders across regions, sub-categories, and customer segments — uncovering profit drivers and loss-making areas for executive decision-making.",
+      "bullets": [
         "Built drill-down visualizations covering <strong>$2.3M sales, $286K profit, and 37K units</strong>",
         "Analyzed <strong>profit/loss patterns across 17 sub-categories</strong> and 4 regions (Central, East, South, West)",
         "Highlighted underperforming segments (Tables, Bookcases) and top performers (Phones, Copiers)"
       ],
-      tags: ["Tableau", "Data Analysis", "Dashboarding", "Business Intelligence"],
-      link: "https://public.tableau.com/app/profile/gaurav.kumar.vishvakarma/viz/SuperstoreSalesAnalysisDashboard_16281781742050/Dashboard1",
-      linkLabel: "Live Dashboard",
-      linkIcon: "fas fa-external-link-alt"
+      "tags": [
+        "Tableau",
+        "Data Analysis",
+        "Dashboarding",
+        "Business Intelligence"
+      ],
+      "link": "https://public.tableau.com/app/profile/gaurav.kumar.vishvakarma/viz/SuperstoreSalesAnalysisDashboard_16281781742050/Dashboard1",
+      "linkLabel": "Live Dashboard",
+      "linkIcon": "fas fa-external-link-alt"
     },
     {
-      id: "p6",
-      title: "Personalised Food Recommendation",
-      type: "Machine Learning",
-      icon: "fas fa-utensils",
-      image: "/images/projects/food-recommender.png",
-      description: "A <strong>collaborative-filtering recommendation engine</strong> personalizing menu suggestions across multi-cuisine restaurants. Trained on 1,200+ dishes from 43 restaurants and deployed as an interactive Streamlit app.",
-      bullets: [
+      "id": "p6",
+      "title": "Personalised Food Recommendation",
+      "type": "Machine Learning",
+      "icon": "fas fa-utensils",
+      "image": "/images/projects/food-recommender.png",
+      "description": "A <strong>collaborative-filtering recommendation engine</strong> personalizing menu suggestions across multi-cuisine restaurants. Trained on 1,200+ dishes from 43 restaurants and deployed as an interactive Streamlit app.",
+      "bullets": [
         "Built recommendation engine analyzing <strong>1,238 dishes across 43 restaurants</strong> with match scoring",
         "Achieved <strong>39% perfect-match and 74% great+good match rate</strong> on user preference profiles",
         "Deployed end-to-end on <strong>Streamlit</strong> with cuisine, dietary, spice, and budget filters"
       ],
-      tags: ["Python", "Collaborative Filtering", "Streamlit", "Pandas", "ML"],
-      link: "https://personalised-food-recommendation-for-multi-cuisine-restaurants.streamlit.app/",
-      linkLabel: "Live Demo",
-      linkIcon: "fas fa-external-link-alt"
+      "tags": [
+        "Python",
+        "Collaborative Filtering",
+        "Streamlit",
+        "Pandas",
+        "ML"
+      ],
+      "link": "https://personalised-food-recommendation-for-multi-cuisine-restaurants.streamlit.app/",
+      "linkLabel": "Live Demo",
+      "linkIcon": "fas fa-external-link-alt"
     },
     {
-      id: "p7",
-      title: "Zomato Ratings Prediction",
-      type: "Data Analysis",
-      icon: "fas fa-chart-line",
-      image: "/images/projects/Zomato%20Ratings%20Prediction.png",
-      description: "<strong>Predictive ML model and EDA</strong> on 50,000+ Bengaluru restaurants to identify the key drivers of Zomato ratings. Deployed as a Flask web app so restaurant owners can forecast expected ratings before launch.",
-      bullets: [
+      "id": "p7",
+      "title": "Zomato Ratings Prediction",
+      "type": "Data Analysis",
+      "icon": "fas fa-chart-line",
+      "image": "/images/projects/Zomato%20Ratings%20Prediction.png",
+      "description": "<strong>Predictive ML model and EDA</strong> on 50,000+ Bengaluru restaurants to identify the key drivers of Zomato ratings. Deployed as a Flask web app so restaurant owners can forecast expected ratings before launch.",
+      "bullets": [
         "Performed deep <strong>EDA on 50,000+ restaurants</strong> across 90+ Bengaluru localities",
         "Trained <strong>XGBoost regression model</strong> achieving R² of 0.85 (RMSE 0.31)",
         "Deployed as a <strong>Flask web app</strong> with HTML form for instant rating predictions"
       ],
-      tags: ["Python", "Pandas", "XGBoost", "Flask", "EDA", "Predictive Modeling"],
-      link: "https://github.com/GAURAV19999/Zomato-Ratings-Prediction-Flask-Deployment",
-      linkLabel: "View Code",
-      linkIcon: "fab fa-github"
+      "tags": [
+        "Python",
+        "Pandas",
+        "XGBoost",
+        "Flask",
+        "EDA",
+        "Predictive Modeling"
+      ],
+      "link": "https://github.com/GAURAV19999/Zomato-Ratings-Prediction-Flask-Deployment",
+      "linkLabel": "View Code",
+      "linkIcon": "fab fa-github"
     },
     {
-      id: "p8",
-      title: "Fake News or Real News Detection",
-      type: "Machine Learning",
-      icon: "fas fa-newspaper",
-      image: "/images/projects/Fake%20News%20Detection.png",
-      description: "<strong>NLP-based binary classifier</strong> that detects misinformation in online news articles with high precision. Built using TF-IDF vectorization and ensemble ML to combat the spread of fake news.",
-      bullets: [
+      "id": "p8",
+      "title": "Fake News or Real News Detection",
+      "type": "Machine Learning",
+      "icon": "fas fa-newspaper",
+      "image": "/images/projects/Fake%20News%20Detection.png",
+      "description": "<strong>NLP-based binary classifier</strong> that detects misinformation in online news articles with high precision. Built using TF-IDF vectorization and ensemble ML to combat the spread of fake news.",
+      "bullets": [
         "Preprocessed and vectorized <strong>40K+ news articles</strong> using TF-IDF on stemmed n-grams",
         "Trained ensemble of <strong>Logistic Regression, Naive Bayes, and Random Forest</strong> classifiers",
         "Achieved <strong>~94% accuracy and 0.93 F1-score</strong> on held-out test set for fake-vs-real classification"
       ],
-      tags: ["Python", "NLP", "TF-IDF", "Scikit-learn", "Classification", "ML"],
-      link: "https://github.com/GAURAV19999/Fake-News-or-real-news",
-      linkLabel: "View Code",
-      linkIcon: "fab fa-github"
+      "tags": [
+        "Python",
+        "NLP",
+        "TF-IDF",
+        "Scikit-learn",
+        "Classification",
+        "ML"
+      ],
+      "link": "https://github.com/GAURAV19999/Fake-News-or-real-news",
+      "linkLabel": "View Code",
+      "linkIcon": "fab fa-github"
     },
     {
-      id: "p9",
-      title: "AI for Math Equation OCR",
-      type: "Computer Vision",
-      icon: "fas fa-square-root-alt",
-      image: "/images/projects/AI%20Math%20OCR.png",
-      description: "<strong>Custom OCR pipeline</strong> that extracts handwritten and printed mathematical equations from images and converts them into LaTeX format. Combines computer vision with sequence-to-sequence deep learning.",
-      bullets: [
+      "id": "p9",
+      "title": "AI for Math Equation OCR",
+      "type": "Computer Vision",
+      "icon": "fas fa-square-root-alt",
+      "image": "/images/projects/AI%20Math%20OCR.png",
+      "description": "<strong>Custom OCR pipeline</strong> that extracts handwritten and printed mathematical equations from images and converts them into LaTeX format. Combines computer vision with sequence-to-sequence deep learning.",
+      "bullets": [
         "Built end-to-end <strong>image-to-LaTeX pipeline</strong> using PyTorch encoder-decoder architecture",
         "Trained CNN feature extractor + <strong>LSTM-based sequence decoder</strong> on 100K+ equation samples",
         "Achieved <strong>~91% BLEU score</strong> on equation translation with sub-1-second inference per image"
       ],
-      tags: ["Python", "PyTorch", "OCR", "CNN", "LSTM", "LaTeX", "Computer Vision"],
-      link: "https://drive.google.com/drive/folders/1LpqCvSwB2Hr-p4hSJV6ndv5aa8wDvQhn?usp=sharing",
-      linkLabel: "View Project",
-      linkIcon: "fas fa-external-link-alt"
+      "tags": [
+        "Python",
+        "PyTorch",
+        "OCR",
+        "CNN",
+        "LSTM",
+        "LaTeX",
+        "Computer Vision"
+      ],
+      "link": "https://drive.google.com/drive/folders/1LpqCvSwB2Hr-p4hSJV6ndv5aa8wDvQhn?usp=sharing",
+      "linkLabel": "View Project",
+      "linkIcon": "fas fa-external-link-alt"
     }
   ],
-  certificates: [
-    { id: "ct1",  title: "Post-Graduate Certificate in Data Science & AI", issuer: "Universiti Teknologi Malaysia (UTMSPACE) × 360DigiTMG", date: "June 30, 2021", image: "/images/certificates/utm-data-science-ai.png",   link: "https://www.credly.com/" },
-    { id: "ct2",  title: "The AI Engineer Course 2026: Complete Bootcamp", issuer: "Udemy · 365 Careers (29.5 hrs)",                       date: "June 6, 2026",  image: "/images/certificates/udemy-ai-engineer.jpg",   link: "https://www.udemy.com/" },
-    { id: "ct3",  title: "Complete Guide to Power BI for Data Analysts",   issuer: "LinkedIn Learning · Microsoft Press",                    date: "March 20, 2026", image: "/images/certificates/linkedin-powerbi-msft.png", link: "https://www.linkedin.com/learning/" },
-    { id: "ct4",  title: "Alteryx for Financial Services",                 issuer: "LinkedIn Learning",                                      date: "March 21, 2026", image: "/images/certificates/linkedin-alteryx-fin.png",  link: "https://www.linkedin.com/learning/" },
-    { id: "ct5",  title: "Artificial Intelligence & Deep Learning",         issuer: "360DigiTMG",                                             date: "June 30, 2021", image: "/images/certificates/360-ai-deep-learning.png", link: "https://www.credly.com/" },
-    { id: "ct6",  title: "Data Science using Python & R Programming",       issuer: "360DigiTMG",                                             date: "March 2, 2021", image: "/images/certificates/360-ds-python-r.png",      link: "https://www.credly.com/" },
-    { id: "ct7",  title: "Data Visualization Using Tableau",                issuer: "360DigiTMG",                                             date: "April 23, 2021", image: "/images/certificates/360-tableau.png",          link: "https://www.credly.com/" },
-    { id: "ct8",  title: "Python 101 for Data Science",                     issuer: "IBM · Cognitive Class (via 360DigiTMG)",                  date: "February 25, 2021", image: "/images/certificates/ibm-python-101.png",   link: "https://courses.360digitmg.skillsnetwork.site/certificates/5fed18824a3647f991ed2fec8f92d297" },
-    { id: "ct9",  title: "Data Science 101",                                issuer: "IBM · BigDataUniversity (via 360DigiTMG)",                date: "February 26, 2021", image: "/images/certificates/ibm-data-science-101.png", link: "https://courses.360digitmg.skillsnetwork.site/certificates/b6bfca77168b44de81011f43620502cb" },
-    { id: "ct10", title: "Data Science Methodology",                        issuer: "IBM · Cognitive Class (via 360DigiTMG)",                  date: "February 28, 2021", image: "/images/certificates/ibm-ds-methodology.png", link: "https://courses.360digitmg.skillsnetwork.site/certificates/1cd7ddd8a39b491fb4a442fe9aa91d3b" },
-    { id: "ct11", title: "Data Visualization with Python",                  issuer: "IBM · Cognitive Class (via 360DigiTMG)",                  date: "February 28, 2021", image: "/images/certificates/ibm-data-viz-python.png", link: "https://courses.360digitmg.skillsnetwork.site/certificates/feae3221150e4191b3b19fade916f3e5" },
-    { id: "ct12", title: "How to Build Chatbots",                           issuer: "IBM Developer Skills Network (via 360DigiTMG)",           date: "March 7, 2021",  image: "/images/certificates/ibm-chatbots.png",        link: "https://courses.360digitmg.skillsnetwork.site/certificates/ec3a960cd8c64ac89921e5c162b94eb3" },
-    { id: "ct13", title: "Big Data 101",                                    issuer: "IBM · Cognitive Class (via 360DigiTMG)",                  date: "March 7, 2021",  image: "/images/certificates/ibm-big-data-101.png",     link: "https://courses.360digitmg.skillsnetwork.site/certificates/fba56f0768bf4f53a1acb0e10f374b6c" }
+  "certificates": [
+    {
+      "id": "ct1",
+      "title": "Post-Graduate Certificate in Data Science & AI",
+      "issuer": "Universiti Teknologi Malaysia (UTMSPACE) × 360DigiTMG",
+      "date": "June 30, 2021",
+      "image": "/images/certificates/utm-data-science-ai.png",
+      "link": "https://www.credly.com/"
+    },
+    {
+      "id": "ct2",
+      "title": "The AI Engineer Course 2026: Complete Bootcamp",
+      "issuer": "Udemy · 365 Careers (29.5 hrs)",
+      "date": "June 6, 2026",
+      "image": "/images/certificates/udemy-ai-engineer.jpg",
+      "link": "https://www.udemy.com/"
+    },
+    {
+      "id": "ct3",
+      "title": "Complete Guide to Power BI for Data Analysts",
+      "issuer": "LinkedIn Learning · Microsoft Press",
+      "date": "March 20, 2026",
+      "image": "/images/certificates/linkedin-powerbi-msft.png",
+      "link": "https://www.linkedin.com/learning/"
+    },
+    {
+      "id": "ct4",
+      "title": "Alteryx for Financial Services",
+      "issuer": "LinkedIn Learning",
+      "date": "March 21, 2026",
+      "image": "/images/certificates/linkedin-alteryx-fin.png",
+      "link": "https://www.linkedin.com/learning/"
+    },
+    {
+      "id": "ct5",
+      "title": "Artificial Intelligence & Deep Learning",
+      "issuer": "360DigiTMG",
+      "date": "June 30, 2021",
+      "image": "/images/certificates/360-ai-deep-learning.png",
+      "link": "https://www.credly.com/"
+    },
+    {
+      "id": "ct6",
+      "title": "Data Science using Python & R Programming",
+      "issuer": "360DigiTMG",
+      "date": "March 2, 2021",
+      "image": "/images/certificates/360-ds-python-r.png",
+      "link": "https://www.credly.com/"
+    },
+    {
+      "id": "ct7",
+      "title": "Data Visualization Using Tableau",
+      "issuer": "360DigiTMG",
+      "date": "April 23, 2021",
+      "image": "/images/certificates/360-tableau.png",
+      "link": "https://www.credly.com/"
+    },
+    {
+      "id": "ct8",
+      "title": "Python 101 for Data Science",
+      "issuer": "IBM · Cognitive Class (via 360DigiTMG)",
+      "date": "February 25, 2021",
+      "image": "/images/certificates/ibm-python-101.png",
+      "link": "https://courses.360digitmg.skillsnetwork.site/certificates/5fed18824a3647f991ed2fec8f92d297"
+    },
+    {
+      "id": "ct9",
+      "title": "Data Science 101",
+      "issuer": "IBM · BigDataUniversity (via 360DigiTMG)",
+      "date": "February 26, 2021",
+      "image": "/images/certificates/ibm-data-science-101.png",
+      "link": "https://courses.360digitmg.skillsnetwork.site/certificates/b6bfca77168b44de81011f43620502cb"
+    },
+    {
+      "id": "ct10",
+      "title": "Data Science Methodology",
+      "issuer": "IBM · Cognitive Class (via 360DigiTMG)",
+      "date": "February 28, 2021",
+      "image": "/images/certificates/ibm-ds-methodology.png",
+      "link": "https://courses.360digitmg.skillsnetwork.site/certificates/1cd7ddd8a39b491fb4a442fe9aa91d3b"
+    },
+    {
+      "id": "ct11",
+      "title": "Data Visualization with Python",
+      "issuer": "IBM · Cognitive Class (via 360DigiTMG)",
+      "date": "February 28, 2021",
+      "image": "/images/certificates/ibm-data-viz-python.png",
+      "link": "https://courses.360digitmg.skillsnetwork.site/certificates/feae3221150e4191b3b19fade916f3e5"
+    },
+    {
+      "id": "ct12",
+      "title": "How to Build Chatbots",
+      "issuer": "IBM Developer Skills Network (via 360DigiTMG)",
+      "date": "March 7, 2021",
+      "image": "/images/certificates/ibm-chatbots.png",
+      "link": "https://courses.360digitmg.skillsnetwork.site/certificates/ec3a960cd8c64ac89921e5c162b94eb3"
+    },
+    {
+      "id": "ct13",
+      "title": "Big Data 101",
+      "issuer": "IBM · Cognitive Class (via 360DigiTMG)",
+      "date": "March 7, 2021",
+      "image": "/images/certificates/ibm-big-data-101.png",
+      "link": "https://courses.360digitmg.skillsnetwork.site/certificates/fba56f0768bf4f53a1acb0e10f374b6c"
+    }
   ],
-  testimonials: {
-    enabled: true,
-    sectionTag: "Client Feedback",
-    sectionTitle: "What Clients Are Saying",
-    sectionDesc: "Honest reviews from professionals I've worked with across Europe, North America, and Asia-Pacific.",
-    items: [
+  "testimonials": {
+    "enabled": true,
+    "sectionTag": "Client Feedback",
+    "sectionTitle": "What Clients Are Saying",
+    "sectionDesc": "Honest feedback from professionals I have worked with — direct engagements and long-time collaborations.",
+    "items": [
       {
-        id: "rv1",
-        name: "Sarah Mitchell",
-        role: "Head of Analytics",
-        company: "FinTech Startup, London",
-        rating: 5,
-        text: "Gaurav rebuilt our entire Power BI reporting layer in 3 weeks. What used to take our team 2 days per week now runs automatically. His SQL optimization alone cut our query time by 70%. Worth every penny.",
-        avatar: "SM",
-        platform: "Freelancer.com"
+        "id": "rv1",
+        "name": "Supply Chain Manager",
+        "role": "Head of Sprint Operations",
+        "company": "SaaS Company (Confidential · India)",
+        "rating": 5,
+        "text": "Gaurav picked up our existing Power BI dashboard on day one and delivered top-level slicers, drill-through pages and clean status formatting in a single session. Foolproof documentation, on-time delivery, and follow-up training already booked. Highly recommend.",
+        "avatar": "SM",
+        "platform": "Direct Engagement"
       },
       {
-        id: "rv2",
-        name: "Michael Chen",
-        role: "Director of Operations",
-        company: "E-commerce Group, Berlin",
-        rating: 5,
-        text: "Hired Gaurav for an ETL pipeline cleanup and ended up extending the contract for 6 months. He understands both the technical and business sides — rare combo. Self-serve dashboards he built are still our team's daily driver.",
-        avatar: "MC",
-        platform: "Direct Contract"
+        "id": "rv2",
+        "name": "Senior Project Manager",
+        "role": "Employer Branding Research",
+        "company": "Acuity Knowledge Partners (Ex-Colleague)",
+        "rating": 5,
+        "text": "Worked with Gaurav on 200+ enterprise reporting deliverables over three years. Reliable on deadlines, extremely careful with data quality, and always the first to spot inconsistencies before they reach the client. Sharp Power BI and SQL skills.",
+        "avatar": "PM",
+        "platform": "LinkedIn Recommendation"
       },
       {
-        id: "rv3",
-        name: "Anna Kowalski",
-        role: "Marketing Analytics Lead",
-        company: "SaaS Company, Warsaw",
-        rating: 5,
-        text: "Excellent communication and incredibly fast turnaround. Delivered a complete sales dashboard with drill-downs across regions in less than a week. Will hire again for our next quarterly project.",
-        avatar: "AK",
-        platform: "Freelancer.com"
+        "id": "rv3",
+        "name": "Team Lead — Coding Analytics",
+        "role": "Market Research Automation",
+        "company": "Acuity Knowledge Partners (Ex-Manager)",
+        "rating": 5,
+        "text": "Gaurav reduced our manual reporting time by nearly 45% by re-designing the SQL layer and automating what were previously 3 recurring weekly reports. He also mentored two junior analysts on coding standards. A dependable analyst.",
+        "avatar": "TL",
+        "platform": "LinkedIn Recommendation"
       },
       {
-        id: "rv4",
-        name: "James Rodriguez",
-        role: "Business Intelligence Manager",
-        company: "Retail Chain, Madrid",
-        rating: 5,
-        text: "We needed someone to fix data quality issues across 12 data sources. Gaurav identified the root causes within 2 days, implemented automated validation, and trained our junior analysts. 99% data accuracy ever since.",
-        avatar: "JR",
-        platform: "Direct Contract"
+        "id": "rv4",
+        "name": "Campaign Analytics Lead",
+        "role": "Political Consulting",
+        "company": "ShowTime Consulting (Ex-Colleague)",
+        "rating": 5,
+        "text": "Built our Power BI dashboards for 15+ stakeholders during a high-pressure state election cycle. Handled gram-panchayat-level data cleanly, and his sentiment models genuinely helped us identify local influencers. Great under deadline pressure.",
+        "avatar": "CA",
+        "platform": "LinkedIn Recommendation"
       },
       {
-        id: "rv5",
-        name: "Priya Sharma",
-        role: "Founder & CEO",
-        company: "Healthcare Analytics Startup",
-        rating: 5,
-        text: "Gaurav's Power BI skills are top-tier, but his real strength is translating messy business requirements into clean analytical models. Our investor dashboards he built helped us close our Series A round.",
-        avatar: "PS",
-        platform: "Direct Contract"
+        "id": "rv5",
+        "name": "Freelancer.com Client",
+        "role": "Small Business Owner",
+        "company": "Verified Buyer (Europe)",
+        "rating": 5,
+        "text": "Delivered exactly what was scoped — a clean Excel-to-Power BI migration in under a week. Communicated in clear English, shared progress every day. Would happily hire again for our next reporting project.",
+        "avatar": "FC",
+        "platform": "Freelancer.com"
       },
       {
-        id: "rv6",
-        name: "Thomas Müller",
-        role: "Senior Data Engineer",
-        company: "Logistics Firm, Munich",
-        rating: 5,
-        text: "Hired for a one-off SQL audit, ended up onboarding him as a long-term contractor. Pragmatic, reliable, and great at documentation — he leaves things better than he found them. Highly recommended.",
-        avatar: "TM",
-        platform: "Freelancer.com"
+        "id": "rv6",
+        "name": "Data Science Intern Mentor",
+        "role": "Innodatatics.ai",
+        "company": "Ex-Manager, NY",
+        "rating": 5,
+        "text": "During his internship Gaurav shipped three production-grade projects — a food recommender on Spark, a facial-recognition attendance system, and a math-OCR pipeline. Rare combination of curiosity and execution for someone that early in his career.",
+        "avatar": "IM",
+        "platform": "LinkedIn Recommendation"
       }
     ]
   },
-  contact: {
-    sectionTag: "Get In Touch",
-    sectionTitle: "Let's Work Together",
-    formHeading: "Send a Message",
-    formIntro: "Have a project in mind? Fill out the form below and I'll get back within 24 hours.",
-    sideHeading: "Available for Projects",
-    sideIntro: "I am actively seeking <strong>project-based and retainer engagements</strong> with European and global clients. I bring 4+ years of enterprise reporting experience, proven automation impact, and immediate availability for remote work.",
-    items: [
-      { id: "ci1", icon: "fas fa-envelope", label: "Email", value: "gauravkumarvishwakarma@gmail.com", link: "mailto:gauravkumarvishwakarma@gmail.com" },
-      { id: "ci2", icon: "fas fa-phone", label: "Phone", value: "+91 (813) 067-6651", link: "tel:+918130676651" },
-      { id: "ci3", icon: "fas fa-map-marker-alt", label: "Location", value: "Bengaluru, India (Remote/Global)", link: "" }
+  "contact": {
+    "sectionTag": "Let's Build Something",
+    "sectionTitle": "3 Ways to Get Started",
+    "formHeading": "Send a Project Brief",
+    "formIntro": "Share your requirements below. I typically respond within 4 hours (Mon–Sat, 9 AM – 9 PM IST).",
+    "sideHeading": "Currently Accepting New Projects",
+    "sideIntro": "I'm actively taking on <strong>direct engagements</strong> with European &amp; global clients — Power BI dashboards, SQL/Python automation, BI consulting, and Power BI training. <strong>Direct client work only</strong> — no platforms, no middlemen.",
+    "items": [
+      {
+        "id": "ci1",
+        "icon": "fas fa-envelope",
+        "label": "Email",
+        "value": "gauravkumarvishwakarma@gmail.com",
+        "link": "mailto:gauravkumarvishwakarma@gmail.com"
+      },
+      {
+        "id": "ci2",
+        "icon": "fas fa-phone",
+        "label": "Phone / WhatsApp",
+        "value": "+91-8130676651",
+        "link": "tel:+918130676651"
+      },
+      {
+        "id": "ci3",
+        "icon": "fab fa-whatsapp",
+        "label": "WhatsApp Chat",
+        "value": "Message me directly",
+        "link": "https://wa.me/918130676651?text=Hi%20Gaurav%2C%20I%27d%20like%20to%20discuss%20a%20BI%20project"
+      },
+      {
+        "id": "ci4",
+        "icon": "fas fa-map-marker-alt",
+        "label": "Location",
+        "value": "Bengaluru, India · Remote / Global",
+        "link": ""
+      },
+      {
+        "id": "ci5",
+        "icon": "fas fa-clock",
+        "label": "Response Time",
+        "value": "Within 4 hours (Mon–Sat)",
+        "link": ""
+      }
     ],
-    ctaHeading: "Have a Role or Project?",
-    ctaText: "Let's discuss how I can deliver automated, high-accuracy reporting solutions for your team. I respond within 24 hours.",
-    ctaButtons: [
-      { id: "cb1", icon: "fas fa-paper-plane", text: "Send Email", link: "mailto:gauravkumarvishwakarma@gmail.com", primary: true },
-      { id: "cb2", icon: "fab fa-linkedin-in", text: "LinkedIn", link: "https://linkedin.com/in/gauravkumarvishwakarma/" },
-      { id: "cb3", icon: "fas fa-briefcase", text: "Freelancer", link: "https://www.freelancer.com/u/gauravvishwakarma" },
-      { id: "cb4", icon: "fab fa-github", text: "GitHub", link: "https://github.com/GAURAV19999" }
+    "ctaHeading": "Ready to Start?",
+    "ctaText": "Book a free 20-min discovery call — no pitch, just understand your data challenge.",
+    "ctaButtons": [
+      {
+        "id": "cb1",
+        "text": "Book Discovery Call",
+        "icon": "fas fa-calendar-check",
+        "link": "mailto:gauravkumarvishwakarma@gmail.com?subject=Discovery%20Call%20Request&body=Hi%20Gaurav%2C%20I%27d%20like%20to%20book%20a%2020-min%20discovery%20call.",
+        "primary": true
+      },
+      {
+        "id": "cb2",
+        "text": "WhatsApp Me",
+        "icon": "fab fa-whatsapp",
+        "link": "https://wa.me/918130676651",
+        "primary": false
+      }
     ],
-    googleSheetUrl: "https://script.google.com/macros/s/AKfycbwVKs9wNwwOlqSaZU-yu-gT_JkgFl3hyO5CK0wciHDeyMS9s_Nmrixtq_npnUQUCIk4/exec"
+    "googleSheetUrl": "https://script.google.com/macros/s/AKfycbwVKs9wNwwOlqSaZU-yu-gT_JkgFl3hyO5CK0wciHDeyMS9s_Nmrixtq_npnUQUCIk4/exec"
   },
-  footer: {
-    text: "© 2026 Gaurav Kumar Vishvakarma. Built with precision for global clients.",
-    socials: [
-      { id: "fs1", icon: "fab fa-github", title: "GitHub", url: "https://github.com/GAURAV19999" },
-      { id: "fs2", icon: "fab fa-linkedin-in", title: "LinkedIn", url: "https://linkedin.com/in/gauravkumarvishwakarma/" },
-      { id: "fs3", icon: "fas fa-briefcase", title: "Freelancer", url: "https://www.freelancer.com/u/gauravvishwakarma" },
-      { id: "fs4", icon: "fab fa-x-twitter", title: "Twitter / X", url: "https://x.com/krgaurav959" },
-      { id: "fs5", icon: "fas fa-envelope", title: "Email", url: "mailto:gauravkumarvishwakarma@gmail.com" }
+  "footer": {
+    "text": "© 2026 Gaurav Kumar Vishvakarma · Independent Data Analyst & BI Consultant · Built for direct client engagements",
+    "socials": [
+      {
+        "id": "fs1",
+        "icon": "fab fa-linkedin-in",
+        "title": "LinkedIn",
+        "url": "https://linkedin.com/in/gauravkumarvishwakarma/"
+      },
+      {
+        "id": "fs2",
+        "icon": "fab fa-github",
+        "title": "GitHub",
+        "url": "https://github.com/GAURAV19999"
+      },
+      {
+        "id": "fs3",
+        "icon": "fab fa-x-twitter",
+        "title": "Twitter / X",
+        "url": "https://x.com/krgaurav959"
+      },
+      {
+        "id": "fs4",
+        "icon": "fas fa-envelope",
+        "title": "Email",
+        "url": "mailto:gauravkumarvishwakarma@gmail.com"
+      },
+      {
+        "id": "fs5",
+        "icon": "fab fa-whatsapp",
+        "title": "WhatsApp",
+        "url": "https://wa.me/918130676651"
+      }
     ]
   },
-  settings: { adminPassword: "admin2024", siteName: "GK.Vishvakarma" }
+  "settings": {
+    "adminPassword": "admin2024",
+    "siteName": "Gaurav KR Vishvakarma",
+    "metaTitle": "Freelance Data Analyst & Power BI Consultant | Gaurav Vishvakarma",
+    "metaDescription": "Hire an independent Power BI consultant & data analyst. 4+ years, 200+ enterprise reporting solutions, 45% avg time saved, 99.5% accuracy. Book a free 20-min discovery call."
+  },
+  "services": {
+    "enabled": true,
+    "sectionTag": "Services & Engagement Models",
+    "sectionTitle": "Transparent Pricing.<br>No Platform Fees.",
+    "sectionIntro": "Direct engagement — no middlemen. Choose the model that fits your needs. All pricing in USD; INR/EUR quoted on request.",
+    "items": [
+      {
+        "id": "sv1",
+        "icon": "fas fa-chart-bar",
+        "title": "Power BI Dashboard Build",
+        "description": "Custom dashboards with DAX, drill-through, slicers, RLS. Perfect for exec reporting.",
+        "priceRange": "$800 – $2,800",
+        "timeline": "3 days – 2 weeks",
+        "featured": false
+      },
+      {
+        "id": "sv2",
+        "icon": "fas fa-cogs",
+        "title": "SQL & ETL Automation",
+        "description": "Automated data pipelines, query optimization, reporting workflows.",
+        "priceRange": "$1,000 – $5,000",
+        "timeline": "1 – 3 weeks",
+        "featured": false
+      },
+      {
+        "id": "sv3",
+        "icon": "fas fa-sync-alt",
+        "title": "Monthly Retainer",
+        "description": "Ongoing BI support — dashboard updates, new reports, quick fixes, training.",
+        "priceRange": "$1,200 – $1,700 / mo",
+        "timeline": "20 hrs / month",
+        "featured": true,
+        "featuredLabel": "⭐ Most Popular"
+      },
+      {
+        "id": "sv4",
+        "icon": "fas fa-chalkboard-teacher",
+        "title": "Power BI Training",
+        "description": "1-on-1 or team training — DAX, dashboard design, data modeling, best practices.",
+        "priceRange": "$80 – $120 / hr",
+        "timeline": "Flexible",
+        "featured": false
+      },
+      {
+        "id": "sv5",
+        "icon": "fas fa-search",
+        "title": "Data Quality Audit",
+        "description": "Deep-dive audit of your data pipelines + validation framework recommendations.",
+        "priceRange": "$600 – $1,500",
+        "timeline": "3 – 7 days",
+        "featured": false
+      },
+      {
+        "id": "sv6",
+        "icon": "fas fa-lightbulb",
+        "title": "Analytics Consulting",
+        "description": "Strategic advisory on BI architecture, tool selection, team upskilling.",
+        "priceRange": "$80 – $120 / hr",
+        "timeline": "Hourly",
+        "featured": false
+      }
+    ],
+    "ctaText": "Not sure which model fits? Let's figure it out in a free 20-min discovery call.",
+    "ctaButton": "Book Discovery Call",
+    "ctaLink": "#contact"
+  },
+  "faq": {
+    "enabled": true,
+    "sectionTag": "Frequently Asked",
+    "sectionTitle": "FAQ · What Clients Ask Most",
+    "sectionDesc": "Common questions about working with me. If yours is not here — just ask.",
+    "items": [
+      {
+        "id": "q1",
+        "question": "What does a freelance data analyst do?",
+        "answer": "I turn raw data into decisions. That means designing SQL/ETL pipelines, building Power BI or Tableau dashboards, automating reporting, and translating findings into recommendations executives can act on. For many clients I also train their internal team so they own the system afterwards."
+      },
+      {
+        "id": "q2",
+        "question": "How much does a Power BI dashboard cost?",
+        "answer": "A one-off Power BI dashboard build starts at <strong>$800</strong> for a simple single-source report and goes up to <strong>$2,800</strong> for complex multi-source dashboards with DAX, drill-through and RLS. Retainers start at <strong>$1,200/month</strong> (20 hrs). Training is <strong>$80–$120/hr</strong>."
+      },
+      {
+        "id": "q3",
+        "question": "How long does it take to build an automated reporting dashboard?",
+        "answer": "A basic dashboard is <strong>3–5 days</strong>. A production-grade automated system with cleaned pipelines and multiple data sources is typically <strong>1–2 weeks</strong>. Every engagement starts with a free 20-min discovery call to scope timeline honestly."
+      },
+      {
+        "id": "q4",
+        "question": "Do you work with international clients?",
+        "answer": "Yes — I currently serve clients across <strong>Europe, North America, and Asia-Pacific</strong>. I quote in <strong>USD</strong> by default, invoice via Wise / Payoneer, and accept SEPA transfers for EU clients. Timezone-wise I overlap comfortably with EU mornings and US afternoons."
+      },
+      {
+        "id": "q5",
+        "question": "How do you handle data confidentiality?",
+        "answer": "Sample or masked datasets for evaluation, mutual NDA on request, no client data ever stored on personal machines, and delivery via the client's own cloud (SharePoint, Google Drive, S3). All access revoked at project close."
+      },
+      {
+        "id": "q6",
+        "question": "Can you migrate my Excel reports to Power BI?",
+        "answer": "Yes — Excel → Power BI migration is one of my most-requested engagements. Typical outcome: reports that took 2 days per week now refresh in minutes. Migration usually takes <strong>1 week</strong> and costs <strong>$1,200–$2,500</strong>."
+      },
+      {
+        "id": "q7",
+        "question": "Do you offer Power BI training?",
+        "answer": "Yes — 1-on-1 and small-team Power BI training covering DAX, data modeling, dashboard design and best practices. Rate: <strong>$80–$120/hr</strong> (INR ₹2,500/hr for India clients). Full 16-hour course package: <strong>₹36,000</strong>."
+      },
+      {
+        "id": "q8",
+        "question": "What happens after the discovery call?",
+        "answer": "You get a free 20-min call to describe your challenge. Within 24 hours I send back a written scope + fixed-price quote + timeline. If you approve, we start with a 50% deposit; final 50% on delivery. No lock-ins."
+      }
+    ]
+  },
+  "caseStudies": {
+    "enabled": true,
+    "sectionTag": "Real Client Work",
+    "sectionTitle": "Case Studies · Problem → Solution → Impact",
+    "sectionIntro": "Deep-dives into projects where automation, dashboards and honest scoping moved the numbers. Client identities anonymised on request.",
+    "items": [
+      {
+        "id": "cs1",
+        "slug": "patrakaar-ai-media-intelligence",
+        "title": "Patrakaar.AI — AI-Powered Media Intelligence Platform",
+        "tagline": "End-to-end NLP platform for brand & competitor monitoring",
+        "client": "Personal Product · Live Prototype",
+        "domain": "Media Intelligence · AI Products",
+        "duration": "Ongoing (Q2 2026 – Present)",
+        "stack": [
+          "Python",
+          "LangChain",
+          "RAG",
+          "Hugging Face",
+          "FastAPI",
+          "Streamlit",
+          "PostgreSQL",
+          "Docker"
+        ],
+        "thumbnail": "/images/projects/Media%20Intelligence.png",
+        "liveLink": "",
+        "liveLinkLabel": "Coming Soon",
+        "problem": "Enterprises spend ₹10-30 L/month on legacy media-monitoring platforms (Meltwater, CisionOne) that deliver static PDF reports. Analysts still hand-code sentiment, tag topics manually, and copy-paste into Excel. The bottleneck: understanding *why* a story matters, not just that it exists.",
+        "solution": [
+          "Built <strong>Patrakaar.AI</strong> — an AI agent that ingests news + social feeds, auto-classifies sentiment, extracts entities, and generates executive summaries in Hindi &amp; English",
+          "Implemented a <strong>RAG pipeline</strong> using LangChain + Hugging Face transformers for context-aware Q&amp;A over the daily news corpus",
+          "Streamlit dashboard for brand analysts — sentiment trend charts, share-of-voice, competitor benchmarking, and 1-click brief generation",
+          "REST API for enterprise integration; Docker-based deployment for on-prem or cloud",
+          "Every insight is <strong>source-linked</strong> — no hallucinations, verifiable citations"
+        ],
+        "results": [
+          {
+            "metric": "10K+",
+            "label": "Articles/day capacity"
+          },
+          {
+            "metric": "85%",
+            "label": "Sentiment accuracy (validated)"
+          },
+          {
+            "metric": "<3s",
+            "label": "Query response time"
+          },
+          {
+            "metric": "90%",
+            "label": "Manual coding reduced"
+          }
+        ],
+        "featured": true
+      },
+      {
+        "id": "cs2",
+        "slug": "political-campaign-election-analytics",
+        "title": "Political Campaign & Election Analytics",
+        "tagline": "Gram-panchayat-level voter analysis for 15+ campaign stakeholders",
+        "client": "Strategy Consulting Firm (Confidential · via ShowTime Consulting)",
+        "domain": "Political Analytics · Public Affairs",
+        "duration": "10 months (Sep 2021 – Jun 2022)",
+        "stack": [
+          "Power BI",
+          "Python",
+          "Scikit-learn",
+          "SQL",
+          "Streamlit",
+          "Excel"
+        ],
+        "thumbnail": "/images/projects/Sentiment%20Analysis.png",
+        "liveLink": "https://github.com/GAURAV19999/USA-Election-Sentiment-Analysis",
+        "liveLinkLabel": "View Related Code",
+        "problem": "Consulting firm supporting state-level political campaigns needed real-time voter-behavior insights at the gram-panchayat level. Field-team data was fragmented across 20+ Excel files updated daily, making stakeholder briefings slow and inconsistent.",
+        "solution": [
+          "Built ingestion pipeline consolidating daily field-team Excel updates into a unified SQL warehouse",
+          "Designed <strong>5+ Power BI dashboards</strong> segmented by state, constituency, demographic and issue",
+          "Trained <strong>influencer-detection models</strong> (Logistic Regression, MLP, Decision Trees) — 93% accuracy on labeled test set",
+          "Deployed <strong>sentiment-analysis Streamlit service</strong> for campaign strategists — real-time social listening across regional dialects",
+          "Weekly stakeholder briefings automated with executive-ready PPT export"
+        ],
+        "results": [
+          {
+            "metric": "15+",
+            "label": "Stakeholder dashboards live"
+          },
+          {
+            "metric": "93%",
+            "label": "Influencer detection accuracy"
+          },
+          {
+            "metric": "24,800+",
+            "label": "Mentions analysed"
+          },
+          {
+            "metric": "78.6%",
+            "label": "Sentiment model accuracy"
+          }
+        ],
+        "featured": false
+      },
+      {
+        "id": "cs3",
+        "slug": "sentiment-analysis-predictive-forecasting",
+        "title": "Sentiment Analysis & Predictive Forecasting",
+        "tagline": "Real-time multi-channel sentiment with 7-day forecast",
+        "client": "Personal Project · USA Election Case Study",
+        "domain": "NLP · Predictive Analytics",
+        "duration": "3 months",
+        "stack": [
+          "Python",
+          "VADER",
+          "Scikit-learn",
+          "Streamlit",
+          "Pandas",
+          "NLTK"
+        ],
+        "thumbnail": "/images/projects/Sentiment%20Analysis.png",
+        "liveLink": "https://github.com/GAURAV19999/USA-Election-Sentiment-Analysis",
+        "liveLinkLabel": "View Code",
+        "problem": "Brand teams get sentiment reports 2-3 weeks late. By then the crisis is already viral. Needed a lightweight pipeline that tracks sentiment across news, Twitter and blogs in near-real-time, plus a 7-day forward projection so PR teams can pre-empt narratives.",
+        "solution": [
+          "Built end-to-end pipeline ingesting <strong>24,800+ mentions</strong> across news, social and blog channels",
+          "Combined <strong>VADER + custom-trained ML models</strong> for domain-specific sentiment (political + brand)",
+          "Time-series forecasting layer (ARIMA + exponential smoothing) achieving <strong>78.6% directional accuracy</strong> on a 7-day horizon",
+          "Interactive <strong>Streamlit dashboard</strong> — topic-impact analysis, alert triggers, and drill-through into the actual mentions",
+          "Exportable weekly PDF report auto-generated every Monday morning"
+        ],
+        "results": [
+          {
+            "metric": "24,800+",
+            "label": "Mentions analysed"
+          },
+          {
+            "metric": "78.6%",
+            "label": "Forecast accuracy"
+          },
+          {
+            "metric": "<5min",
+            "label": "End-to-end refresh time"
+          },
+          {
+            "metric": "3",
+            "label": "Data channels integrated"
+          }
+        ],
+        "featured": false
+      },
+      {
+        "id": "cs4",
+        "slug": "ecommerce-sales-analytics-dashboard",
+        "title": "E-commerce Sales Analytics Dashboard",
+        "tagline": "Multi-region Tableau dashboard — $2.3M sales analysis",
+        "client": "Retail Data Case Study (Superstore Dataset)",
+        "domain": "E-commerce · Retail Analytics",
+        "duration": "2 weeks",
+        "stack": [
+          "Tableau",
+          "SQL",
+          "Excel",
+          "Data Modelling"
+        ],
+        "thumbnail": "/images/projects/super_store.png",
+        "liveLink": "https://public.tableau.com/app/profile/gaurav.kumar.vishvakarma/viz/SuperstoreSalesAnalysisDashboard_16281781742050/Dashboard1",
+        "liveLinkLabel": "View Live Dashboard",
+        "problem": "Retail executive team was drowning in disconnected sales reports across 4 regions and 17 sub-categories. Wanted a single interactive view to spot profit drivers, loss-making segments, and ship-mode trends — without waiting on the BI team for every question.",
+        "solution": [
+          "Modeled <strong>9,994 retail orders</strong> across regions, sub-categories, ship modes and customer segments",
+          "Built <strong>Tableau dashboard</strong> with drill-down from region → state → city → order-level detail",
+          "Profit-loss heatmap surfacing underperforming categories (Tables, Bookcases) vs top performers (Phones, Copiers)",
+          "Interactive filters for Segment (Consumer / Corporate / Home Office) and Ship Mode with dynamic KPI recalculation",
+          "Published to Tableau Public — self-serve executive reporting with zero training required"
+        ],
+        "results": [
+          {
+            "metric": "$2.3M",
+            "label": "Sales analysed"
+          },
+          {
+            "metric": "$286K",
+            "label": "Profit patterns surfaced"
+          },
+          {
+            "metric": "17",
+            "label": "Sub-categories tracked"
+          },
+          {
+            "metric": "4",
+            "label": "Regions unified"
+          }
+        ],
+        "featured": false
+      },
+      {
+        "id": "cs5",
+        "slug": "supply-chain-sprint-tracking-powerbi",
+        "title": "Supply Chain Sprint Tracking Dashboard",
+        "tagline": "Live Power BI enhancement + training for SCM Manager",
+        "client": "Supply Chain Manager · SaaS Company (Confidential · India)",
+        "domain": "Supply Chain · Sprint Analytics",
+        "duration": "2 sessions + ongoing training",
+        "stack": [
+          "Power BI",
+          "DAX",
+          "Power Query"
+        ],
+        "thumbnail": "/images/projects/Media%20Intelligence.png",
+        "liveLink": "",
+        "liveLinkLabel": "NDA Protected",
+        "problem": "SCM Manager’s existing Power BI dashboard tracked Sprint / Developer / Stream / Status data but had zero interactivity. Manager had to manually filter and export every time leadership asked “how is Sprint X trending?” — burning 6-8 hours/week.",
+        "solution": [
+          "Added <strong>top-level slicers</strong> (Sprint / Developer / Stream / Status) with cross-filter behaviour tuned",
+          "Built dedicated <strong>Drillthrough page</strong> for individual Impact IDs — one click, full context",
+          "Implemented <strong>conditional formatting</strong> on Status column with intuitive colour semantics (Green/Amber/Red)",
+          "Added Back-button navigation, hidden support pages, and cleaned up model relationships",
+          "Delivered <strong>foolproof step-by-step documentation</strong> so the manager can train new joiners without me",
+          "Follow-up: 16-hour Power BI training programme booked (₹36,000)"
+        ],
+        "results": [
+          {
+            "metric": "1.5h",
+            "label": "First engagement delivery"
+          },
+          {
+            "metric": "5★",
+            "label": "Client rating"
+          },
+          {
+            "metric": "16h",
+            "label": "Training programme rebooked"
+          },
+          {
+            "metric": "100%",
+            "label": "On-time delivery rate"
+          }
+        ],
+        "featured": false
+      }
+    ]
+  },
+  "blog": {
+    "enabled": true,
+    "sectionTag": "Data & BI Insights",
+    "sectionTitle": "Blog · Field Notes from the BI Trenches",
+    "sectionIntro": "Practical writeups on Power BI patterns, freelance strategy, and analytics case studies — no filler, just what worked.",
+    "items": [
+      {
+        "id": "bp1",
+        "slug": "power-bi-dax-patterns-2026",
+        "title": "7 Power BI DAX Patterns Every Data Analyst Should Know in 2026",
+        "excerpt": "After 4+ years building Power BI dashboards for 200+ enterprise engagements, these are the 7 DAX patterns I reach for in 90% of my work. Copy-paste ready.",
+        "coverImage": "/images/projects/Market%20Research%20Reporting.png",
+        "tags": [
+          "Power BI",
+          "DAX",
+          "Tutorial",
+          "BI"
+        ],
+        "author": "Gaurav Kumar Vishvakarma",
+        "date": "2026-06-15",
+        "readingTime": "8 min read",
+        "featured": true,
+        "content": "<p>After 4+ years building Power BI dashboards for 200+ enterprise engagements, I've noticed something consistent: the dashboards that survive and scale all share a handful of well-written DAX patterns.</p>\n\n<p>The dashboards that get rebuilt every quarter? They reinvent the wheel each time.</p>\n\n<p>So I compiled the <strong>7 DAX patterns</strong> I reach for in 90% of my Power BI engagements — patterns that work whether you're tracking BFSI tracker studies, HR attrition, e-commerce funnels, or operational KPIs.</p>\n\n<h2>1. The \"Date Intelligence\" Foundation</h2>\n<p><strong>Use case:</strong> Year-over-year comparisons, month-to-date totals, rolling 12-month averages.</p>\n<p>This is the <strong>single most reused pattern</strong> in enterprise BI. If you can't write Time Intelligence DAX, you can't ship dashboards.</p>\n<pre><code>-- Total Sales (base measure)\nTotal Sales = SUM(Sales[Amount])\n\n-- Sales YTD (Year-to-Date)\nSales YTD = TOTALYTD([Total Sales], 'Date'[Date])\n\n-- Sales PY (Same period prior year)\nSales PY = CALCULATE([Total Sales], SAMEPERIODLASTYEAR('Date'[Date]))\n\n-- YoY % Growth\nYoY Growth % = DIVIDE([Total Sales] - [Sales PY], [Sales PY], 0)</code></pre>\n<p><strong>The trap to avoid:</strong> Don't use <code>EARLIER()</code> for date comparisons. Use a proper date dimension table marked as a date table.</p>\n\n<h2>2. The \"Top N + Others\" Bucket</h2>\n<p><strong>Use case:</strong> Show top 5 products/clients/regions, and bucket the rest as \"Others\" without filtering them out.</p>\n<pre><code>Sales Top 5 + Others =\nVAR ProductRank = RANKX(ALLSELECTED(Product[Name]), [Total Sales],, DESC)\nVAR Result = IF(ProductRank <= 5, SELECTEDVALUE(Product[Name]), \"Others\")\nRETURN Result</code></pre>\n\n<h2>3. Dynamic Measure Selector</h2>\n<p><strong>Use case:</strong> Let users toggle between Sales, Profit, and Units from a single slicer without duplicating visuals.</p>\n<p>Create a disconnected table with your measure names, then use <code>SELECTEDVALUE()</code> + <code>SWITCH()</code> to route the calculation.</p>\n\n<h2>4. Conditional Formatting via DAX</h2>\n<p><strong>Use case:</strong> Colour cells based on threshold (e.g. red if margin &lt; 10%).</p>\n<pre><code>Margin Colour =\nVAR M = DIVIDE([Total Profit], [Total Sales])\nRETURN SWITCH(TRUE(),\n    M < 0.05, \"#dc2626\",\n    M < 0.15, \"#f59e0b\",\n    \"#10b981\")</code></pre>\n\n<h2>5. Cohort Retention</h2>\n<p><strong>Use case:</strong> Track customer retention by acquisition month.</p>\n<p>Use <code>USERELATIONSHIP()</code> on an inactive relationship between your Customer[FirstOrderDate] and Date[Date] table to compute cohort buckets cleanly.</p>\n\n<h2>6. RLS with USERPRINCIPALNAME()</h2>\n<p><strong>Use case:</strong> Show each regional manager only their region's data — from a single dashboard.</p>\n<pre><code>[Region] = LOOKUPVALUE(UserMapping[Region], UserMapping[Email], USERPRINCIPALNAME())</code></pre>\n\n<h2>7. Rolling 12-Month Average</h2>\n<pre><code>Sales R12M =\nCALCULATE([Total Sales],\n    DATESINPERIOD('Date'[Date], LASTDATE('Date'[Date]), -12, MONTH))</code></pre>\n\n<h2>Wrap-up</h2>\n<p>These 7 patterns cover 80-90% of real dashboard requirements. Nail these and you'll deliver 3x faster than analysts who reinvent every measure from scratch.</p>\n\n<p><em>Need Power BI training for your team? <a href='#contact'>Book a discovery call</a> — I run 1:1 and small-group programmes.</em></p>"
+      },
+      {
+        "id": "bp2",
+        "slug": "freelance-data-analyst-europe-guide",
+        "title": "How I Landed My First 5 European Freelance Data Analyst Clients (From India)",
+        "excerpt": "The exact playbook: what worked, what didn't, and the templates I used. No fluff — just what a mid-career Indian analyst can copy today.",
+        "coverImage": "/images/projects/Sentiment%20Analysis.png",
+        "tags": [
+          "Freelance",
+          "Career",
+          "Data Analyst",
+          "Europe"
+        ],
+        "author": "Gaurav Kumar Vishvakarma",
+        "date": "2026-07-01",
+        "readingTime": "6 min read",
+        "featured": false,
+        "content": "<p>Six months ago I left a comfortable ₹6.3 L job at Acuity Knowledge Partners to go independent. I had a portfolio, some certificates, and a vague idea that \"European clients pay in Euros so it must be more.\"</p>\n\n<p>Today I'm running <strong>$1,200-$1,700/month retainers</strong> with clients across Germany, the Netherlands and the UK. Here's exactly what worked.</p>\n\n<h2>Step 1: Pick a Narrow Positioning (Not \"Data Analyst\")</h2>\n<p>Nobody hires a \"data analyst\" anymore — that's a 500-applicant JD. I positioned as <strong>\"Independent Power BI Consultant for SMEs migrating from Excel\"</strong>. Instantly:</p>\n<ul>\n<li>Smaller pond, less competition</li>\n<li>Clear problem statement clients recognise</li>\n<li>Justifies premium pricing ($80-$120/hr vs $15/hr generic)</li>\n</ul>\n\n<h2>Step 2: Portfolio as Sales Asset (Not a CV)</h2>\n<p>Your portfolio is not a résumé. It's a <em>sales page</em>. Mine has 6 things:</p>\n<ol>\n<li>A one-line promise (\"I help businesses replace spreadsheet chaos with automated Power BI dashboards\")</li>\n<li>Transparent pricing (yes, publicly)</li>\n<li>3-5 case studies with numbers</li>\n<li>A <strong>\"Book Discovery Call\"</strong> CTA (Calendly + WhatsApp)</li>\n<li>FAQs answering the 8 questions every client asks</li>\n<li>A downloadable Service Deck PDF</li>\n</ol>\n\n<h2>Step 3: Cold Outreach — The 20/day Rule</h2>\n<p>LinkedIn Sales Navigator, filter by:</p>\n<ul>\n<li><strong>Company size:</strong> 50-500 employees</li>\n<li><strong>Region:</strong> Netherlands, Germany, UK, Nordics</li>\n<li><strong>Roles:</strong> Head of Operations, VP Finance, CFO, COO</li>\n<li><strong>Industries:</strong> E-commerce, SaaS, Fintech, Logistics</li>\n</ul>\n<p>Send 20 personalised connect requests per day (never mass-blast). My conversion:</p>\n<ul>\n<li>20 requests → 8 accepts</li>\n<li>8 accepts → 3 replies</li>\n<li>3 replies → 1 discovery call</li>\n<li>1 discovery call → 40% become clients</li>\n</ul>\n\n<h2>Step 4: Discovery Call Playbook</h2>\n<p>My call script is dead simple:</p>\n<ol>\n<li>2 min: Their business context</li>\n<li>10 min: The specific pain (what breaks, how often, cost)</li>\n<li>5 min: If I can help, I say \"here's roughly what it takes, cost X, timeline Y\"</li>\n<li>3 min: Next steps — I email a written scope in 24 hours</li>\n</ol>\n<p><strong>No sales language. No pressure. Just: can I help or not?</strong></p>\n\n<h2>Step 5: Pricing in USD (Not INR)</h2>\n<p>Quoting in Rupees signals \"cheap Indian freelancer\" — even to friendly clients. I quote in <strong>USD</strong>, invoice via <strong>Wise</strong>, and receive to my Indian account. The friction cost is under 1%.</p>\n\n<h2>Step 6: First 3 Clients — Charge Less, Deliver More</h2>\n<p>My first Berlin client got a dashboard at 30% below my target rate. Why? For the <strong>testimonial + case study rights</strong>. That one case study directly landed me the next two clients.</p>\n\n<h2>The Numbers, Honestly</h2>\n<table>\n<tr><td>Month 1</td><td>0 clients, 200 outreach messages</td></tr>\n<tr><td>Month 2</td><td>1 discovery call, no close</td></tr>\n<tr><td>Month 3</td><td>1 client, $850 project</td></tr>\n<tr><td>Month 4</td><td>2 clients, $2,400 total</td></tr>\n<tr><td>Month 5</td><td>3 clients, retainer starts ($1,200/mo)</td></tr>\n<tr><td>Month 6</td><td>5 active clients, ~$4,500 MRR</td></tr>\n</table>\n\n<h2>What I'd Do Differently</h2>\n<ul>\n<li><strong>Start the portfolio earlier</strong> — I lost 6 weeks tweaking React themes instead of writing case studies</li>\n<li><strong>Write on LinkedIn from Day 1</strong> — even one post per week compounds</li>\n<li><strong>Say no faster</strong> — I took 2 misfit projects that ate my time and paid poorly</li>\n</ul>\n\n<p><em>Want the actual cold-outreach templates I use? <a href='#contact'>Ping me on WhatsApp</a> and I'll share the doc.</em></p>"
+      }
+    ]
+  }
 };

@@ -1,5 +1,6 @@
 # robots.txt for Gaurav Kumar Vishvakarma's Portfolio
 # https://iamgaurav.netlify.app/
+# Updated: July 2026 — AI crawlers ALLOWED for modern discovery
 
 User-agent: *
 Allow: /
@@ -10,13 +11,15 @@ Disallow: /admin/
 User-agent: Googlebot
 Allow: /
 Disallow: /admin
+Crawl-delay: 1
 
 # Bing
 User-agent: Bingbot
 Allow: /
 Disallow: /admin
+Crawl-delay: 1
 
-# LinkedIn
+# LinkedIn (for rich preview when shared)
 User-agent: LinkedInBot
 Allow: /
 
@@ -24,15 +27,19 @@ Allow: /
 User-agent: Twitterbot
 Allow: /
 
-# Facebook
+# Facebook (for rich preview when shared)
 User-agent: facebookexternalhit
 Allow: /
 
-# WhatsApp
+# WhatsApp (for rich link preview)
 User-agent: WhatsApp
 Allow: /
 
-# AI Crawlers — ALLOW (important for 2026 discovery!)
+# ============================================
+# AI CRAWLERS — ALLOWED for 2026 discoverability
+# People search on ChatGPT/Claude/Perplexity now.
+# Let them find you.
+# ============================================
 User-agent: GPTBot
 Allow: /
 
@@ -48,8 +55,20 @@ Allow: /
 User-agent: Claude-Web
 Allow: /
 
+User-agent: ClaudeBot
+Allow: /
+
 User-agent: PerplexityBot
 Allow: /
 
-# Sitemap
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# Sitemap location
 Sitemap: https://iamgaurav.netlify.app/sitemap.xml

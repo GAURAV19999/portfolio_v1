@@ -1,76 +1,183 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 
-  <!-- Homepage (canonical, all hreflang variants) -->
+  <!-- Homepage -->
   <url>
     <loc>https://iamgaurav.netlify.app/</loc>
-    <lastmod>2026-06-13</lastmod>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://iamgaurav.netlify.app/"/>
-    <xhtml:link rel="alternate" hreflang="en-IN" href="https://iamgaurav.netlify.app/in"/>
-    <xhtml:link rel="alternate" hreflang="en-GB" href="https://iamgaurav.netlify.app/uk"/>
-    <xhtml:link rel="alternate" hreflang="en-DE" href="https://iamgaurav.netlify.app/de"/>
-    <xhtml:link rel="alternate" hreflang="en-NL" href="https://iamgaurav.netlify.app/nl"/>
-    <xhtml:link rel="alternate" hreflang="en-FR" href="https://iamgaurav.netlify.app/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://iamgaurav.netlify.app/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://iamgaurav.netlify.app/" />
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://iamgaurav.netlify.app/in" />
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://iamgaurav.netlify.app/uk" />
+    <xhtml:link rel="alternate" hreflang="en-DE" href="https://iamgaurav.netlify.app/de" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://iamgaurav.netlify.app/nl" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://iamgaurav.netlify.app/" />
     <image:image>
       <image:loc>https://iamgaurav.netlify.app/images/Gaurav.png</image:loc>
-      <image:title>Gaurav Kumar Vishvakarma — Freelance Data Analyst</image:title>
-      <image:caption>Profile photo of Gaurav Kumar Vishvakarma, Freelance Data Analyst and BI Engineer based in Bengaluru, India.</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://iamgaurav.netlify.app/og-image.png</image:loc>
-      <image:title>Gaurav Kumar Vishvakarma — Portfolio Cover</image:title>
+      <image:title>Gaurav Kumar Vishvakarma — Independent Data Analyst &amp; BI Consultant</image:title>
     </image:image>
   </url>
 
-  <!-- India landing page -->
+  <!-- Section anchors -->
+  <url>
+    <loc>https://iamgaurav.netlify.app/#about</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://iamgaurav.netlify.app/#services</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <url>
+    <loc>https://iamgaurav.netlify.app/#skills</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://iamgaurav.netlify.app/#experience</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://iamgaurav.netlify.app/#projects</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://iamgaurav.netlify.app/#certificates</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://iamgaurav.netlify.app/faq</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://iamgaurav.netlify.app/#contact</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Case Studies -->
+  <url>
+    <loc>https://iamgaurav.netlify.app/case-studies</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://iamgaurav.netlify.app/case-studies/patrakaar-ai-media-intelligence</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://iamgaurav.netlify.app/case-studies/political-campaign-election-analytics</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://iamgaurav.netlify.app/case-studies/sentiment-analysis-predictive-forecasting</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://iamgaurav.netlify.app/case-studies/ecommerce-sales-analytics-dashboard</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://iamgaurav.netlify.app/case-studies/supply-chain-sprint-tracking-powerbi</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Blog -->
+  <url>
+    <loc>https://iamgaurav.netlify.app/blog</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://iamgaurav.netlify.app/blog/power-bi-dax-patterns-2026</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://iamgaurav.netlify.app/blog/freelance-data-analyst-europe-guide</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Country pages -->
   <url>
     <loc>https://iamgaurav.netlify.app/in</loc>
-    <lastmod>2026-06-13</lastmod>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="en-IN" href="https://iamgaurav.netlify.app/in"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://iamgaurav.netlify.app/"/>
   </url>
 
-  <!-- UK landing page -->
   <url>
     <loc>https://iamgaurav.netlify.app/uk</loc>
-    <lastmod>2026-06-13</lastmod>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="en-GB" href="https://iamgaurav.netlify.app/uk"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://iamgaurav.netlify.app/"/>
   </url>
 
-  <!-- Germany landing page -->
   <url>
     <loc>https://iamgaurav.netlify.app/de</loc>
-    <lastmod>2026-06-13</lastmod>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="en-DE" href="https://iamgaurav.netlify.app/de"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://iamgaurav.netlify.app/"/>
   </url>
 
-  <!-- Netherlands landing page -->
   <url>
     <loc>https://iamgaurav.netlify.app/nl</loc>
-    <lastmod>2026-06-13</lastmod>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="en-NL" href="https://iamgaurav.netlify.app/nl"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://iamgaurav.netlify.app/"/>
   </url>
 
-  <!-- Lead magnet (Power BI DAX Quickstart Pack PDF) -->
+  <!-- Lead Magnets / Downloads -->
   <url>
     <loc>https://iamgaurav.netlify.app/downloads/PowerBI-DAX-Quickstart-Pack.pdf</loc>
-    <lastmod>2026-06-13</lastmod>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://iamgaurav.netlify.app/downloads/Gaurav-Vishvakarma-Service-Deck.pdf</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
   </url>
 
 </urlset>

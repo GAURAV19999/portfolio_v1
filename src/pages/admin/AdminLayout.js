@@ -21,6 +21,8 @@ const AdminLayout = ({ children }) => {
     { p: '/admin/skills', l: 'Skills', i: 'fas fa-cogs' },
     { p: '/admin/experience', l: 'Experience', i: 'fas fa-briefcase' },
     { p: '/admin/projects', l: 'Projects', i: 'fas fa-rocket' },
+    { p: '/admin/case-studies', l: 'Case Studies', i: 'fas fa-book-open' },
+    { p: '/admin/blog', l: 'Blog', i: 'far fa-newspaper' },
     { p: '/admin/testimonials', l: 'Reviews', i: 'fas fa-star' },
     { p: '/admin/certificates', l: 'Certificates', i: 'fas fa-certificate' },
     { p: '/admin/contact', l: 'Contact Info', i: 'fas fa-envelope' },

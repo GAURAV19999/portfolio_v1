@@ -3,6 +3,7 @@ import { useData } from '../context/DataContext';
 import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
 import About from '../components/About';
+import Services from '../components/Services';
 import Tools from '../components/Tools';
 import Skills from '../components/Skills';
 import Experience from '../components/Experience';
@@ -30,6 +31,7 @@ const Home = () => {
       <Navbar logo={data.settings?.siteName} />
       <Hero data={data.hero} />
       <About data={data.about} />
+      <Services data={data.services} />
       <Tools data={data.tools} />
       <Skills data={data.skills} />
       <Experience data={data.experience} />
