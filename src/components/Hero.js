@@ -17,7 +17,12 @@ const Hero = ({ data }) => (
         <p className="hero-subtitle">{data.subtitle}</p>
         <p className="hero-desc" dangerouslySetInnerHTML={{ __html: data.description }} />
         <div className="hero-cta">
-          <a href={data.primaryCtaLink} className="btn btn-primary">
+          <a
+            href={data.primaryCtaLink}
+            target={data.primaryCtaLink?.startsWith('http') ? '_blank' : undefined}
+            rel={data.primaryCtaLink?.startsWith('http') ? 'noopener noreferrer' : undefined}
+            className="btn btn-primary"
+          >
             <i className={data.primaryCtaIcon}></i>
             {data.primaryCtaText}
           </a>
