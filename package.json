@@ -10,6 +10,7 @@
   },
   "scripts": {
     "start": "node node_modules/react-scripts/bin/react-scripts.js start",
+    "prebuild": "node scripts/sync-initial-data.js",
     "build": "node node_modules/react-scripts/bin/react-scripts.js build",
     "postbuild": "node scripts/prerender-meta.js",
     "test": "node node_modules/react-scripts/bin/react-scripts.js test"

@@ -1,5 +1,5 @@
 // AUTO-GENERATED from portfolioData.json — do not edit manually
-// Regenerate with: python scripts/sync_initial_data.py
+// Regenerate with: node scripts/sync-initial-data.js (runs automatically on build via prebuild)
 
 export const initialData = {
   "hero": {
