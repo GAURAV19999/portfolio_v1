@@ -139,6 +139,17 @@
     <priority>0.85</priority>
   </url>
 
+  <url>
+    <loc>https://iamgaurav.netlify.app/hr-dashboard.html</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://iamgaurav.netlify.app/images/projects/hr-dashboard-attrition.jpg</image:loc>
+      <image:title>HR Analytics Dashboard — Power BI-style demo</image:title>
+    </image:image>
+  </url>
+
   <!-- Lead Magnets / Downloads -->
   <url>
     <loc>https://iamgaurav.netlify.app/downloads/PowerBI-DAX-Quickstart-Pack.pdf</loc>
