@@ -73,6 +73,13 @@
 
   <!-- Blog posts -->
   <url>
+    <loc>https://iamgaurav.netlify.app/blog/power-bi-dashboard-cost-2026</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
     <loc>https://iamgaurav.netlify.app/blog/power-bi-dax-patterns-2026</loc>
     <lastmod>2026-06-15</lastmod>
     <changefreq>monthly</changefreq>
