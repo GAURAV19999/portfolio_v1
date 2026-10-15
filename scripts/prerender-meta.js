@@ -65,6 +65,22 @@ try {
       title: 'Freelance Power BI Developer for Netherlands | Remote India | Hire Gaurav',
       desc: 'Hire a Freelance Data Analyst & Power BI Developer for Dutch projects. 4+ years of BI, SQL, Snowflake, and AI analytics. Remote-first, NL-friendly hours, GDPR-aware. 50-70% cost-effective vs NL-local rates. Strong fit for Amsterdam fintech, e-commerce, and SaaS clients.',
     },
+    usa: {
+      title: 'Freelance Power BI Developer & Data Analyst for USA | Remote | Hire Gaurav',
+      desc: 'Hire a Freelance Data Analyst & Power BI Developer for US projects. 4+ years building BI dashboards, SQL/Snowflake pipelines, and AI/RAG analytics. Remote-first, US-hours overlap, 50-70% cost-effective vs US-local rates. BFSI, SaaS, e-commerce experience.',
+    },
+    australia: {
+      title: 'Freelance Power BI Developer & Data Analyst for Australia | Remote | Hire Gaurav',
+      desc: 'Hire a Freelance Data Analyst & Power BI Developer for Australian projects. 4+ years of BI, SQL, Snowflake, and AI analytics. Remote-first, strong AEST overlap, English-fluent. Cost-effective vs AU-local rates. Great fit for Sydney & Melbourne fintech, retail, and SaaS.',
+    },
+    canada: {
+      title: 'Freelance Power BI Developer & Data Analyst for Canada | Remote | Hire Gaurav',
+      desc: 'Hire a Freelance Data Analyst & Power BI Developer for Canadian projects. 4+ years of BI, SQL, Snowflake, and AI analytics. Remote-first, US/Canada-hours overlap, English-fluent. Cost-effective vs CA-local rates. Strong fit for Toronto & Vancouver fintech, retail, and SaaS.',
+    },
+    uae: {
+      title: 'Freelance Power BI Developer & Data Analyst for UAE & Dubai | Hire Gaurav',
+      desc: 'Hire a Freelance Data Analyst & Power BI Developer for UAE & Gulf projects. 4+ years of BI, SQL, Snowflake, and AI analytics. Remote-first, near-identical timezone (GST), English-fluent. Strong fit for Dubai & Abu Dhabi trading, retail, real estate, and logistics.',
+    },
   };
 
   // route -> { title, desc, canonical } ; canonical defaults to the route itself
@@ -78,6 +94,15 @@ try {
   routes['/germany'] = { ...COUNTRY.germany, canonical: '/de' };
   routes['/nl'] = { ...COUNTRY.netherlands };
   routes['/netherlands'] = { ...COUNTRY.netherlands, canonical: '/nl' };
+  routes['/us'] = { ...COUNTRY.usa };
+  routes['/usa'] = { ...COUNTRY.usa, canonical: '/us' };
+  routes['/au'] = { ...COUNTRY.australia };
+  routes['/australia'] = { ...COUNTRY.australia, canonical: '/au' };
+  routes['/ca'] = { ...COUNTRY.canada };
+  routes['/canada'] = { ...COUNTRY.canada, canonical: '/ca' };
+  routes['/ae'] = { ...COUNTRY.uae };
+  routes['/uae'] = { ...COUNTRY.uae, canonical: '/ae' };
+  routes['/dubai'] = { ...COUNTRY.uae, canonical: '/ae' };
 
   // Section pages (titles mirror each page's document.title)
   routes['/case-studies'] = {

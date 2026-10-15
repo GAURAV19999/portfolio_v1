@@ -42,6 +42,15 @@ const App = () => (
           <Route path="/germany" element={<CountryLanding country="germany" />} />
           <Route path="/nl" element={<CountryLanding country="netherlands" />} />
           <Route path="/netherlands" element={<CountryLanding country="netherlands" />} />
+          <Route path="/us" element={<CountryLanding country="usa" />} />
+          <Route path="/usa" element={<CountryLanding country="usa" />} />
+          <Route path="/au" element={<CountryLanding country="australia" />} />
+          <Route path="/australia" element={<CountryLanding country="australia" />} />
+          <Route path="/ca" element={<CountryLanding country="canada" />} />
+          <Route path="/canada" element={<CountryLanding country="canada" />} />
+          <Route path="/ae" element={<CountryLanding country="uae" />} />
+          <Route path="/uae" element={<CountryLanding country="uae" />} />
+          <Route path="/dubai" element={<CountryLanding country="uae" />} />
 
           {/* Case Studies (SEO surface + trust) */}
           <Route path="/case-studies" element={<CaseStudies />} />
