@@ -51,35 +51,35 @@ try {
   const COUNTRY = {
     india: {
       title: 'Freelance Data Analyst & Power BI Developer in India | Hire Gaurav | Bengaluru',
-      desc: 'Hire Gaurav Kumar Vishvakarma — Freelance Data Analyst & Power BI Developer in Bengaluru, India. 4+ years building dashboards, SQL/Python pipelines, and AI analytics for 200+ BFSI clients. Available immediately for remote freelance & full-time roles across India.',
+      desc: 'Hire Gaurav Kumar Vishvakarma — Freelance Data Analyst & Power BI Developer in Bengaluru, India. 5+ years building dashboards, SQL/Python pipelines, and AI analytics for 200+ BFSI clients. Available immediately for remote freelance & full-time roles across India.',
     },
     uk: {
       title: 'Freelance Power BI Developer & Data Analyst for UK | Remote India | Hire Gaurav',
-      desc: 'Hire a Freelance Data Analyst & Power BI Developer for UK projects. 4+ years building BI dashboards, SQL pipelines, and AI analytics. Remote-first, UK-friendly hours, 50-70% cost-effective vs UK-local rates. BFSI, fintech, retail experience. Available immediately.',
+      desc: 'Hire a Freelance Data Analyst & Power BI Developer for UK projects. 5+ years building BI dashboards, SQL pipelines, and AI analytics. Remote-first, UK-friendly hours, 50-70% cost-effective vs UK-local rates. BFSI, fintech, retail experience. Available immediately.',
     },
     germany: {
       title: 'Freelance Power BI Developer & Data Analyst for Germany | Remote | Hire Gaurav',
-      desc: 'Hire a Freelance Data Analyst & Power BI Developer for German (DACH) projects. 4+ years of enterprise BI, SQL, Snowflake, and AI analytics. Remote-first, GDPR-aware, DACH-friendly hours. 50-70% cost-effective vs German-local rates. Available for SAP-adjacent and BFSI projects.',
+      desc: 'Hire a Freelance Data Analyst & Power BI Developer for German (DACH) projects. 5+ years of enterprise BI, SQL, Snowflake, and AI analytics. Remote-first, GDPR-aware, DACH-friendly hours. 50-70% cost-effective vs German-local rates. Available for SAP-adjacent and BFSI projects.',
     },
     netherlands: {
       title: 'Freelance Power BI Developer for Netherlands | Remote India | Hire Gaurav',
-      desc: 'Hire a Freelance Data Analyst & Power BI Developer for Dutch projects. 4+ years of BI, SQL, Snowflake, and AI analytics. Remote-first, NL-friendly hours, GDPR-aware. 50-70% cost-effective vs NL-local rates. Strong fit for Amsterdam fintech, e-commerce, and SaaS clients.',
+      desc: 'Hire a Freelance Data Analyst & Power BI Developer for Dutch projects. 5+ years of BI, SQL, Snowflake, and AI analytics. Remote-first, NL-friendly hours, GDPR-aware. 50-70% cost-effective vs NL-local rates. Strong fit for Amsterdam fintech, e-commerce, and SaaS clients.',
     },
     usa: {
       title: 'Freelance Power BI Developer & Data Analyst for USA | Remote | Hire Gaurav',
-      desc: 'Hire a Freelance Data Analyst & Power BI Developer for US projects. 4+ years building BI dashboards, SQL/Snowflake pipelines, and AI/RAG analytics. Remote-first, US-hours overlap, 50-70% cost-effective vs US-local rates. BFSI, SaaS, e-commerce experience.',
+      desc: 'Hire a Freelance Data Analyst & Power BI Developer for US projects. 5+ years building BI dashboards, SQL/Snowflake pipelines, and AI/RAG analytics. Remote-first, US-hours overlap, 50-70% cost-effective vs US-local rates. BFSI, SaaS, e-commerce experience.',
     },
     australia: {
       title: 'Freelance Power BI Developer & Data Analyst for Australia | Remote | Hire Gaurav',
-      desc: 'Hire a Freelance Data Analyst & Power BI Developer for Australian projects. 4+ years of BI, SQL, Snowflake, and AI analytics. Remote-first, strong AEST overlap, English-fluent. Cost-effective vs AU-local rates. Great fit for Sydney & Melbourne fintech, retail, and SaaS.',
+      desc: 'Hire a Freelance Data Analyst & Power BI Developer for Australian projects. 5+ years of BI, SQL, Snowflake, and AI analytics. Remote-first, strong AEST overlap, English-fluent. Cost-effective vs AU-local rates. Great fit for Sydney & Melbourne fintech, retail, and SaaS.',
     },
     canada: {
       title: 'Freelance Power BI Developer & Data Analyst for Canada | Remote | Hire Gaurav',
-      desc: 'Hire a Freelance Data Analyst & Power BI Developer for Canadian projects. 4+ years of BI, SQL, Snowflake, and AI analytics. Remote-first, US/Canada-hours overlap, English-fluent. Cost-effective vs CA-local rates. Strong fit for Toronto & Vancouver fintech, retail, and SaaS.',
+      desc: 'Hire a Freelance Data Analyst & Power BI Developer for Canadian projects. 5+ years of BI, SQL, Snowflake, and AI analytics. Remote-first, US/Canada-hours overlap, English-fluent. Cost-effective vs CA-local rates. Strong fit for Toronto & Vancouver fintech, retail, and SaaS.',
     },
     uae: {
       title: 'Freelance Power BI Developer & Data Analyst for UAE & Dubai | Hire Gaurav',
-      desc: 'Hire a Freelance Data Analyst & Power BI Developer for UAE & Gulf projects. 4+ years of BI, SQL, Snowflake, and AI analytics. Remote-first, near-identical timezone (GST), English-fluent. Strong fit for Dubai & Abu Dhabi trading, retail, real estate, and logistics.',
+      desc: 'Hire a Freelance Data Analyst & Power BI Developer for UAE & Gulf projects. 5+ years of BI, SQL, Snowflake, and AI analytics. Remote-first, near-identical timezone (GST), English-fluent. Strong fit for Dubai & Abu Dhabi trading, retail, real estate, and logistics.',
     },
   };
 
@@ -111,7 +111,7 @@ try {
   };
   routes['/blog'] = {
     title: 'Blog · Data & BI Insights | Gaurav Vishvakarma',
-    desc: 'Practical Power BI, SQL, DAX, and freelance data-analytics insights from 4+ years of enterprise BI work.',
+    desc: 'Practical Power BI, SQL, DAX, and freelance data-analytics insights from 5+ years of enterprise BI work.',
   };
   routes['/faq'] = {
     title: 'FAQ · Frequently Asked Questions | Gaurav Vishvakarma',

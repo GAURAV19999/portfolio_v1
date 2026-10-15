@@ -5,7 +5,7 @@
     "titleAccent": "Data Analyst",
     "titleSuffix": "& Power BI Consultant",
     "subtitle": "Power BI • SQL • Python • ETL Automation • Reporting Systems",
-    "description": "I help startups and enterprises replace <strong>spreadsheet chaos</strong> with <strong>automated Power BI dashboards</strong> and reliable data pipelines. Over <strong>4+ years</strong>, delivered <strong>200+ enterprise reporting solutions</strong> across media intelligence and financial services — cutting manual reporting time by <strong>45%</strong> with <strong>99.5% data accuracy</strong>. Direct engagement, transparent pricing, European &amp; global clients.",
+    "description": "I help startups and enterprises replace <strong>spreadsheet chaos</strong> with <strong>automated Power BI dashboards</strong> and reliable data pipelines. Over <strong>5+ years</strong>, delivered <strong>200+ enterprise reporting solutions</strong> across media intelligence and financial services — cutting manual reporting time by <strong>45%</strong> with <strong>99.5% data accuracy</strong>. Direct engagement, transparent pricing, European &amp; global clients.",
     "primaryCtaText": "Book a Free Discovery Call",
     "primaryCtaIcon": "fas fa-calendar-check",
     "primaryCtaLink": "https://calendly.com/gauravkumarvishwakarma",
@@ -18,7 +18,7 @@
     "stats": [
       {
         "id": "1",
-        "number": "4+",
+        "number": "5+",
         "label": "Years Experience"
       },
       {
@@ -44,10 +44,10 @@
     "sectionTag": "About Me",
     "sectionTitle": "Independent Analytics Consultant<br>for Global Teams",
     "photoUrl": "/images/Gaurav.png",
-    "photoBadge": "4+ Years · Available for Projects",
+    "photoBadge": "5+ Years · Available for Projects",
     "greeting": "Hi, I'm Gaurav 👋",
     "paragraphs": [
-      "I am an <strong>independent Data Analyst and BI Consultant with 4+ years of experience</strong> building automated reporting solutions for enterprise clients across <strong>media intelligence and financial services</strong> — 200+ engagements delivered.",
+      "I am an <strong>independent Data Analyst and BI Consultant with 5+ years of experience</strong> building automated reporting solutions for enterprise clients across <strong>media intelligence and financial services</strong> — 200+ engagements delivered.",
       "I specialize in <strong>end-to-end reporting automation</strong> — from SQL query optimisation and ETL pipeline design to interactive Power BI dashboards and executive-ready narratives. Track record: <strong>reducing manual reporting effort by 45%</strong>, enforcing <strong>99.5% data accuracy</strong>, and mentoring analysts to scale team output.",
       "I work directly with businesses that need reliable, self-serve reporting — without the overhead of a full-time BI team. Currently serving clients across <strong>Europe, North America, and Asia-Pacific</strong>.",
       "<strong>Open to project-based, retainer, and consulting engagements</strong> — from one-time dashboard builds to ongoing analytics partnerships and Power BI training programmes."
@@ -249,7 +249,7 @@
     "enabled": true,
     "sectionTag": "Technical Skills",
     "sectionTitle": "My Expertise Stack",
-    "sectionDesc": "Professional competencies built over 4+ years of enterprise data analytics and BI automation.",
+    "sectionDesc": "Professional competencies built over 5+ years of enterprise data analytics and BI automation.",
     "categories": [
       {
         "id": "c1",
@@ -952,7 +952,7 @@
     "adminPassword": "admin2024",
     "siteName": "Gaurav KR Vishvakarma",
     "metaTitle": "Freelance Data Analyst & Power BI Consultant | Gaurav Vishvakarma",
-    "metaDescription": "Hire an independent Power BI consultant & data analyst. 4+ years, 200+ enterprise reporting solutions, 45% avg time saved, 99.5% accuracy. Book a free 20-min discovery call."
+    "metaDescription": "Hire an independent Power BI consultant & data analyst. 5+ years, 200+ enterprise reporting solutions, 45% avg time saved, 99.5% accuracy. Book a free 20-min discovery call."
   },
   "services": {
     "enabled": true,
@@ -1391,7 +1391,7 @@
         "id": "bp1",
         "slug": "power-bi-dax-patterns-2026",
         "title": "7 Power BI DAX Patterns Every Data Analyst Should Know in 2026",
-        "excerpt": "After 4+ years building Power BI dashboards for 200+ enterprise engagements, these are the 7 DAX patterns I reach for in 90% of my work. Copy-paste ready.",
+        "excerpt": "After 5+ years building Power BI dashboards for 200+ enterprise engagements, these are the 7 DAX patterns I reach for in 90% of my work. Copy-paste ready.",
         "coverImage": "/images/projects/Market%20Research%20Reporting.png",
         "tags": [
           "Power BI",
@@ -1403,7 +1403,7 @@
         "date": "2026-06-15",
         "readingTime": "8 min read",
         "featured": true,
-        "content": "<p>After 4+ years building Power BI dashboards for 200+ enterprise engagements, I've noticed something consistent: the dashboards that survive and scale all share a handful of well-written DAX patterns.</p>\n\n<p>The dashboards that get rebuilt every quarter? They reinvent the wheel each time.</p>\n\n<p>So I compiled the <strong>7 DAX patterns</strong> I reach for in 90% of my Power BI engagements — patterns that work whether you're tracking BFSI tracker studies, HR attrition, e-commerce funnels, or operational KPIs.</p>\n\n<h2>1. The \"Date Intelligence\" Foundation</h2>\n<p><strong>Use case:</strong> Year-over-year comparisons, month-to-date totals, rolling 12-month averages.</p>\n<p>This is the <strong>single most reused pattern</strong> in enterprise BI. If you can't write Time Intelligence DAX, you can't ship dashboards.</p>\n<pre><code>-- Total Sales (base measure)\nTotal Sales = SUM(Sales[Amount])\n\n-- Sales YTD (Year-to-Date)\nSales YTD = TOTALYTD([Total Sales], 'Date'[Date])\n\n-- Sales PY (Same period prior year)\nSales PY = CALCULATE([Total Sales], SAMEPERIODLASTYEAR('Date'[Date]))\n\n-- YoY % Growth\nYoY Growth % = DIVIDE([Total Sales] - [Sales PY], [Sales PY], 0)</code></pre>\n<p><strong>The trap to avoid:</strong> Don't use <code>EARLIER()</code> for date comparisons. Use a proper date dimension table marked as a date table.</p>\n\n<h2>2. The \"Top N + Others\" Bucket</h2>\n<p><strong>Use case:</strong> Show top 5 products/clients/regions, and bucket the rest as \"Others\" without filtering them out.</p>\n<pre><code>Sales Top 5 + Others =\nVAR ProductRank = RANKX(ALLSELECTED(Product[Name]), [Total Sales],, DESC)\nVAR Result = IF(ProductRank <= 5, SELECTEDVALUE(Product[Name]), \"Others\")\nRETURN Result</code></pre>\n\n<h2>3. Dynamic Measure Selector</h2>\n<p><strong>Use case:</strong> Let users toggle between Sales, Profit, and Units from a single slicer without duplicating visuals.</p>\n<p>Create a disconnected table with your measure names, then use <code>SELECTEDVALUE()</code> + <code>SWITCH()</code> to route the calculation.</p>\n\n<h2>4. Conditional Formatting via DAX</h2>\n<p><strong>Use case:</strong> Colour cells based on threshold (e.g. red if margin &lt; 10%).</p>\n<pre><code>Margin Colour =\nVAR M = DIVIDE([Total Profit], [Total Sales])\nRETURN SWITCH(TRUE(),\n    M < 0.05, \"#dc2626\",\n    M < 0.15, \"#f59e0b\",\n    \"#10b981\")</code></pre>\n\n<h2>5. Cohort Retention</h2>\n<p><strong>Use case:</strong> Track customer retention by acquisition month.</p>\n<p>Use <code>USERELATIONSHIP()</code> on an inactive relationship between your Customer[FirstOrderDate] and Date[Date] table to compute cohort buckets cleanly.</p>\n\n<h2>6. RLS with USERPRINCIPALNAME()</h2>\n<p><strong>Use case:</strong> Show each regional manager only their region's data — from a single dashboard.</p>\n<pre><code>[Region] = LOOKUPVALUE(UserMapping[Region], UserMapping[Email], USERPRINCIPALNAME())</code></pre>\n\n<h2>7. Rolling 12-Month Average</h2>\n<pre><code>Sales R12M =\nCALCULATE([Total Sales],\n    DATESINPERIOD('Date'[Date], LASTDATE('Date'[Date]), -12, MONTH))</code></pre>\n\n<h2>Wrap-up</h2>\n<p>These 7 patterns cover 80-90% of real dashboard requirements. Nail these and you'll deliver 3x faster than analysts who reinvent every measure from scratch.</p>\n\n<p><em>Need Power BI training for your team? <a href='#contact'>Book a discovery call</a> — I run 1:1 and small-group programmes.</em></p>"
+        "content": "<p>After 5+ years building Power BI dashboards for 200+ enterprise engagements, I've noticed something consistent: the dashboards that survive and scale all share a handful of well-written DAX patterns.</p>\n\n<p>The dashboards that get rebuilt every quarter? They reinvent the wheel each time.</p>\n\n<p>So I compiled the <strong>7 DAX patterns</strong> I reach for in 90% of my Power BI engagements — patterns that work whether you're tracking BFSI tracker studies, HR attrition, e-commerce funnels, or operational KPIs.</p>\n\n<h2>1. The \"Date Intelligence\" Foundation</h2>\n<p><strong>Use case:</strong> Year-over-year comparisons, month-to-date totals, rolling 12-month averages.</p>\n<p>This is the <strong>single most reused pattern</strong> in enterprise BI. If you can't write Time Intelligence DAX, you can't ship dashboards.</p>\n<pre><code>-- Total Sales (base measure)\nTotal Sales = SUM(Sales[Amount])\n\n-- Sales YTD (Year-to-Date)\nSales YTD = TOTALYTD([Total Sales], 'Date'[Date])\n\n-- Sales PY (Same period prior year)\nSales PY = CALCULATE([Total Sales], SAMEPERIODLASTYEAR('Date'[Date]))\n\n-- YoY % Growth\nYoY Growth % = DIVIDE([Total Sales] - [Sales PY], [Sales PY], 0)</code></pre>\n<p><strong>The trap to avoid:</strong> Don't use <code>EARLIER()</code> for date comparisons. Use a proper date dimension table marked as a date table.</p>\n\n<h2>2. The \"Top N + Others\" Bucket</h2>\n<p><strong>Use case:</strong> Show top 5 products/clients/regions, and bucket the rest as \"Others\" without filtering them out.</p>\n<pre><code>Sales Top 5 + Others =\nVAR ProductRank = RANKX(ALLSELECTED(Product[Name]), [Total Sales],, DESC)\nVAR Result = IF(ProductRank <= 5, SELECTEDVALUE(Product[Name]), \"Others\")\nRETURN Result</code></pre>\n\n<h2>3. Dynamic Measure Selector</h2>\n<p><strong>Use case:</strong> Let users toggle between Sales, Profit, and Units from a single slicer without duplicating visuals.</p>\n<p>Create a disconnected table with your measure names, then use <code>SELECTEDVALUE()</code> + <code>SWITCH()</code> to route the calculation.</p>\n\n<h2>4. Conditional Formatting via DAX</h2>\n<p><strong>Use case:</strong> Colour cells based on threshold (e.g. red if margin &lt; 10%).</p>\n<pre><code>Margin Colour =\nVAR M = DIVIDE([Total Profit], [Total Sales])\nRETURN SWITCH(TRUE(),\n    M < 0.05, \"#dc2626\",\n    M < 0.15, \"#f59e0b\",\n    \"#10b981\")</code></pre>\n\n<h2>5. Cohort Retention</h2>\n<p><strong>Use case:</strong> Track customer retention by acquisition month.</p>\n<p>Use <code>USERELATIONSHIP()</code> on an inactive relationship between your Customer[FirstOrderDate] and Date[Date] table to compute cohort buckets cleanly.</p>\n\n<h2>6. RLS with USERPRINCIPALNAME()</h2>\n<p><strong>Use case:</strong> Show each regional manager only their region's data — from a single dashboard.</p>\n<pre><code>[Region] = LOOKUPVALUE(UserMapping[Region], UserMapping[Email], USERPRINCIPALNAME())</code></pre>\n\n<h2>7. Rolling 12-Month Average</h2>\n<pre><code>Sales R12M =\nCALCULATE([Total Sales],\n    DATESINPERIOD('Date'[Date], LASTDATE('Date'[Date]), -12, MONTH))</code></pre>\n\n<h2>Wrap-up</h2>\n<p>These 7 patterns cover 80-90% of real dashboard requirements. Nail these and you'll deliver 3x faster than analysts who reinvent every measure from scratch.</p>\n\n<p><em>Need Power BI training for your team? <a href='#contact'>Book a discovery call</a> — I run 1:1 and small-group programmes.</em></p>"
       },
       {
         "id": "bp2",
