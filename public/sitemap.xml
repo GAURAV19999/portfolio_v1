@@ -41,6 +41,13 @@
 
   <!-- Case Study detail pages -->
   <url>
+    <loc>https://iamgaurav.netlify.app/case-studies/hr-analytics-attrition-dashboard</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
     <loc>https://iamgaurav.netlify.app/case-studies/patrakaar-ai-media-intelligence</loc>
     <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>

@@ -1075,6 +1075,52 @@
     "sectionIntro": "Deep-dives into projects where automation, dashboards and honest scoping moved the numbers. Client identities anonymised on request.",
     "items": [
       {
+        "id": "cs6",
+        "slug": "hr-analytics-attrition-dashboard",
+        "title": "HR Analytics & Employee Attrition Dashboard",
+        "tagline": "Power BI HR analytics dashboard over 1,470 employees — surfacing attrition drivers, tenure risk, pay gaps and diversity in one interactive view.",
+        "client": "HR Analytics Case Study (IBM HR Dataset)",
+        "domain": "Human Resources · People Analytics",
+        "duration": "1 week",
+        "stack": [
+          "Power BI",
+          "DAX",
+          "Power Query",
+          "Data Modelling",
+          "HR Analytics"
+        ],
+        "thumbnail": "/images/projects/hr-dashboard-attrition.jpg",
+        "liveLink": "/hr-dashboard.html",
+        "liveLinkLabel": "View Live Dashboard",
+        "problem": "HR leadership knew people were leaving — but not why. Exit records, headcount, compensation and performance lived in separate spreadsheets, so a simple question like \"which departments and roles lose the most people, and what's driving it?\" took days to answer. Leadership was reacting to resignations instead of getting ahead of them.",
+        "solution": [
+          "Built a governed data model over <strong>1,470 employee records</strong> spanning demographics, department, job role, tenure, compensation, overtime and performance ratings",
+          "Executive page with the HR KPIs that matter — <strong>headcount, attrition rate, average tenure and average income</strong> — readable at a glance, no training required",
+          "<strong>Attrition-driver analysis</strong> isolating the strongest predictors of who leaves: overtime, low income, short tenure and long commute distance",
+          "Drill-through from <strong>company → department → job role → individual employee</strong>, so HR goes from the headline number to the actual at-risk people in two clicks",
+          "Diversity &amp; demographic views (gender, age band, education, department mix) plus interactive slicers for self-serve answers — zero BI-team tickets"
+        ],
+        "results": [
+          {
+            "metric": "1,470",
+            "label": "Employee records analysed"
+          },
+          {
+            "metric": "16.1%",
+            "label": "Attrition rate surfaced"
+          },
+          {
+            "metric": "4",
+            "label": "Key attrition drivers identified"
+          },
+          {
+            "metric": "6",
+            "label": "Interactive report views"
+          }
+        ],
+        "featured": false
+      },
+      {
         "id": "cs1",
         "slug": "patrakaar-ai-media-intelligence",
         "title": "Patrakaar.AI — AI-Powered Media Intelligence Platform",
