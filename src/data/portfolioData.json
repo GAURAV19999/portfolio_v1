@@ -1366,7 +1366,7 @@
         "slug": "data-analytics-trends-2026-india-global",
         "title": "Data & Analytics in 2026: India & Global Market Trends Every Business Should Act On",
         "excerpt": "India's data analytics market is growing 26% a year — nearly 3x the global pace — and AI is now built into every BI tool. Here are the 5 trends defining 2026, and what each means for your business.",
-        "coverImage": "/images/projects/Media%20Intelligence.png",
+        "coverImage": "/images/blog/trends-2026.svg",
         "tags": [
           "Market Trends",
           "Data Analytics",
@@ -1385,7 +1385,7 @@
         "slug": "power-bi-dashboard-cost-2026",
         "title": "How Much Does a Power BI Dashboard Cost in 2026? (Real US, UK, EU & India Rates)",
         "excerpt": "Freelance marketplace quotes run $200 to $15,000 for work that sounds identical. Here are the real 2026 ranges, what actually moves the price, and how to get an accurate quote.",
-        "coverImage": "/images/projects/Market%20Research%20Reporting.png",
+        "coverImage": "/images/blog/dashboard-cost.svg",
         "tags": [
           "Power BI",
           "Pricing",
@@ -1403,7 +1403,7 @@
         "slug": "excel-to-power-bi-migration-signs-2026",
         "title": "5 Signs Your Business Has Outgrown Excel (and What Power BI Fixes)",
         "excerpt": "If reporting eats your Monday, the numbers never match, and one person 'owns' the spreadsheet, you've hit Excel's ceiling. Here are the 5 signs — and the migration path that actually works.",
-        "coverImage": "/images/projects/Market%20Research%20Reporting.png",
+        "coverImage": "/images/blog/excel-to-powerbi.svg",
         "tags": [
           "Power BI",
           "Excel",
@@ -1421,7 +1421,7 @@
         "slug": "hire-remote-power-bi-developer-india-2026",
         "title": "How to Hire a Remote Power BI Developer from India (2026 Guide for US, UK & Australian Teams)",
         "excerpt": "Timezone, communication, data security, rates — the real questions Western teams ask before hiring a remote Indian BI developer, answered honestly.",
-        "coverImage": "/images/projects/Media%20Intelligence.png",
+        "coverImage": "/images/blog/hire-remote-india.svg",
         "tags": [
           "Hiring",
           "Freelance",
@@ -1439,7 +1439,7 @@
         "slug": "microsoft-fabric-vs-power-bi-2026",
         "title": "Microsoft Fabric vs Power BI in 2026: What Small Businesses Actually Need",
         "excerpt": "Fabric is the buzzword of 2026 — but most SMEs don't need it yet. A plain-English take on when Power BI alone is enough and when Fabric earns its cost.",
-        "coverImage": "/images/projects/Market%20Research%20Reporting.png",
+        "coverImage": "/images/blog/fabric-vs-powerbi.svg",
         "tags": [
           "Power BI",
           "Microsoft Fabric",
@@ -1457,7 +1457,7 @@
         "slug": "power-bi-dax-patterns-2026",
         "title": "7 Power BI DAX Patterns Every Data Analyst Should Know in 2026",
         "excerpt": "After 5+ years building Power BI dashboards for 200+ enterprise engagements, these are the 7 DAX patterns I reach for in 90% of my work. Copy-paste ready.",
-        "coverImage": "/images/projects/Market%20Research%20Reporting.png",
+        "coverImage": "/images/blog/dax-patterns.svg",
         "tags": [
           "Power BI",
           "DAX",
@@ -1475,7 +1475,7 @@
         "slug": "freelance-data-analyst-europe-guide",
         "title": "How I Landed My First 5 European Freelance Data Analyst Clients (From India)",
         "excerpt": "The exact playbook: what worked, what didn't, and the templates I used. No fluff — just what a mid-career Indian analyst can copy today.",
-        "coverImage": "/images/projects/Sentiment%20Analysis.png",
+        "coverImage": "/images/blog/freelance-europe.svg",
         "tags": [
           "Freelance",
           "Career",
