@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="Sentiment &amp; Forecast">
+  <defs>
+    <linearGradient id="bg103" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0B1222"/><stop offset="1" stop-color="#070B16"/></linearGradient>
+    <radialGradient id="g1103" cx="0.82" cy="0.2" r="0.6"><stop offset="0" stop-color="#8B5CF6" stop-opacity="0.26"/><stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/></radialGradient>
+    <radialGradient id="g2103" cx="0.1" cy="0.95" r="0.6"><stop offset="0" stop-color="#38BDF8" stop-opacity="0.2"/><stop offset="1" stop-color="#38BDF8" stop-opacity="0"/></radialGradient>
+    <linearGradient id="acc103" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#8B5CF6"/><stop offset="1" stop-color="#38BDF8"/></linearGradient>
+    <pattern id="grid103" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#1b2740" stroke-width="1" stroke-opacity="0.5"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg103)"/>
+  <rect width="1200" height="630" fill="url(#grid103)"/>
+  <rect width="1200" height="630" fill="url(#g1103)"/>
+  <rect width="1200" height="630" fill="url(#g2103)"/>
+  <rect x="2" y="2" width="1196" height="626" rx="22" fill="none" stroke="#223049" stroke-width="2"/>
+  <rect x="80" y="150" width="14" height="14" rx="3" fill="url(#acc103)"/>
+  <text x="108" y="162" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="3" fill="#8B5CF6">CASE STUDY · NLP</text>
+  <text x="80" y="250" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="50" font-weight="800" fill="#F3F7FF">Sentiment &amp; Forecast</text>
+  <text x="80" y="560" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" font-weight="700" fill="#AFC3E6">Gaurav Kumar Vishvakarma</text>
+  <text x="80" y="590" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="19" font-weight="500" fill="#5f7399">Freelance Power BI Consultant &amp; Data Analyst</text>
+  <g transform="translate(775,305)">
+    <g transform="translate(-110,-40)">
+      <path d="M0 0 A 120 120 0 0 1 240 0" fill="none" stroke="#1f2d4a" stroke-width="22" stroke-linecap="round"/>
+      <path d="M0 0 A 120 120 0 0 1 180 -94" fill="none" stroke="url(#acc103)" stroke-width="22" stroke-linecap="round"/>
+      <circle cx="120" cy="0" r="12" fill="#F3F7FF"/>
+      <line x1="120" y1="0" x2="196" y2="-66" stroke="#F3F7FF" stroke-width="7" stroke-linecap="round"/>
+    </g>
+    <g transform="translate(-110,60)">
+      <polyline points="0,70 50,50 100,58 150,24 200,30" fill="none" stroke="#8B5CF6" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+      <polyline points="200,30 250,2 300,-20" fill="none" stroke="#38BDF8" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2 9"/>
+      <circle cx="0" cy="70" r="6" fill="#8B5CF6"/><circle cx="50" cy="50" r="6" fill="#8B5CF6"/><circle cx="100" cy="58" r="6" fill="#8B5CF6"/><circle cx="150" cy="24" r="6" fill="#8B5CF6"/><circle cx="200" cy="30" r="6" fill="#8B5CF6"/>
+    </g></g>
+</svg>

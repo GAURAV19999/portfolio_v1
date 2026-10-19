@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="People &amp; Attrition">
+  <defs>
+    <linearGradient id="bg100" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0B1222"/><stop offset="1" stop-color="#070B16"/></linearGradient>
+    <radialGradient id="g1100" cx="0.82" cy="0.2" r="0.6"><stop offset="0" stop-color="#2DD4BF" stop-opacity="0.26"/><stop offset="1" stop-color="#2DD4BF" stop-opacity="0"/></radialGradient>
+    <radialGradient id="g2100" cx="0.1" cy="0.95" r="0.6"><stop offset="0" stop-color="#6366F1" stop-opacity="0.2"/><stop offset="1" stop-color="#6366F1" stop-opacity="0"/></radialGradient>
+    <linearGradient id="acc100" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2DD4BF"/><stop offset="1" stop-color="#6366F1"/></linearGradient>
+    <pattern id="grid100" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#1b2740" stroke-width="1" stroke-opacity="0.5"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg100)"/>
+  <rect width="1200" height="630" fill="url(#grid100)"/>
+  <rect width="1200" height="630" fill="url(#g1100)"/>
+  <rect width="1200" height="630" fill="url(#g2100)"/>
+  <rect x="2" y="2" width="1196" height="626" rx="22" fill="none" stroke="#223049" stroke-width="2"/>
+  <rect x="80" y="150" width="14" height="14" rx="3" fill="url(#acc100)"/>
+  <text x="108" y="162" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="3" fill="#2DD4BF">CASE STUDY · HR ANALYTICS</text>
+  <text x="80" y="250" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="50" font-weight="800" fill="#F3F7FF">People &amp; Attrition</text>
+  <text x="80" y="560" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" font-weight="700" fill="#AFC3E6">Gaurav Kumar Vishvakarma</text>
+  <text x="80" y="590" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="19" font-weight="500" fill="#5f7399">Freelance Power BI Consultant &amp; Data Analyst</text>
+  <g transform="translate(775,305)">
+    <g transform="translate(-200,-150)">
+      <g transform="translate(0,0)" opacity="0.9"><circle cx="0" cy="-27" r="19.5" fill="#6366F1"/><path d="M-30 27 a30 30 0 0 1 60 0 z" fill="#6366F1"/></g><g transform="translate(70,0)" opacity="0.9"><circle cx="0" cy="-27" r="19.5" fill="#6366F1"/><path d="M-30 27 a30 30 0 0 1 60 0 z" fill="#6366F1"/></g><g transform="translate(140,0)" opacity="1"><circle cx="0" cy="-27" r="19.5" fill="#2DD4BF"/><path d="M-30 27 a30 30 0 0 1 60 0 z" fill="#2DD4BF"/></g><g transform="translate(210,0)" opacity="0.8"><circle cx="0" cy="-27" r="19.5" fill="#33466b"/><path d="M-30 27 a30 30 0 0 1 60 0 z" fill="#33466b"/></g><g transform="translate(280,0)" opacity="0.5"><circle cx="0" cy="-27" r="19.5" fill="#33466b"/><path d="M-30 27 a30 30 0 0 1 60 0 z" fill="#33466b"/></g>
+    </g>
+    <g transform="translate(-200,40)">
+      <rect x="0" y="0" width="56" height="120" rx="7" fill="url(#acc100)"/>
+      <rect x="86" y="30" width="56" height="90" rx="7" fill="#6366F1" opacity="0.7"/>
+      <rect x="172" y="60" width="56" height="60" rx="7" fill="#6366F1" opacity="0.5"/>
+      <rect x="258" y="86" width="56" height="34" rx="7" fill="#6366F1" opacity="0.35"/>
+      <polyline points="28,12 114,46 200,74 286,100" fill="none" stroke="#F3F7FF" stroke-width="4" stroke-linecap="round" stroke-dasharray="2 10"/>
+    </g></g>
+</svg>
