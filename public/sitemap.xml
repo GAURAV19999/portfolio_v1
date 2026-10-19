@@ -41,6 +41,27 @@
 
   <!-- Case Study detail pages -->
   <url>
+    <loc>https://iamgaurav.netlify.app/case-studies/excel-to-power-bi-migration</loc>
+    <lastmod>2026-10-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://iamgaurav.netlify.app/case-studies/bfsi-financial-reporting-automation</loc>
+    <lastmod>2026-10-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://iamgaurav.netlify.app/case-studies/rag-document-assistant</loc>
+    <lastmod>2026-10-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
     <loc>https://iamgaurav.netlify.app/case-studies/hr-analytics-attrition-dashboard</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
