@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { DataProvider, ThemeProvider } from './context/DataContext';
 import CanonicalManager from './utils/CanonicalManager';
 import Analytics from './utils/Analytics';
+import CookieConsent from './components/CookieConsent';
 
 import Home from './pages/Home';
 import CountryLanding from './pages/CountryLanding';
@@ -80,6 +81,7 @@ const App = () => (
           <Route path="/admin/messages" element={wrap(AdminMessages)} />
           <Route path="/admin/settings" element={wrap(AdminSettings)} />
         </Routes>
+        <CookieConsent />
       </BrowserRouter>
     </DataProvider>
   </ThemeProvider>

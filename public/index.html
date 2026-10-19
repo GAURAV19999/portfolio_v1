@@ -11,6 +11,15 @@
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
+      // Consent Mode v2 — analytics denied by default until the visitor accepts
+      // (GDPR). The cookie banner flips this to 'granted' on accept.
+      gtag('consent', 'default', {
+        ad_storage: 'denied',
+        ad_user_data: 'denied',
+        ad_personalization: 'denied',
+        analytics_storage: 'denied',
+        wait_for_update: 500
+      });
       // send_page_view:false — page views are fired per-route by Analytics.js (SPA)
       gtag('config', 'G-0VH5YVDE1N', { send_page_view: false });
     </script>
