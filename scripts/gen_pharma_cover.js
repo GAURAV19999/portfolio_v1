@@ -1,0 +1,46 @@
+const fs = require("fs");
+const W = 1200, H = 630;
+const id = "ph", a = "#2DD4BF" /*teal*/, b = "#0A80FF" /*blue*/;
+const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="Power BI for Pharma">
+  <defs>
+    <linearGradient id="bg${id}" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0B1222"/><stop offset="1" stop-color="#070B16"/></linearGradient>
+    <radialGradient id="g1${id}" cx="0.82" cy="0.2" r="0.6"><stop offset="0" stop-color="${a}" stop-opacity="0.26"/><stop offset="1" stop-color="${a}" stop-opacity="0"/></radialGradient>
+    <radialGradient id="g2${id}" cx="0.1" cy="0.95" r="0.6"><stop offset="0" stop-color="${b}" stop-opacity="0.2"/><stop offset="1" stop-color="${b}" stop-opacity="0"/></radialGradient>
+    <linearGradient id="acc${id}" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="${a}"/><stop offset="1" stop-color="${b}"/></linearGradient>
+    <pattern id="grid${id}" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#1b2740" stroke-width="1" stroke-opacity="0.5"/></pattern>
+  </defs>
+  <rect width="${W}" height="${H}" fill="url(#bg${id})"/>
+  <rect width="${W}" height="${H}" fill="url(#grid${id})"/>
+  <rect width="${W}" height="${H}" fill="url(#g1${id})"/>
+  <rect width="${W}" height="${H}" fill="url(#g2${id})"/>
+  <rect x="2" y="2" width="${W-4}" height="${H-4}" rx="22" fill="none" stroke="#223049" stroke-width="2"/>
+  <rect x="80" y="150" width="14" height="14" rx="3" fill="url(#acc${id})"/>
+  <text x="108" y="162" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="3" fill="${a}">PHARMA &amp; LIFE SCIENCES</text>
+  <text x="80" y="250" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="52" font-weight="800" fill="#F3F7FF">Power BI for Pharma</text>
+  <text x="80" y="560" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" font-weight="700" fill="#AFC3E6">Gaurav Kumar Vishvakarma</text>
+  <text x="80" y="590" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="19" font-weight="500" fill="#5f7399">Freelance Power BI Consultant &amp; Data Analyst</text>
+  <g transform="translate(770,305)">
+    <!-- capsule (tilted) -->
+    <g transform="rotate(-35)">
+      <rect x="-120" y="-34" width="240" height="68" rx="34" fill="#0e1830" stroke="${a}" stroke-width="2.5"/>
+      <path d="M-120 0 a34 34 0 0 1 34 -34 L0 -34 L0 34 L-86 34 A34 34 0 0 1 -120 0 Z" fill="${a}" opacity="0.85"/>
+      <line x1="0" y1="-34" x2="0" y2="34" stroke="#0B1222" stroke-width="3"/>
+    </g>
+    <!-- pulse / chart line through it -->
+    <polyline points="-170,120 -110,120 -80,70 -45,150 -5,40 35,120 180,120" fill="none" stroke="#F3F7FF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- bars -->
+    <rect x="95" y="60" width="26" height="60" rx="5" fill="${b}" opacity="0.5"/>
+    <rect x="130" y="30" width="26" height="90" rx="5" fill="${b}" opacity="0.7"/>
+    <rect x="165" y="0" width="26" height="120" rx="5" fill="url(#acc${id})"/>
+    <!-- molecule dots -->
+    <g opacity="0.9">
+      <line x1="150" y1="-120" x2="200" y2="-150" stroke="${a}" stroke-width="2"/>
+      <line x1="150" y1="-120" x2="120" y2="-170" stroke="${a}" stroke-width="2"/>
+      <circle cx="150" cy="-120" r="10" fill="${a}"/>
+      <circle cx="200" cy="-150" r="8" fill="#0e1830" stroke="${a}" stroke-width="2.5"/>
+      <circle cx="120" cy="-170" r="8" fill="#0e1830" stroke="${a}" stroke-width="2.5"/>
+    </g>
+  </g>
+</svg>`;
+fs.writeFileSync("/home/claude/portfolio_v1/public/images/blog/pharma-analytics.svg", svg);
+console.log("wrote pharma-analytics.svg", svg.length, "bytes");
