@@ -5,6 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#0ea5e9" />
 
+    <!-- Google Analytics (GA4) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0VH5YVDE1N"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      // send_page_view:false — page views are fired per-route by Analytics.js (SPA)
+      gtag('config', 'G-0VH5YVDE1N', { send_page_view: false });
+    </script>
+
     <!-- ============================================
          PRIMARY META TAGS (SEO)
          ============================================ -->

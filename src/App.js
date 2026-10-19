@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { DataProvider, ThemeProvider } from './context/DataContext';
 import CanonicalManager from './utils/CanonicalManager';
+import Analytics from './utils/Analytics';
 
 import Home from './pages/Home';
 import CountryLanding from './pages/CountryLanding';
@@ -32,6 +33,7 @@ const App = () => (
     <DataProvider>
       <BrowserRouter>
         <CanonicalManager />
+        <Analytics />
         <Routes>
           <Route path="/" element={<Home />} />
           {/* Country-specific SEO landing pages */}
