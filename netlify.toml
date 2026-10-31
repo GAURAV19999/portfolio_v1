@@ -33,6 +33,7 @@
   for = "/images/*"
   [headers.values]
     Cache-Control = "public, max-age=86400"
+    Access-Control-Allow-Origin = "*"
 
 # NEVER cache index.html — this fixes the "old site showing" issue
 # HTML is small; always fetch fresh so users see the latest JS/CSS references
