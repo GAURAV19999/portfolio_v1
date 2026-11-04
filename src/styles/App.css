@@ -3047,6 +3047,148 @@ footer { padding: 2.5rem 2rem 2rem; }
 }
 
 /* ================================================================
+   MEDIUM BLOG INTEGRATION
+================================================================ */
+
+/* Filter bar */
+.blog-filter-bar {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 2.5rem;
+}
+.blog-filter-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.4rem 0.9rem;
+  border-radius: 2rem;
+  border: 1.5px solid var(--border);
+  background: transparent;
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-family: inherit;
+}
+.blog-filter-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+.blog-filter-btn.active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+.blog-filter-count {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 1.3rem;
+  height: 1.3rem;
+  padding: 0 0.3rem;
+  border-radius: 2rem;
+  background: rgba(255,255,255,0.2);
+  font-size: 0.72rem;
+  font-weight: 600;
+  line-height: 1;
+}
+.blog-filter-btn:not(.active) .blog-filter-count {
+  background: var(--bg-secondary);
+  color: var(--text-secondary);
+}
+
+/* "Follow on Medium" link in the filter bar */
+.blog-medium-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-left: auto;
+  padding: 0.4rem 0.9rem;
+  border-radius: 2rem;
+  border: 1.5px solid #1a8917;
+  color: #1a8917;
+  font-size: 0.82rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.2s, color 0.2s;
+}
+.blog-medium-cta:hover {
+  background: #1a8917;
+  color: #fff;
+}
+
+/* Medium badge on card cover */
+.blog-medium-badge {
+  position: absolute;
+  top: 0.6rem;
+  left: 0.6rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.22rem 0.6rem;
+  border-radius: 2rem;
+  background: rgba(0,0,0,0.75);
+  color: #fff;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  pointer-events: none;
+  backdrop-filter: blur(4px);
+}
+
+/* Placeholder cover when Medium post has no image */
+.blog-card-cover--placeholder {
+  background: linear-gradient(135deg, var(--bg-secondary) 0%, var(--bg-primary) 100%);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0.6rem;
+}
+.blog-card-cover--placeholder .blog-medium-badge {
+  position: static;
+}
+
+/* "Read on Medium →" in card footer */
+.blog-read-on-medium {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  color: #1a8917;
+  font-weight: 600;
+  font-size: 0.78rem;
+  margin-left: auto;
+}
+
+/* Skeleton loading cards */
+.blog-skeleton {
+  pointer-events: none;
+  opacity: 0.55;
+}
+.blog-skeleton-img {
+  height: 180px;
+  background: linear-gradient(90deg, var(--bg-secondary) 25%, var(--bg-primary) 50%, var(--bg-secondary) 75%);
+  background-size: 200% 100%;
+  animation: blogShimmer 1.4s infinite;
+}
+.blog-skeleton-line {
+  height: 0.85rem;
+  border-radius: 4px;
+  margin-bottom: 0.65rem;
+  background: linear-gradient(90deg, var(--bg-secondary) 25%, var(--bg-primary) 50%, var(--bg-secondary) 75%);
+  background-size: 200% 100%;
+  animation: blogShimmer 1.4s infinite;
+}
+.blog-skeleton-line.short  { width: 40%; }
+.blog-skeleton-line.medium { width: 70%; }
+@keyframes blogShimmer {
+  0%   { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+/* ================================================================
    FINAL POLISH — CTA centering, currency switcher, responsive
 ================================================================ */
 
